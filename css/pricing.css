@@ -1,0 +1,97 @@
+    
+
+.price-title {
+  font-weight: bold;
+  color: #0d2b56;
+}
+
+.price-heading {
+  font-weight: bold;
+  color: #0d2b56;
+}
+
+.price-upload-btn {
+  background-color: #b72a2a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.price-upload-btn:hover {
+  background-color: #8d1f1f;
+}
+
+/* Sidebar links */
+.price-sidebar a {
+  display: block;
+  padding: 8px;
+  background: #0d2b56;
+  color: white;
+  margin-bottom: 5px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.price-sidebar a:hover {
+  background: #052042;
+}
+
+/* Sticky Contact Box */
+.price-contact-box {
+    background-color: #f7f7f7;
+  position: sticky;
+  top:10px;
+}
+.text-h{
+    background-color: red;
+    color: white;
+    
+}
+.price-call-box {
+
+  
+  text-align: start;
+  padding: 20px 30px;
+  border: 2px solid rgb(97, 97, 97);
+  
+}
+
+.price-call-box a {
+  color: black;
+  text-decoration: none;
+}
+
+.price-section {
+  margin-bottom: 50px;
+}
+
+.price-title {
+  font-weight: bold;
+  color: #0d2b56;
+  margin-bottom: 15px;
+}
+.price-title-2 {
+  font-weight: bold;
+  color: #b72a2a;
+  margin-bottom: 15px;
+}
+
+.price-subtitle {
+  color: #b72a2a;
+  font-weight: bold;
+}
+
+.price-btn {
+  background: #b72a2a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px 0 0;
+  border-radius: 5px;
+}
+
+.price-btn:hover {
+  background: #8d1f1f;
+  color: #fff;
+}

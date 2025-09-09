@@ -1,0 +1,656 @@
+.top-bar {
+  background-color: #002855;
+  color: white;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.highlight-btn {
+  background-color: #ffeb3b;
+  color: #000;
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.navbar {
+  background-color: #002855 !important;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 600;
+  margin-right: 15px;
+}
+.navbar-nav .nav-link:hover {
+  color: black !important;
+  background-color: #ffeb3b;
+  font-weight: 600;
+  margin-right: 15px;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* smooth dropdown open */
+}
+
+
+.navbar-nav .active {
+  background-color: #ffeb3b;
+  color: #000 !important;
+  border-radius: 2px;
+}
+
+.get-estimate-btn {
+  background-color: #ffeb3b;
+  color: #000 !important;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 5px 15px;
+}
+
+.social-icons a {
+  color: #002855;
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+
+
+.hero-section {
+  background: url("../image/estimating-banner.webp") center center/cover no-repeat;
+  min-height: 70vh;
+  position: relative;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.153); /* dark overlay */
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+.hero-section .container-fluid {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-section h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero-section p {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cta-btn {
+  background-color: #ffeb3b;
+  color: #002855;
+  font-weight: bold;
+  padding: 12px 75px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+.cta-btn:hover{
+    background-color: #02448f;
+  color: white;
+}
+
+
+/* hero and  */
+
+/* ✅ Construction Services Section */
+.construction-services {
+  background: #f9fbfd;
+  color: #222;
+  line-height: 1.8;
+}
+
+
+
+.construction-services p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.construction-services strong {
+  color: #002855;
+}
+
+.construction-services .highlight {
+  color: #002855;
+}
+
+
+/* service start  */
+.section-title {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0c1b47;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #f9c107;
+  margin: 10px auto;
+}
+.section-title-2 {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #0c1b47;
+}
+
+
+/* Service Box */
+.service {
+  
+  border-radius: 8px;
+  padding: 20px;
+
+  transition: 0.3s;
+}
+.sercvice-1 p{
+    font-size: 18px;
+}
+.service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+}
+
+.service img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.service-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0c1b47;
+  margin-bottom: 10px;
+}
+
+.service-heading::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #f9c107;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+/* linne  */
+
+
+
+
+/* Line container */
+
+
+/* Each item */
+.line-item {
+    position: relative;
+    width: 92%;
+    margin: auto;
+  margin-bottom: 40px;
+}
+
+.line-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Icon circle */
+.line-item .icon {
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.line-item .content h5 {
+  margin-bottom: 8px;
+  color: #002855;
+}
+
+
+/* cut  */
+.takeoff-section {
+  position: relative;
+  background: url('../image/Preliminary-1.webp') center/cover no-repeat;
+}
+
+.takeoff-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* opacity control */
+  z-index: 1;
+}
+
+.takeoff-section .container {
+  position: relative;
+  z-index: 2; /* text and cards upar rahen */
+}
+
+.takeoff-section .container-fluid {
+  position: relative;
+  z-index: 2; /* text and cards upar rahen */
+}
+.line-center {
+  width: 60px;
+  height: 3px;
+  background: #f9c107;
+  margin: 15px auto;
+}
+
+/* Cut Card */
+.cut {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 25px 20px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+.cut img{
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.cut:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+}
+
+.cut .icon {
+  font-size: 40px;
+  color: #0c1b47;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.cut h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0c1b47;
+  margin-bottom: 12px;
+}
+
+.cut p {
+  font-size: 15px;
+  color: #555;
+}
+
+.banner{
+    background-color: #f9c107;
+    background-image: url(../image/polygon.webp);
+    background-position: center;
+}
+.banner h4{
+    color: white;
+}
+.button-black{
+   font-weight: bold;
+  padding: 15px 25px;
+  background-color: #222; /* Bright Yellow */
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s;
+
+}
+
+
+/* produvt card start  */
+
+/* General */
+
+
+/* Section Titles */
+.section-title {
+  font-weight: bold;
+  color: #0a2e57;
+  font-size: 25px;
+}
+
+.underline {
+  width: 40px;
+  height: 2px;
+  background-color: gold;
+  margin: 10px auto;
+}
+
+/* Clients Section */
+.clients-section {
+  background-color: #f5f5f5;
+}
+
+.clients-section ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Projects Section */
+.projects-section h5 {
+  color: #0a2e57;
+  font-weight: bold;
+}
+
+.project-card img {
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.project-card img:hover {
+  transform: scale(1.05);
+}
+
+
+/* Promo Section */
+.promo-section {
+  background: url('../image/polygon.webp') ;
+  padding: 40px 0;background-color: #002855;
+}
+.promo-section-2 {
+  background: url('../image/polygon.webp') ;
+  padding: 40px 0;background-color: #f9c107;
+}
+
+.promo-text {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.promo-btn {
+  font-weight: bold;
+  padding: 15px 25px;
+  background-color: #ffeb3b; /* Bright Yellow */
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.promo-btn:hover {
+  background-color: #fdd835;
+  color: #000;
+}
+
+
+
+/* Section Background */
+.ss-section {
+  background-color: white;
+  padding: 50px 0;
+
+}
+
+
+/* Titles */
+.ss-title {
+  font-weight: bold;
+  color: #0a2e57;
+  font-size: 26px;
+}
+
+.ss-subtitle {
+  font-weight: bold;
+  color: #0a2e57;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Underlines */
+.ss-underline {
+  width: 40px;
+  height: 2px;
+  background-color: gold;
+  margin: 10px 0 20px 0;
+}
+
+.ss-mini-underline {
+  width: 30px;
+  height: 2px;
+  background-color: gold;
+  margin: 5px 0 15px 0;
+}
+
+/* Text */
+.ss-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+
+
+.faq-section{
+  background-color: #f5f5f5;
+}
+
+.faq-section h3 {
+  width: 50px;
+  border-bottom: 4px solid #f4c542;
+  padding-bottom: 10px;
+}
+
+.faq-container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  padding: 15px;
+  font-weight: bold;
+  background: #002855;
+  color: #fff;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-answer {
+  display: none;
+  padding: 15px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+.testimonial {
+  font-style: italic;
+  max-width: 700px;
+  margin: auto;
+}
+
+
+.footer-section {
+  background: #2c3e50;
+  font-size: 14px;
+}
+
+.footer-section h6 {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 8px;
+}
+
+.footer-section p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #f4c542;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #f1f1f1;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f4c542;
+}
+
+.footer-bottom {
+  background: #1f2a36;
+  color: #aaa;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 768px){
+  .hero-section {
+  background: url("../image/estimating-banner.webp") center center/cover no-repeat;
+  min-height:40vh;
+  position: relative;
+}
+  
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cta-btn {
+ display: none;
+}
+
+.line-item {
+    position: relative;
+    width: 80%;
+    margin: auto;
+  margin-bottom: 40px;
+}
+
+.line-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Icon circle */
+.line-item .icon {
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+.line-item .content h5 {
+  margin-bottom: 8px;
+  color: #002855;
+  font-size: 20px;
+}
+.section-title-2 {
+  font-weight: bold;
+  font-size: 28px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #0c1b47;
+
+}
+.project-card img {
+  border-radius: 5px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+}
+@media screen and (max-width: 414px){
+  .line-item {
+    position: relative;
+    width: 72%;
+    margin: auto;
+  margin-bottom: 40px;
+}
+}

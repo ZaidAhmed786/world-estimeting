@@ -1,0 +1,42 @@
+.services-section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+.services-section ul li {
+ margin-top: 10px;
+}
+
+.services-section .divider {
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+  background: #c49a32;
+}
+.card-title-2{
+    color: #002855;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.service-card {
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+  padding-bottom: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.card-text{
+    font-size: 18px;
+}
+.btn-service a {
+    background-color: black;
+    border-radius: 4px;
+}
+.service-card img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
