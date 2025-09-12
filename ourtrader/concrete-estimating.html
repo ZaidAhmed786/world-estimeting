@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+  p{
+    font-size: 18px;
+  }
+</style>
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+        <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
+            <li><a class="dropdown-item" href="../service/construction-estimating.html">Construction Estimating</a></li>
+            <li><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
+            <li><a class="dropdown-item" href="../service/residential-estimating.html">Residential Estimating</a></li>
+          </ul>
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block active" href="../ourtrader.html">OUR TRADES</a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item active"  href="../ourtrader/concrete-estimating.html">Concrete Estimating</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block " href="../about.html">About us </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li><a class="dropdown-item " href="../aboutu/review.html">Reviews</a></li>
+            <li><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+  
+
+  <div class="container my-5">
+  <main role="main" class="content">
+    <div class="row">
+      <div class="col-12 ">
+        <h1 class="mb-4">CONCRETE ESTIMATING AND TAKEOFF SERVICES</h1>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row align-items-center mt-4">
+      <!-- Image -->
+      
+
+      <!-- Text -->
+      <div class="col-md-7">
+        <p>
+          World estimating thrives in providing division 3, concrete estimating services for many years to general contracting corporations, concrete contractors, home builders, and real estate developers. Usually, contractors involved in the work of sidewalks, driveways, paving have to work onsite for carrying out the fieldwork and struggle to estimate accurately for bidding proposals. We take the responsibility to alleviate their pressure by providing them with a thorough and precise concrete estimating and takeoff services to aid them in bidding.
+        </p>
+        <p>
+          We have a specialized concrete cost estimator for division 3 trades, certified with the American estimators organizations like 
+          <strong>American Association of Cost Engineers (AACE)</strong> and the 
+          <strong>Australian Institute of Quantity Surveyors (AIQS)</strong> for concrete takeoff services.
+        </p>
+      </div>
+      <div class="col-md-5 text-center">
+        <img 
+          src="https://worldestimating.com/wp-content/uploads/2019/12/2-28.jpg" 
+          alt="Concrete Estimating Services" 
+          class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </main>
+</div>
+
+
+<div class="container my-5">
+ <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+  <div class="entry-content-wrapper clearfix">
+<div class="flex_column av-epa313-6df9914f166f96d12bf8b2466e24a7f5 av_one_full  avia-builder-el-5  el_after_av_section  el_before_av_one_full  avia-builder-el-first  first flex_column_div "><div class="av-special-heading av-eioik7-4bff72858b27e25662b74e1b621d1a45 av-special-heading-h3 custom-color-heading blockquote modern-quote modern-centered  avia-builder-el-6  avia-builder-el-no-sibling  "><h5 class="text-center text-danger" itemprop="headline">Contact Us Today And Get 30% Off On Your First Cost Estimate!</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div class="flex_column av-e8qel3-966a4c3b689bf92c348f4fad3aac21e3 av_one_full  avia-builder-el-7  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	 <div class="text-center my-5"><button class="price-upload-btn  ">Upload Plans</button></div>
+</center></div></section></div>
+<div class="flex_column av-1e49z3-866b8fab8f4e75bc1840b7a6a125fc46 av_one_full  avia-builder-el-9  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><div class="av-special-heading av-1dkphz-0e93a762e2bd1cb8150c676ee2f1003e av-special-heading-h2 blockquote modern-quote  avia-builder-el-10  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag " itemprop="headline">WHAT WE QUANTIFY IN OUR CONCRETE ESTIMATING SERVICES?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+  <div class="faq-item">
+      <!-- Question -->
+      <div class="faq-question">
+        We quantify following items in concrete scope.
+      </div>
+
+      <!-- Answer -->
+      <div class="faq-answer">
+        <div class="row">
+          <!-- Col 1 -->
+          <div class="col-md-4">
+            <ul>
+              <li>Sidewalks</li>
+              <li>Driveways</li>
+              <li>Parking Lots</li>
+              <li>Paving</li>
+              <li>Retaining Walls</li>
+              <li>Foundations-Concrete</li>
+              <li>Curbs</li>
+              <li>Structural Rebar</li>
+              <li>Stirrups</li>
+              <li>Dowels</li>
+              <li>Anchors</li>
+              <li>Wire Mesh</li>
+            </ul>
+          </div>
+
+          <!-- Col 2 -->
+          <div class="col-md-4">
+            <ul>
+              <li>Basements</li>
+              <li>Formworks</li>
+              <li>Cast in Place</li>
+              <li>Concrete Repairs</li>
+              <li>Patios</li>
+              <li>Visqueen</li>
+              <li>Tie Beams</li>
+              <li>Lintels</li>
+              <li>Headers</li>
+              <li>Knockouts</li>
+              <li>Shear Walls</li>
+              <li>Decks</li>
+            </ul>
+          </div>
+
+          <!-- Col 3 -->
+          <div class="col-md-4">
+            <ul>
+              <li>Columns</li>
+              <li>Piers</li>
+              <li>Caissons</li>
+              <li>Countertops</li>
+              <li>Slabs on Grade</li>
+              <li>Grading</li>
+              <li>Reinforced Concrete</li>
+              <li>Square Pilasters</li>
+              <li>Round Column Block</li>
+              <li>Lintel Block</li>
+              <li>Bond Beams</li>
+              <li>Sill Block</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+ <div class="row align-items-start my-5">
+      
+      <!-- Left Content -->
+      <div class="col-md-7">
+        <h2 class="">
+          Contact Us Today And Get 30% Off On Your First Cost Estimate!
+        </h2>
+        <p>
+          Or Just Upload Plans In The Below Link, We Will Review And Send A Quote In Next 5 Minutes:
+        </p>
+     <div class="my-2"><button class="price-upload-btn  ">Upload Plans</button></div>
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-md-5 text-center">
+        <img src="https://worldestimating.com/wp-content/uploads/2020/09/masonry-construction-takeoffs-495x400.jpg" 
+             alt="masonry construction takeoffs" 
+             class="img-fluid rounded shadow">
+      </div>
+
+    </div><!--close column table wrapper. Autoclose: 1 -->
+
+<div class="flex_column av-bfrxjb-58a845455d53f84764fb7f7a1d9a07e5 av_one_full  avia-builder-el-23  el_after_av_hr  el_before_av_one_half  first flex_column_div "><div class="av-special-heading av-ba5dvb-1e13718db81a0b11b926bbf0497df557 av-special-heading-h2 blockquote modern-quote  avia-builder-el-24  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag " itemprop="headline">OUR PORTFOLIO IN CONCRETE TAKEOFF SERVICES</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<!-- Font Awesome -->
+
+
+
+  <div class="row my-5">
+    <!-- Left Column -->
+    <div class="col-md-6">
+      <ul class="list-unstyled fs-4">
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Dams
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Bridges
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Residential buildings
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Commercial buildings
+        </li>
+        <li class="my-5  d-flex align-items-center">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> <div> Foundations For High Rise Buildings</div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-md-6">
+      <ul class="list-unstyled fs-4">
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Highways
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Driveways
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Culverts and sewers
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Marine Structures
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Fences
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="flex_column av-8w9irr-dc0ba829c60da85559485a3198b0cd4d av_one_full  avia-builder-el-29  el_after_av_one_half  el_before_av_one_full  first flex_column_div column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>From big construction companies to small businesses, we have served many <strong>general contractors, concrete contractors, asphalt contractors, foundation contractors, vendors, and pavers</strong> with the most accurate and highly detailed concrete estimating services and material takeoffs services. We are well-reputed for our accuracy in the blue book.</p>
+<p>We have successfully provided concrete takeoff services for <strong>sidewalk, driveway, retaining walls, concrete pavement, waterproofing, parking lots, flatwork, basement, concrete foundation, concrete curbs, concrete slabs</strong>, etc. for various <strong>private</strong> and <strong>public</strong> projects.</p>
+</div></section></div>
+<div class="flex_column av-8je5fz-0ab1acc416166c3617f18af96fcfcb0e av_one_full  avia-builder-el-31  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><div class="avia-button-wrap avia-button-center  avia-builder-el-32  avia-builder-el-no-sibling "> <div class="text-center my-5"><button class="price-upload-btn  ">View Our Concrete Estimate Sample</button></div></div></div>
+<div class="flex_column av-84m0t3-24b360c7c665d836ef0c0ff6f4ef990e av_one_full  avia-builder-el-33  el_after_av_one_full  el_before_av_one_half  first flex_column_div column-top-margin"><div class="av-special-heading av-80z0rb-1c717d820d9f9f43594e5046d9635c05 av-special-heading-h2 blockquote modern-quote  avia-builder-el-34  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag " itemprop="headline">THE RANGE OF CONCRETE ESTIMATING SERVICES</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+ <div class="row my-4">
+    <!-- Left Column -->
+    <div class="col-md-6">
+      <ul class="list-unstyled fs-5">
+        <li class="mb-2">
+          <i class="fa fa-check-circle text-success me-2"></i> Concrete Quantity Takeoffs
+        </li>
+        <li class="mb-2">
+          <i class="fa fa-check-circle text-success me-2"></i> Budget &amp; Bid Estimates
+        </li>
+        <li class="mb-2">
+          <i class="fa fa-check-circle text-success me-2"></i> Bid Preparation
+        </li>
+        <li class="mb-2">
+          <i class="fa fa-check-circle text-success me-2"></i> Design Estimates
+        </li>
+        <li class="mb-2">
+          <i class="fa fa-check-circle text-success me-2"></i> Change Order Estimates
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-md-6">
+      <ul class="list-unstyled fs-5">
+        <li class="mb-2">
+          <i class="fa fa-check-circle text-success me-2"></i> Value Engineering
+        </li>
+        <li class="mb-2">
+          <i class="fa fa-check-circle text-success me-2"></i> Project Lead Generation
+        </li>
+        <li class="mb-2">
+          <i class="fa fa-check-circle text-success me-2"></i> Concrete Contractor Marketing
+        </li>
+        <li class="mb-2">
+          <i class="fa fa-check-circle text-success me-2"></i> Expert Witness
+        </li>
+        <li class="mb-2">
+          <i class="fa fa-check-circle text-success me-2"></i> Litigation Assistance
+        </li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+<div class="flex_column py-5 av-79pqdb-c0993850cbafab87f72149634666bdf8 av_one_full  avia-builder-el-39  el_after_av_one_half  el_before_av_one_full  first flex_column_div column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p class="fs-5"><strong>Our deliverables for division 3 trade include:</strong></p>
+<ul class="fs-5">
+<li>Concrete takeoff spreadsheets</li>
+<li>Material, labor &amp; equipment costs</li>
+<li>Man Hours</li>
+<li>Marked up drawing plans</li>
+<li>Takeoff summary including total costs for material, labor, equipment, overhead, profit, etc</li>
+<li>Review of exclusions and inclusions</li>
+</ul>
+</div></section></div>
+<div class="flex_column av-6wldqn-af33fc47d5c37188dfc98cd630dc9103 av_one_full  avia-builder-el-41  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><div class="av-special-heading av-6pec4f-d6e37d0aa327ca2e41f9c2ddbe1be0dd av-special-heading-h2 blockquote modern-quote  avia-builder-el-42  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag " itemprop="headline">WHY YOU SHOULD OUTSOURCE YOUR CONCRETE ESTIMATES?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div class="flex_column py-4 av-6i597b-6cc54a9b0b2b47a09a3aaa22ca9a3ef4 av_one_full  avia-builder-el-43  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock cust_bullets " itemprop="text"><p>Contractors involved in paving, driveways, and sidewalks are so occupied in on-site activities that their busy schedule doesn’t allow them to perform accurate estimates on their own, and eventually, they tend to overbid or underbid on their projects.</p>
+<p>When you are trying to bid on the lowest value to secure the jobs, you must have a precise estimate for the cost and man-hours involved in the project. Outsourcing your construction takeoff services to a professional estimating company like ours gives you confidence and comes with the following perks:</p>
+<ul>
+<li>You don’t have to buy expensive construction estimation software and hire and train professional staff for concrete estimating.</li>
+<li>You <strong>save on the extra expenses</strong> of hiring a fulltime concrete cost estimator.</li>
+<li>It <strong>improves your bid volume.</strong> With the help of professional service, you start bidding on more projects and ultimately winning more projects.</li>
+<li>With the assistance of expert estimators, your estimating efficiency is improved which can help in <strong>increasing your profit potential.</strong></li>
+<li>You no longer miss out on any opportunity.</li>
+</ul>
+</div></section></div>
+<div class="flex_column av-68t4w7-08e2964d6ce6da6a9b904cfe8b8c0c8b av_one_full  avia-builder-el-45  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><div class="av-special-heading av-63bu9r-c417721543be7e47cd6131bf36a8533f av-special-heading-h2 blockquote modern-quote  avia-builder-el-46  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag " itemprop="headline">BENEFITS OF OUTSOURCING YOUR CONCRETE TAKEOFF TO US!</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div style="background-color: #cadff3;" class="flex_column p-4   av_one_full  avia-builder-el-47  el_after_av_one_full  el_before_av_one_half  first flex_column_div column-top-margin"><section class="av_textblock_section " id="bullets_check" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Many concrete contractors approach us for accurate and timely preparations of bids to get ahead of their competitors. With us you get the following benefits:</p>
+<ul>
+<li>Highly accurate concrete estimate and material takeoffs.</li>
+<li>Our estimates have a <strong>bid winning ratio of more than 92%.</strong></li>
+<li>Estimates are delivered in the fastest turnaround time <strong>(24 to 48 hours)</strong>.</li>
+<li>Our monthly takeoff packages <strong>save you 60%</strong> of the expense of a full-time estimator.</li>
+<li>Affordable estimates</li>
+<li>We have a dedicated and expert concrete cost estimator for division 3 concrete trades.</li>
+<li>We also offer consultation regarding bid filing and managing bidding network profiles of the contractors.</li>
+<li>We have certified construction estimators with credible accreditations like <strong>AACE, AIQS.</strong></li>
+<li>Customer support is available <strong>24/7.</strong></li>
+</ul>
+</div></section></div>
+ <div class="row align-items-center my-5">
+    
+    <!-- Left Column (Image) -->
+    <div class="col-md-6">
+      <img src="https://worldestimating.com/wp-content/uploads/2022/10/Construction-PNG-Image.png" 
+           alt="Construction" class="img-fluid">
+    </div>
+    
+    <!-- Right Column (Text + Buttons) -->
+    <div class="col-md-6 ">
+      <h4><strong><i class="fa-solid fa-tag text-primary"></i> Offer:</strong></h3>
+      <h2 class="mt-3">If you are from Texas then Get <span class="text-danger">30% off</span> on your first estimate!</h2>
+      <p class="text-muted">Just upload plans, we will review and send a quote in the next 5 minutes.</p>
+      
+      <div class="mt-4">
+        <a href="https://worldestimating.com/get-estimate/" 
+           class="btn btn-outline-primary btn-lg me-3">
+          GET A FREE QUOTE
+        </a>
+        
+        <a href="tel:+13474801903" 
+           class="btn btn-primary btn-lg">
+          CALL US
+        </a>
+      </div>
+    </div>
+    
+  </div>
+<div class="flex_column av-fdmtr-539a3288b3a577c3a3b7e05239b9c25d av_one_full  avia-builder-el-55  el_after_av_one_half  el_before_av_one_full  first flex_column_div column-top-margin"><div class="av-special-heading av-409scn-fd8936db950293f9409527795e15773c av-special-heading-h2 blockquote modern-quote  avia-builder-el-56  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag " itemprop="headline">OUR ESTIMATION PROCESS</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div class="flex_column av-3xkzs7-2bd0d31692f55487314b5001efd734c8 av_one_full  avia-builder-el-57  el_after_av_one_full  el_before_av_one_third  first flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>The concrete estimation process starts with a thorough study of drawing plans submitted by the client to identify the scope of work. After that, an on-screen takeoff is performed using digital software like Bluebeam, Planswift, Accubid, etc. And the quantities are imported to EXCEL spreadsheets mentioned with detailed line item descriptions.</p>
+<p><em><strong>Our concrete takeoff spreadsheet comprises the breakdown of all the following quantities:</strong></em></p>
+<ul>
+<li>The amount of concrete required for slabs, piers, footings, headers, grade beams, tie beams, foundation walls, columns, lintels, platforms, steps, etc. It also includes the estimate of transportation costs as well as the equipment required eg cranes, pumps, mixers, etc.</li>
+<li>The costs for concrete formwork. It depends on the type of formwork, whether you buy or rent, repairs, equipment associated, transportation costs, labor, etc.</li>
+<li>Concrete reinforcements including structural rebar, wire mesh, plastic mesh, stirrups, dowels, anchors, etc.</li>
+</ul>
+<p>Man Hours are calculated to find labor costs for skilled and unskilled labor. Costs for material, labor, and equipment are estimated using <strong>RSMeans</strong> and our construction cost database for <strong>up to date and zip code based pricing.</strong> If required, costs for site preparation or grading are also calculated. It includes excavation, leveling, and compaction of the soil and transportation, equipment, and labor. And other miscellaneous costs are taken into account like storage costs, concrete tests, waste, spillage, logistics, etc. Contingency funds are also considered which include unforeseen costs, inflation, etc.</p>
+<p>A final check is performed by the lead estimator to ensure everything fully meets the client’s requirements.</p>
+</div></section></div>
+<div class="flex_column av-3j0ilz-8f6b450ba96425eb6dc9c52c43d75695 av_one_third  avia-builder-el-59  el_after_av_one_full  el_before_av_two_third  first flex_column_div column-top-margin"><div class="av-special-heading av-3e2287-32f6322423cda7291cd07d56158b66d9 av-special-heading-h2 custom-color-heading blockquote modern-quote  avia-builder-el-60  el_before_av_heading  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">Bid more, Win more!</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<div class="av-special-heading av-387s0f-e250c129bc609579a1683f23a0d24be2 av-special-heading-h3 blockquote modern-quote  avia-builder-el-61  el_after_av_heading  avia-builder-el-last  "><h3 class="av-special-heading-tag " itemprop="headline">Get our Concrete Estimating Services to step up your winning game!</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div class="flex_column av-308ki7-9aad5d026da4070f495c001ead29353f av_two_third  avia-builder-el-62  el_after_av_one_third  el_before_av_one_full  flex_column_div column-top-margin"><div class="avia-icon-list-container av-2y2w7j-86afbc8f06021de578c95778cd2323d4  avia-builder-el-63  avia-builder-el-no-sibling  "><ul class="avia-icon-list avia_animate_when_almost_visible avia-icon-list-left av-iconlist-big av-2y2w7j-86afbc8f06021de578c95778cd2323d4 avia-iconlist-animate avia_start_animation">
+<li class="avia_start_animation"><div class="iconlist_icon av-a25b3-a00d7911d3c020fe67fb70c2332c9d7a avia-font-entypo-fontello"><span class="iconlist-char " aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></span></div><article class="article-icon-entry " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="iconlist_content_wrap"><header class="entry-content-header"><h4 class="av_iconlist_title iconlist_title   " itemprop="headline">Submit your plans/ drawings:</h4></header><div class="iconlist_content  " itemprop="text"><p><strong><a href="/contact">Click here</a></strong>&nbsp;to send us plans and specifications. We will analyze and send you a quote in the next 5 minutes.</p>
+</div></div><footer class="entry-footer"></footer></article><div class="iconlist-timeline"></div></li>
+<li class="avia_start_animation"><div class="iconlist_icon av-2lqwev-7b235cbb3ed00899678b2abfcffbbcd1 avia-font-entypo-fontello"><span class="iconlist-char " aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></span></div><article class="article-icon-entry " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="iconlist_content_wrap"><header class="entry-content-header"><h4 class="av_iconlist_title iconlist_title   " itemprop="headline">Get a Quote:</h4></header><div class="iconlist_content  " itemprop="text"><p>you will receive a quote including invoice, turnaround time, and delivery date. Then, you can pay via credit card or debit card or PayPal.</p>
+</div></div><footer class="entry-footer"></footer></article><div class="iconlist-timeline"></div></li>
+<li class="avia_start_animation"><div class="iconlist_icon av-2h87xj-ea020c87ee19a80d4ddfcc12854c1acf avia-font-entypo-fontello"><span class="iconlist-char " aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></span></div><article class="article-icon-entry " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="iconlist_content_wrap"><header class="entry-content-header"><h4 class="av_iconlist_title iconlist_title   " itemprop="headline">Receive estimate:</h4></header><div class="iconlist_content  " itemprop="text"><p>you will receive a quote including invoice, turnaround time, and delivery date. Then, you can pay via credit card or debit card or PayPal.</p>
+</div></div><footer class="entry-footer"></footer></article><div class="iconlist-timeline"></div></li>
+</ul></div></div>
+<div class="flex_column av-27hcrb-842144d58b4f9e52c4878d033ae349a2 av_one_full  avia-builder-el-64  el_after_av_two_third  el_before_av_one_full  first flex_column_div column-top-margin"><div class="av-special-heading av-247g5r-7f2b8e9f8b5ef8cdbf478515a3c6b6d8 av-special-heading-h2 blockquote modern-quote  avia-builder-el-65  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag " itemprop="headline">FREQUENTLY ASKED QUESTIONS</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div class="flex_column av-702cf-b5c2dbb1175e76bbd47e32537155074b av_one_full  avia-builder-el-66  el_after_av_one_full  el_before_av_one_full  first flex_column_div av-zero-column-padding column-top-margin"><div class="togglecontainer av-1pm4w7-ff7ed905b5c7ef28691dfe44b60f7af6 avia-builder-el-67 avia-builder-el-no-sibling toggle_close_all enable_toggles">
+<section class="av_toggle_section av-1j1j5b-639e6c56f0e236b5fd0e287fd4f0bb2a" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div role="tablist" class="single_toggle" data-tags="{All} "><p data-fake-id="#toggle-id-2" class="toggler   " itemprop="headline" role="tab" tabindex="0" aria-controls="toggle-id-2">What type of Concrete work do we quantify and estimate?<span class="toggle_icon"><span class="vert_icon"></span><span class="hor_icon"></span></span></p><div id="toggle-id-2" class="toggle_wrap  "><div class="toggle_content invers-color " itemprop="text"><p>We estimate concrete curbs, slabs, lintels, footers, tie beams, sidewalk, driveway, pavement, basement, foundation, retaining walls, etc. for various commercial, residential, civil, public, and private projects.</p>
+</div></div></div></section>
+<section class="av_toggle_section av-1f12j3-5a4c1232367d23cbd4f926e3ffa4a693" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div role="tablist" class="single_toggle" data-tags="{All} "><p data-fake-id="#toggle-id-3" class="toggler   " itemprop="headline" role="tab" tabindex="0" aria-controls="toggle-id-3">What do we quantify in concrete estimates?<span class="toggle_icon"><span class="vert_icon"></span><span class="hor_icon"></span></span></p><div id="toggle-id-3" class="toggle_wrap  "><div class="toggle_content invers-color " itemprop="text"><p>We provide estimates in each quantity i.e. rebar, stirrups, dowels, anchor bolts, wire mesh, Visqueen, vapor barrier, tie Beams and lintels, headers, sill block, round column block, bond beams, etc.</p>
+</div></div></div></section>
+<section class="av_toggle_section av-18xwvb-8f03850fd988c8f64ae69aa41a1201b4" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div role="tablist" class="single_toggle" data-tags="{All} "><p data-fake-id="#toggle-id-4" class="toggler   " itemprop="headline" role="tab" tabindex="0" aria-controls="toggle-id-4">How much time do we normally take to deliver your concrete estimate?<span class="toggle_icon"><span class="vert_icon"></span><span class="hor_icon"></span></span></p><div id="toggle-id-4" class="toggle_wrap  "><div class="toggle_content invers-color " itemprop="text"><p>A comprehensive concrete estimate and material takeoff will be delivered to you in 24 to 48 hours.</p>
+</div></div></div></section>
+<section class="av_toggle_section av-3z0f3-7aa7af61cfd02e40efda2d6faf1696fa" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div role="tablist" class="single_toggle" data-tags="{All} "><p data-fake-id="#toggle-id-5" class="toggler   " itemprop="headline" role="tab" tabindex="0" aria-controls="toggle-id-5">How much do we charge for concrete takeoffs and how do we save the estimating expense of concrete contractors?<span class="toggle_icon"><span class="vert_icon"></span><span class="hor_icon"></span></span></p><div id="toggle-id-5" class="toggle_wrap  "><div class="toggle_content invers-color " itemprop="text"><p>Our prices are very affordable i.e. we charge $200 on average for an estimate, but it depends on the scope of work. Also by subscribing to our monthly takeoff packages, subcontractors save 60% expense of an inhouse estimator.</p>
+</div></div></div></section>
+<section class="av_toggle_section av-uzvkf-6de86289398509ea78ffdf84305236a9" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div role="tablist" class="single_toggle" data-tags="{All} "><p data-fake-id="#toggle-id-6" class="toggler   " itemprop="headline" role="tab" tabindex="0" aria-controls="toggle-id-6">How contractors can “bid more and win more” by attaining our concrete estimating service?<span class="toggle_icon"><span class="vert_icon"></span><span class="hor_icon"></span></span></p><div id="toggle-id-6" class="toggle_wrap  "><div class="toggle_content invers-color " itemprop="text"><p>We take care of your estimates and takeoffs with a workforce of experienced estimators and quantity surveyors. We strive to provide highly precise estimates so that our clients can focus on the fieldwork and their management can bid on more projects, which increases the chances of winning more work.</p>
+</div></div></div></section>
+<section class="av_toggle_section av-t8jh3-66d6dcb551ac284a11ce409d1bc5036e" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div role="tablist" class="single_toggle" data-tags="{All} "><p data-fake-id="#toggle-id-7" class="toggler   " itemprop="headline" role="tab" tabindex="0" aria-controls="toggle-id-7">How do we ensure the accuracy in our concrete estimates?<span class="toggle_icon"><span class="vert_icon"></span><span class="hor_icon"></span></span></p><div id="toggle-id-7" class="toggle_wrap  "><div class="toggle_content invers-color " itemprop="text"><p>Our skilled concrete cost estimator takeoff the quantities by using certified software like Bluebeam, Planswift, OST, Quick Bids while maintaining proper standards and codes. Our guarantee for the accurate takeoffs and concrete estimates lies in the fact that our concrete estimator is also a field expert and specialist who has hands-on experience of the fieldwork.</p>
+</div></div></div></section>
+<section class="av_toggle_section av-k9erb-9ce6ddd1b3552d12fddf6cf54bcc3860" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div role="tablist" class="single_toggle" data-tags="{All} "><p data-fake-id="#toggle-id-8" class="toggler   " itemprop="headline" role="tab" tabindex="0" aria-controls="toggle-id-8">What is the format of the deliverables for quantity surveys and estimates?<span class="toggle_icon"><span class="vert_icon"></span><span class="hor_icon"></span></span></p><div id="toggle-id-8" class="toggle_wrap  "><div class="toggle_content invers-color " itemprop="text"><p>The formats of the estimates and takeoffs are pdf and EXCEL files which are customizable sheets. We also provide takeoffs in the client’s required formats.</p>
+</div></div></div></section>
+</div></div>
+<div class="flex_column av-h6hpb-6e12d34e32065ef7d301e0c0004465f2 av_one_full  avia-builder-el-68  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><div class="av-special-heading av-9w4hj-6885dd6f7b2731bb01ff8b2790764e58 av-special-heading-h2 blockquote modern-quote  avia-builder-el-69  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag " itemprop="headline">OUR RECENT PROJECTS</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div class="flex_column av-l9ynnhhe-89f44a474c7f8e62b257e750a92f2fe4 av_one_full  avia-builder-el-70  el_after_av_one_full  el_before_av_one_half  first flex_column_div column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>World estimating has successfully delivered thousands of estimates and quantity takeoffs for concrete work projects. Few of our projects are mentioned below:</p>
+</div></section></div>
+<div class="flex_column av-ds98n-7aba0e14d90cb1b4d7fd7869579a5635 av_one_half  avia-builder-el-72  el_after_av_one_full  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h4>Reconfiguration of USCG San Diego Office, California</h4>
+<p>Preparation of division 3 bid estimate</p>
+<h4>Exterior Renovations of The Church – Green Tree in Philadelphia, Pennsylvania</h4>
+<p>Preparation of budget estimate</p>
+<h4>New construction of Trenton High School Cafetorium, Florida</h4>
+<p>Preparation construction document estimate</p>
+<h4>Remodeling of Belle Tower Condominium in Miami Beach, Florida</h4>
+<p>Preparation of bid estimate</p>
+</div></section></div>
+<div class="flex_column av-bs40n-b900ef52f867f2cd7bd96f49b3dda27e av_one_half  avia-builder-el-74  el_after_av_one_half  el_before_av_one_full  flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h4>Construction of Lenox Park – Amenity Building in Atlanta, Georgia</h4>
+<p>Preparation of concrete bid estimate.</p>
+<h4>Renovations for Pearl Street Park in Charlotte, North Carolina</h4>
+<p>Preparation of concrete bid estimate</p>
+<h4>Demolition and renovation of Tropical Smoothie Cafe in Chicago, Illinois</h4>
+<p>Preparation of budget estimate</p>
+<h4>New construction of Residential Building in Ash Street, Jersey City</h4>
+<p>Preparation of preliminary estimate</p>
+</div></section></div>
+<div class="flex_column av-awrxj-ce55f7c769029a2f61adca357b415c5f av_one_full  avia-builder-el-76  el_after_av_one_half  avia-builder-el-last  first flex_column_div column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>World Estimating provides construction estimating services in North American, Caribbean, African, and Australian regions. In the US, we serve in the following markets: <span style="text-decoration: underline;"><a href="https://worldestimating.com/georgia-construction-estimating-services/">Illinois</a></span>, <span style="text-decoration: underline;"><a href="https://worldestimating.com/georgia-construction-estimating-services/">Georgia</a></span>, <span style="text-decoration: underline;"><a href="https://worldestimating.com/new-york-construction-estimating-services/">New York</a></span>, <a href="https://worldestimating.com/north-carolina-construction-estimator/"><span style="text-decoration: underline;">North Carolina</span>,</a> Minnesota, Colorado, <span style="text-decoration: underline;"><a href="https://worldestimating.com/arizona-construction-estimating-services/">Arizona</a></span>, Indiana, Louisiana, Maryland, Alabama, Washington, New Jersey, <a href="https://worldestimating.com/california-construction-estimating-services/">California</a>, Connecticut, Oklahoma, Virginia, Oregon, Nebraska, Alaska, Arkansas, Delaware, MinnesotaIdaho, Iowa, Mississippi, Montana, Nevada, Wyoming, New Hampshire, Utah, <a href="https://worldestimating.com/florida-construction-estimating-services/">Florida</a>, Massachusetts, South Carolina, <span style="text-decoration: underline;"><a href="https://worldestimating.com/texas-construction-estimating-services/">Texas</a></span>, Missouri, Kentucky, <span style="text-decoration: underline;"><a href="https://worldestimating.com/pennsylvania-construction-estimating-services/">Pennsylvania</a></span>, Michigan, Tennessee, <span style="text-decoration: underline;"><a href="https://worldestimating.com/ohio-construction-estimating-services/">Ohio</a></span>, Wisconsin, Vermont, Hawaii.</p>
+</div></section></div>
+</div>
+
+      
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+
+        <div class="price-sidebar">
+          <a href="#">Concrete Estimating</a>
+          <a href="#">Electrical Estimating Services</a>
+          <a href="#">Interior & Exterior Finishes</a>
+          <a href="#">Masonry Estimating</a>
+          <a href="#">MEP Estimating Services</a>
+          <a href="#">Metals Estimating Services</a>
+          <a href="#">Openings Estimating Services</a>
+          <a href="#">Sitework Estimating Services</a>
+          <a href="#">Thermal & Moisture Protection Estimating Services</a>
+          <a href="#">Lumber Takeoff</a>
+        </div>
+          <div class="price-contact-box my-4 ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+      
+      </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+        <div class="row">
+            
+            <!-- World Estimating -->
+            <div class="col-md-3 mb-4">
+                <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+             <ul class="list-unstyled footer-links">
+          <li><a href="../ourtrader.html">Our Trades</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="../about.html">About Us</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../aboutu/faqs.html">FAQs</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="../js.js/script.js"></script>
+</body>
+</html>

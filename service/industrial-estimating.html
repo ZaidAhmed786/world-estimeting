@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+       <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
+            <li><a class="dropdown-item" href="../service/construction-estimating.html">Construction Estimating</a></li>
+            <li><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
+            <li><a class="dropdown-item" href="../service/residential-estimating.html">Residential Estimating</a></li>
+          </ul>
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block active" href="../ourtrader.html">OUR TRADES</a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item active"  href="../ourtrader/concrete-estimating.html">Concrete Estimating</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link active" href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block" href="../about.html">About us </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li><a class="dropdown-item" href="../aboutu/review.html">Reviews</a></li>
+            <li><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+ <div class="container-lg container-fluid px-lg-0 px-md-5 px-3 my-5">
+    <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+        <div class="entry-content-wrapper clearfix"><div class="av-special-heading av-oujyq-3a4f44213478a6037e6342db5ea60eed av-special-heading-h1 blockquote modern-quote  avia-builder-el-0  el_before_av_one_full  avia-builder-el-first  "><h1 class="av-special-heading-tag " itemprop="headline">Industrial Estimating Services</h1><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="flex_column av-den9c-c55974ba37d6d824778cee6884703826 av_one_full  avia-builder-el-1  el_after_av_heading  el_before_av_hr  first flex_column_div av-zero-column-padding "><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p><img fetchpriority="high" decoding="async" class=" wp-image-661 alignright" src="https://worldestimating.com/wp-content/uploads/2019/12/Industry-845x667.jpg" alt="Industrial Estimating Services" width="407" height="322">Get our Industrial estimating services to save estimating costs and improve accuracy and have your estimates and takeoffs audited and analyzed by professional construction estimators within the fastest turnaround times.</p>
+        <p>World estimating has used in rendering total estimating solutions to EPC contractors, owners, engineering firms, financial investors, and joint venture partners in the North American industrial sector. Our wide range of industrial estimating services is tailored to the specific needs of the respective clients starting from project planning, through conception and construction. Our profound approach to precise estimating procedures gained from experience and proficiency in the latest technology, helps them anticipate, plan, and effectively control cost throughout the entire lifecycle of the project.</p>
+        </div></section></div>
+        <div class="hr av-k52x0bwu-cc2ee3d4af130370ee6ff2e64245c7ac hr-invisible  avia-builder-el-3  el_after_av_one_full  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h4><strong><span style="color: #ff0000;">Are you in search of the professional industrial estimates you can rely on?</span> </strong></h4>
+        </div></section>
+        <div class="hr av-k52x0bwu-cc2ee3d4af130370ee6ff2e64245c7ac hr-invisible  avia-builder-el-5  el_after_av_textblock  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h4><span style="color: #ff0000;"><strong>Call us at 347 480-1903 to Schedule a meeting</strong></span></h4>
+        </div></section>
+        <div class="hr av-k52x0bwu-cc2ee3d4af130370ee6ff2e64245c7ac hr-invisible  avia-builder-el-7  el_after_av_textblock  el_before_av_one_full  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <div class="flex_column av-kpjx6f-7ba75abd0f5a65814e62f3e8738bbbfb av_one_full  avia-builder-el-8  el_after_av_hr  el_before_av_one_half  first flex_column_div av-zero-column-padding "><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h4><span style="color: #ff0000;"><strong>Or j</strong>ust upload plans in the below link, we will review and send a quote in next 5 minutes:</span></h4>
+        <div class="flex_column av_one_full  flex_column_div av-zero-column-padding first  avia-builder-el-10  el_after_av_one_full  el_before_av_one_full  column-top-margin">
+        <div class="hr hr-invisible   avia-builder-el-11  el_before_av_button  avia-builder-el-first "></div>
+        </div>
+        </div></section>
+        <section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	<a class="paoc-popup-click paoc-popup-cust-4434 paoc-popup-button paoc-popup-btn " href="javascript:void(0);">Upload Plans</a>
+        </center></div></section>
+        <div class="hr av-kbkyro4t-c49685e4fda672f398ba35de09bb8b16 hr-invisible  avia-builder-el-11  el_after_av_codeblock  avia-builder-el-last  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div></div>
+        <div class="flex_column av-den9c-c55974ba37d6d824778cee6884703826 av_one_half  avia-builder-el-12  el_after_av_one_full  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kh4iy-7a6a10c523d8f7afa0085a30bf2110ee av-special-heading-h2 blockquote modern-quote  avia-builder-el-13  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">What we accept?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-14  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>P&amp;IDs, PFDs, Drawing plans &amp; specifications</li>
+        <li>We accept the following formats: .PDF, .TIF, .TIFF, .DXF,. DWF, .DWG, .PLN, .JPG, JPEG, .CPC, .OSX, .DJVU, .CAL</li>
+        <li>Bid deadlines</li>
+        <li>Labor rates; prevailing wages or non-union or union</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-den9c-4aca4761b1c044d125e73c42be1bc9fd av_one_half  avia-builder-el-16  el_after_av_one_half  el_before_av_one_full  flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-1q3lm-580f74187e328f165f2258e28a81a538 av-special-heading-h2 blockquote modern-quote  avia-builder-el-17  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">What we deliver?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-18  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>EXCEL spreadsheets including Material &amp; labor takeoffs with man-hours, equipment lists and vendor quotes</li>
+        <li>In MasterFormat or UniFormat or by cost codes or your customized format</li>
+        <li>We deliver within 24 to 48 hours</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-den9c-c55974ba37d6d824778cee6884703826 av_one_full  avia-builder-el-20  el_after_av_one_half  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-8k1rm-97c89ee90f786b777e53df83b2f7a053 av-special-heading-h2 blockquote modern-quote  avia-builder-el-21  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">OUR RANGE OF INDUSTRIAL ESTIMATING SERVICES</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-22  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Comprehensive quantity takeoffs and cost estimates for all divisions</li>
+        <li>Estimates for quality assurance and quality control</li>
+        <li>Expert eye witnesses</li>
+        <li>Cold eyes reviews</li>
+        <li>Bid Evaluation &amp; Management</li>
+        <li>Procurement Services</li>
+        <li>Change Order Preparation &amp; Review</li>
+        <li>Feasibility Studies</li>
+        <li>Risk Analysis</li>
+        <li>Productivity Analysis</li>
+        <li>Project Scheduling</li>
+        <li>Project Cost Management</li>
+        <li>Value Engineering</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-den9c-c55974ba37d6d824778cee6884703826 av_one_half  avia-builder-el-24  el_after_av_one_full  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kbrrkaj6-62f7a2f9c14e7b079aef384cdb665337 av-special-heading-h2 blockquote modern-quote  avia-builder-el-25  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">INDUSTRIAL PROJECT TAKEOFFS</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-26  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Site work</li>
+        <li>Foundation</li>
+        <li>Structural Steel</li>
+        <li>Mechanical services &amp; Process equipments</li>
+        <li>Electrical services</li>
+        <li>Process piping</li>
+        <li>Instrumentation</li>
+        <li>HVAC systems</li>
+        <li>Hydronic systems</li>
+        <li>Insulation</li>
+        <li>Fireproofing</li>
+        <li>Welding</li>
+        <li>Painting/Coating</li>
+        <li>Asbestos Abatement</li>
+        <li>Floating Production Storage &amp; Offloading</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-den9c-4aca4761b1c044d125e73c42be1bc9fd av_one_half  avia-builder-el-28  el_after_av_one_half  el_before_av_one_full  flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kbrrkgtu-46b83e176c77ee65ea3da7f792639895 av-special-heading-h2 blockquote modern-quote  avia-builder-el-29  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">SOFTWARE PROFICIENCY</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-30  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Planswift</li>
+        <li>Trimble</li>
+        <li>FastPIPE</li>
+        <li>FastDUCT</li>
+        <li>FastWRAP</li>
+        <li>RSMeans</li>
+        <li>Bluebeam</li>
+        <li>ConEst</li>
+        <li>Quest Estimating</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-am9u0-bbd4af238163bcb9fa96309a9705287f av_one_full  avia-builder-el-32  el_after_av_one_half  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-jay0a-07d95c0d65dcab373bddcdddc1d8eeef av-special-heading-h2 blockquote modern-quote  avia-builder-el-33  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline"> OUR PORTFOLIO IN INDUSTRIAL ESTIMATING</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-34  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>We provide cost estimates ranging from maintenance and repair tasks to multi-million dollar industrial construction projects including <strong>Government and military construction projects. </strong>Our portfolio includes the following industries:</p>
+        </div></section>
+        <div class="hr av-k52x0bwu-9096217b0dd2f3a1bbf255f91aa458fd hr-invisible  avia-builder-el-36  el_after_av_textblock  avia-builder-el-last  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div></div>
+        <div class="flex_column av-den9c-c1b62755ca7fd12c2e340a77e81b46c3 av_one_half  avia-builder-el-37  el_after_av_one_full  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Chemical</li>
+        <li>Petrochemical</li>
+        <li>Mining &amp; Metals</li>
+        <li>Marine</li>
+        <li>Drilling Platforms</li>
+        <li>Oil &amp; Gas</li>
+        <li>Pharmaceutical Plants</li>
+        <li>Food Processing</li>
+        <li>Hydrocarbon Processing</li>
+        <li>Wastewater Plants</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-den9c-4aca4761b1c044d125e73c42be1bc9fd av_one_half  avia-builder-el-39  el_after_av_one_half  el_before_av_one_full  flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Bio-fuels</li>
+        <li>Refinery</li>
+        <li>Refrigeration</li>
+        <li>Pumping Stations</li>
+        <li>Paper &amp; Pulp</li>
+        <li>Polymers</li>
+        <li>Fertilizers</li>
+        <li>Power Generation</li>
+        <li>Packaging</li>
+        <li>Manufacturing</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-am9u0-bbd4af238163bcb9fa96309a9705287f av_one_full  avia-builder-el-41  el_after_av_one_half  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-1hrg2-984094d8387a69184dffb305eba36d72 av-special-heading-h2 blockquote modern-quote  avia-builder-el-42  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">INDUSTRIAL STRUCTURAL STEEL ESTIMATING</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-9096217b0dd2f3a1bbf255f91aa458fd hr-invisible  avia-builder-el-43  el_after_av_heading  avia-builder-el-last  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div></div>
+        <div class="flex_column av-den9c-c1b62755ca7fd12c2e340a77e81b46c3 av_one_half  avia-builder-el-44  el_after_av_one_full  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>With the team of estimators and engineers skilled in steel estimation, we have successfully catered many structural steel contractors and design firms involved in the steel erection for multi-story buildings and industrial facilities. By employing the best estimating practices, our estimators prepare the accurate structural steel estimates that not only help in planning, bidding, procurement, but also minimize wastages that contribute to the green environment. Our takeoffs contain the detailed breakdown of all the structural steel design components such as channels, beams, angles, plates, connectors and other accessories to give you a clear picture of costs involved in your project.</p>
+        </div></section></div>
+        <div class="flex_column av-den9c-4aca4761b1c044d125e73c42be1bc9fd av_one_half  avia-builder-el-46  el_after_av_one_half  el_before_av_one_full  flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>We generally quantify the following components:</p>
+        <ul>
+        <li>Rebar</li>
+        <li>Piping</li>
+        <li>Roofing</li>
+        <li>Siding</li>
+        <li>Louvers</li>
+        <li>Platforms</li>
+        <li>Railings</li>
+        <li>Ladders</li>
+        <li>Grating</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-am9u0-bbd4af238163bcb9fa96309a9705287f av_one_full  avia-builder-el-48  el_after_av_one_half  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-9w8c2-48adb8db9c4f813f68cd677986c08b15 av-special-heading-h2 blockquote modern-quote  avia-builder-el-49  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">INDUSTRIAL ELECTRICAL ESTIMATING</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-9096217b0dd2f3a1bbf255f91aa458fd hr-invisible  avia-builder-el-50  el_after_av_heading  avia-builder-el-last  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div></div>
+        <div class="flex_column av-den9c-c1b62755ca7fd12c2e340a77e81b46c3 av_one_half  avia-builder-el-51  el_after_av_one_full  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>The electrical estimators at world estimating, possess vast knowledge and experience in the electrical system components and their installation with the flexibility to estimate all types and sizes of the projects. Whether it is new electrical construction, remodeling, lighting or grounding project estimation, we have served electrical contractors with accurate and timely estimates. Using electrical takeoff software like Trimble, Planswift, Bluebeam, ConEst, we prepare highly detailed quantity takeoffs for material and labor with color-coded marked up plans.</p>
+        </div></section></div>
+        <div class="flex_column av-den9c-4aca4761b1c044d125e73c42be1bc9fd av_one_half  avia-builder-el-53  el_after_av_one_half  el_before_av_one_full  flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>We provide electrical takeoffs for the following systems:</p>
+        <ul>
+        <li>Low voltage Systems</li>
+        <li>Control Systems</li>
+        <li>Instrumentation</li>
+        <li>Emergency Service Systems</li>
+        <li>Power Distribution</li>
+        <li>Conveying Systems</li>
+        <li>Power &amp; Lighting</li>
+        <li>Solar Power</li>
+        <li>Geothermal Systems</li>
+        <li>Ground-up Projects</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-am9u0-bbd4af238163bcb9fa96309a9705287f av_one_full  avia-builder-el-55  el_after_av_one_half  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kbrtj4kl-4601a1482657d19a6c24eb11439ee6ee av-special-heading-h2 blockquote modern-quote  avia-builder-el-56  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">INDUSTRIAL MECHANICAL ESTIMATING</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-9096217b0dd2f3a1bbf255f91aa458fd hr-invisible  avia-builder-el-57  el_after_av_heading  avia-builder-el-last  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div></div>
+        <div class="flex_column av-den9c-c1b62755ca7fd12c2e340a77e81b46c3 av_one_half  avia-builder-el-58  el_after_av_one_full  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Our expert mechanical estimators have excelled in providing detailed material takeoffs, cost estimates, procurement, and cost management solutions to facilitate <strong>mechanical contractors, piping contractors, piping and duct fabricators, project managers, </strong>and <strong>engineering design firms</strong>. They are proficient with Planswift, FastPIPE, FastDUCT, FastWRAP, Trimble to effectively develop cost proposals and prepare competitive bids. You can count on us for professional mechanical estimating services customized to your specific needs and requirements.</p>
+        </div></section></div>
+        <div class="flex_column av-den9c-4aca4761b1c044d125e73c42be1bc9fd av_one_half  avia-builder-el-60  el_after_av_one_half  el_before_av_one_half  flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>We perform takeoffs for:</p>
+        <ul>
+        <li>Ductwork</li>
+        <li>Piping</li>
+        <li>Insulation</li>
+        <li>HVAC Systems</li>
+        <li>Sprinkler Systems</li>
+        <li>Gas Piping Systems</li>
+        <li>Material conveying Systems</li>
+        <li>Crushing Systems</li>
+        <li>Mechanical Equipment</li>
+        <li>Instrumentation &amp; Controls</li>
+        <li>Welding</li>
+        <li>Pressure Vessels</li>
+        <li>Mechanical Alterations</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-den9c-c55974ba37d6d824778cee6884703826 av_one_half  avia-builder-el-62  el_after_av_one_half  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kbrrkgtu-8fc8483b9e2c4ff7fb400065c4af20ed av-special-heading-h2 blockquote modern-quote  avia-builder-el-63  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">Insulation takeoffs</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-64  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Pipe Insulation</li>
+        <li>Plumbing &amp; Ductwork Insulation</li>
+        <li>Tank Insulation Systems</li>
+        <li>Equipment Insulation Systems</li>
+        <li>Removable Insulation Systems</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-den9c-4aca4761b1c044d125e73c42be1bc9fd av_one_half  avia-builder-el-66  el_after_av_one_half  el_before_av_one_full  flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kbrrkgtu-9335d45623286dc8d9103ebdde9d1cd2 av-special-heading-h2 blockquote modern-quote  avia-builder-el-67  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">Piping takeoffs</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-68  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Process Piping</li>
+        <li>Power Piping</li>
+        <li>Coal Piping</li>
+        <li>Refrigeration Piping</li>
+        <li>Gas Piping Systems</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-den9c-c55974ba37d6d824778cee6884703826 av_one_full  avia-builder-el-70  el_after_av_one_half  el_before_av_one_full  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kbrrkgtu-5c8d4c2e4727c445133f78fa413e9dbe av-special-heading-h2 blockquote modern-quote  avia-builder-el-71  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">OUR SYSTEMATIC APPROACH TO INDUSTRIAL ESTIMATING</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-72  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p><img decoding="async" class="wp-image-3697 alignleft" src="https://worldestimating.com/wp-content/uploads/2020/06/industrial-piping-estimating.jpg" alt="industrial piping estimating" width="428" height="285" srcset="https://worldestimating.com/wp-content/uploads/2020/06/industrial-piping-estimating.jpg 800w, https://worldestimating.com/wp-content/uploads/2020/06/industrial-piping-estimating-300x200.jpg 300w, https://worldestimating.com/wp-content/uploads/2020/06/industrial-piping-estimating-768x512.jpg 768w, https://worldestimating.com/wp-content/uploads/2020/06/industrial-piping-estimating-705x470.jpg 705w" sizes="(max-width: 428px) 100vw, 428px">The estimation process at world estimating starts with the discussion of the estimators and engineers to define the scope of the project. This involves a keen analysis of specifications and plans provided by the client to breakdown the specific elements and identify the process systems and potential missing information. Then by using the latest software, our expert estimator extracts the data from drawing plans,<strong> P&amp;IDs, PFDs</strong> to quantity each component for labor and material takeoffs.</p>
+        <p>We employ <strong>zip code based pricing</strong> for material and labor, using RSMeans and our developed database compiled from world cost data, trade agencies, various vendors, architects, and engineers. All the factors like location, logistics, permits, equipment rentals, contingencies, and various indirect costs are also taken into consideration. At last, a cross-check is performed by the lead estimator to assure that the estimate fully complies with the project goals.</p>
+        <p>In addition to providing the most accurate and reliable cost estimates, we have developed strategic estimating systems to ensure the project runs smoothly within budget and time constraints. This covers the estimating reports for project controls, procurement, contracts, and construction which gets updated throughout the life cycle of the project. Our deliverables include detailed <strong>EXCEL spreadsheets </strong>in MasterFormat or UniFormat containing material and labor takeoffs along with man-hours. The template can be customized as per the client’s needs.</p>
+        </div></section></div>
+        <div class="flex_column av-den9c-c55974ba37d6d824778cee6884703826 av_one_full  avia-builder-el-74  el_after_av_one_full  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kbrtklum-c41a8594dd0e067ae664c3a714260b83 av-special-heading-h2 blockquote modern-quote  avia-builder-el-75  el_before_av_heading  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">OUTSOURCE YOUR INDUSTRIAL ESTIMATES TO US</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="av-special-heading av-kbrtkb80-5d896b4276e124711e1d1b17beb3513c av-special-heading-h4 blockquote modern-quote  avia-builder-el-76  el_after_av_heading  el_before_av_hr  "><h4 class="av-special-heading-tag " itemprop="headline">We guarantee:</h4><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-e1d6c5d7e557e93bfbfef6338d8ca3e4 hr-invisible  avia-builder-el-77  el_after_av_heading  avia-builder-el-last  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div></div>
+        <div class="flex_column av-den9c-c1b62755ca7fd12c2e340a77e81b46c3 av_one_half  avia-builder-el-78  el_after_av_one_full  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kb1e2-fceb6a2cea8397968c39f550f7ce91fb av-special-heading-h3 blockquote modern-quote  avia-builder-el-79  el_before_av_hr  avia-builder-el-first  "><h3 class="av-special-heading-tag " itemprop="headline">Accuracy</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-80  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Highly precise huge database for pricing</li>
+        <li>Comparison and customization with past project’s data</li>
+        </ul>
+        </div></section>
+        <div class="av-special-heading av-1kmua-0fc8c12b2564ad9b4e4fa69ed7d823a1 av-special-heading-h3 blockquote modern-quote  avia-builder-el-82  el_after_av_textblock  el_before_av_hr  "><h3 class="av-special-heading-tag " itemprop="headline">Certified Estimators</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-83  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Estimators certified with the American Association of Cost Engineers <strong>(AACE)</strong>&nbsp;and the Australian Institute of Quantity Surveyors <strong>(AIQS).</strong></li>
+        </ul>
+        </div></section>
+        <div class="av-special-heading av-aektu-eb7666ee3f06712f9bf3f686b30d7fb9 av-special-heading-h3 blockquote modern-quote  avia-builder-el-85  el_after_av_textblock  el_before_av_hr  "><h3 class="av-special-heading-tag " itemprop="headline">Quick Turnarounds</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-86  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Estimates delivered within 24 to 48 hours.</li>
+        </ul>
+        </div></section></div><div class="flex_column av-den9c-4aca4761b1c044d125e73c42be1bc9fd av_one_half  avia-builder-el-88  el_after_av_one_half  el_before_av_promobox  flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kbrrkgtu-ea02ed4764bd815d6cc7bdd55c2c1d54 av-special-heading-h3 blockquote modern-quote  avia-builder-el-89  el_before_av_hr  avia-builder-el-first  "><h3 class="av-special-heading-tag " itemprop="headline">Efficiency</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-90  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Software proficiency</li>
+        <li>Estimating solutions with incomplete data</li>
+        </ul>
+        </div></section>
+        <div class="av-special-heading av-kbrrkgtu-cc54e283418a71b62c8ba8096b076df5 av-special-heading-h3 blockquote modern-quote  avia-builder-el-92  el_after_av_textblock  el_before_av_hr  "><h3 class="av-special-heading-tag " itemprop="headline">Cost-effective Solutions</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-93  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Affordable estimates. <strong><a href="https://worldestimating.com/pricing/">Click here</a></strong>&nbsp;to check prices.</li>
+        </ul>
+        </div></section>
+        <div class="av-special-heading av-kbrrkgtu-9d00cf8e5daf7507632f69429ae2dff8 av-special-heading-h3 blockquote modern-quote  avia-builder-el-95  el_after_av_textblock  el_before_av_hr  "><h3 class="av-special-heading-tag " itemprop="headline">24/7 customer support</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k52x0bwu-a9adcdeb2d3f9f054c569cbead910825 hr-invisible  avia-builder-el-96  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+        <li>Chat and Email support available</li>
+        </ul>
+        </div></section></div><p></p>
+
+        <style type="text/css" id="style-css-av-k52mbvod-f4fffc0d83d3aa66e93a661dfafbe3e8">
+        .av_promobox.av-k52mbvod-f4fffc0d83d3aa66e93a661dfafbe3e8{
+        color:#ffffff;
+        background:#f0f0f0;
+        border-color:#e5e5e5;
+        }
+        </style>
+        <div class="av_promobox av-k52mbvod-f4fffc0d83d3aa66e93a661dfafbe3e8 avia-button-yes  avia-builder-el-98  el_after_av_one_half  avia-builder-el-last  "><div class="avia-promocontent"><p></p>
+        <h4 style="text-align: left;"><strong>We also ensure that the estimates are prepared in a structured format those results in an accurate and complete estimate.</strong></h4>
+        <p>
+        </p></div><div class="avia-button-wrap avia-button-right "><a href="https://worldestimating.com/get-estimate/" class="avia-button av-k52mbvod-7d7a43b6863c6994cf59c492bc231e1e avia-icon_select-no avia-size-large avia-position-right avia-color-blue "><span class="avia_iconbox_title">GET ESTIMATES <br> WITH 30% OFF</span></a></div></div>
+        </div>
+
+      </div>
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+
+        <div class="price-sidebar">
+          <a href="#">Cost Estimating</a>
+          <a href="#">Outsource Estimating</a>
+          <a href="#">BIM Estimating Services</a>
+          <a href="#">Budget Estimating Services</a>
+          <a href="#">Commercial Estimating</a>
+          <a href="#">Industrial Estimating</a>
+          <a href="#">Residential Estimating Services</a>
+          <a href="#">Preliminary Estimating Services</a>
+          <a href="#">Construction Estimating Consultant</a>
+          <a href="#">Construction Takeoff Services</a>
+          <a href="#">CPM Scheduling Services</a>
+          <a href="#">Dedicated Construction Cost Estimator</a>
+          <a href="#">Freelance Construction Estimating</a>
+          <a href="#">Mechanical Insulation Estimating Services</a>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+        <div class="price-contact-box ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+  <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+    <div class="row">
+      
+      <!-- World Estimating -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+             <ul class="list-unstyled footer-links">
+          <li><a href="../ourtrader.html">Our Trades</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="../about.html">About Us</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../aboutu/faqs.html">FAQs</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="../js.js/script.js"></script>
+</body>
+</html>

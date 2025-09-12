@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+  p{
+    font-size: 18px;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+       <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block active" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
+            <li><a class="dropdown-item active" href="../service/construction-estimating.html">Construction Estimating</a></li>
+            <li><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
+            <li><a class="dropdown-item" href="../service/residential-estimating.html">Residential Estimating</a></li>
+          </ul>
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block " href="../ourtrader.html">OUR TRADES</a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item "  href="../ourtrader/concrete-estimating.html">Concrete Estimating</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link " href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block" href="../about.html">About us </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li><a class="dropdown-item" href="../aboutu/review.html">Reviews</a></li>
+            <li><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+ <div class="container-lg container-fluid px-lg-0 px-md-5 px-3 my-5">
+    <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+            <div class="entry-content-wrapper clearfix"><div class="av-special-heading av-e9x7ee-a96db1fad4138f7a7e85fe91462d545f av-special-heading-h1 blockquote modern-quote  avia-builder-el-0  el_before_av_hr  avia-builder-el-first  "><h1 class="av-special-heading-tag " itemprop="headline">Construction Estimating Services</h1><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-kbuolqdt-848bc50aef9f43d100bbe9989458e10b hr-invisible  avia-builder-el-1  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text">
+          <div class="row mt-4">
+            <div class="col-md-6">
+
+              <p>World Estimating has been in the construction estimating services business for more than 15 years serving Home Builders, General Contractors, Subcontractors, Engineering firms, Architects, Designers, Investors, Owners, and Developers with highly detailed and precise estimates and material takeoffs. We have an in house construction estimating team of professional estimators, quantity surveyors, engineers, trade experts, and field superintendents proficient in delivering your estimates within the fastest turnaround time of 24 to 48 hours.</p>
+            </div>
+            <div class="col-md-6">
+              <img fetchpriority="high" decoding="async" class=" wp-image-2249 alignright img-fluid" src="https://worldestimating.com/wp-content/uploads/2020/02/Construction-Estimating-Services-1.jpg" alt="Construction-Estimating-Services"  height="271" srcset="https://worldestimating.com/wp-content/uploads/2020/02/Construction-Estimating-Services-1.jpg 1000w, https://worldestimating.com/wp-content/uploads/2020/02/Construction-Estimating-Services-1-300x200.jpg 300w, https://worldestimating.com/wp-content/uploads/2020/02/Construction-Estimating-Services-1-768x512.jpg 768w, https://worldestimating.com/wp-content/uploads/2020/02/Construction-Estimating-Services-1-705x470.jpg 705w" sizes="(max-width: 406px) 100vw, 406px">
+            </div>
+          </div>
+        <p>Normally for the material takeoffs, we deal in all trades and CSI divisions of construction including concrete, masonry, electrical, mechanical, lumber, plumbing, finishes, and steelwork for all industrial, commercial and residential portfolio of projects.</p>
+        <p>We provide construction takeoff services in all states of the US, Canada, and Australia. Our estimators follow the strict guidelines and policies of the certified American estimators organization like >American Association of Cost Engineers <strong>(AACE)</strong><strong>&nbsp;</strong>and theAustralian Institute of Quantity Surveyors <strong>(AIQS).</strong></p>
+        </div></section>
+       
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h5 class="mt-4">World estimating is the one-stop solution for all your construction estimation needs!</h5>
+        </div></section>
+        
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h5 class="mt-4"><span style="color: #ff0000;">Call us today and get 30% off for your estimates and quantity takeoff</span></h5>
+        </div></section>
+       
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h5 class="my-3"><span style="color: #ff0000;">Call at 347 480-1903 </span></h5>
+        </div></section>
+   
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h5><span style="color: #ff0000;"><strong>Or j</strong>ust upload plans in the below link, we will review and send a quote in next 5 minutes:</span></h5>
+        <div class="flex_column av_one_full  flex_column_div av-zero-column-padding first  avia-builder-el-10  el_after_av_one_full  el_before_av_one_full  column-top-margin">
+        <div class="hr hr-invisible   avia-builder-el-11  el_before_av_button  avia-builder-el-first "></div>
+        </div>
+        </div></section>
+        <section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	 <div class="text-center my-5"><button class="price-upload-btn  ">Upload Plans</button></div>
+        </center></div></section>
+        <div class="hr av-kbkyro4t-8da98336550ccbc13053c8795b4dc4f8 hr-invisible  avia-builder-el-13  el_after_av_codeblock  avia-builder-el-last  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div></div>
+        <div class="av-special-heading av-cawena-8638092da477db594231a29bd3cb1f23 av-special-heading-h2 blockquote modern-quote  avia-builder-el-14  el_after_av_one_full  el_before_av_hr  "><h2 class="av-special-heading-tag " itemprop="headline">Our Portfolio</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-kbkyro4t-027d326592d5288fda4da7a639ba8849 hr-invisible  avia-builder-el-15  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>We have a diverse portfolio in construction estimates for commercial, residential, industrial and civil projects including:</p>
+        </div></section>
+      <div class="row">
+      <div class="col-md-4">
+        <ul class="icon-list">
+          <li>Multi-use residential</li>
+          <li>Healthcare</li>
+          <li>Retail</li>
+          <li>Parks & recreation centers</li>
+          <li>Restaurants</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="icon-list">
+          <li>Offices</li>
+          <li>Warehouses</li>
+          <li>Educational facilities</li>
+          <li>Bridges</li>
+          <li>Airports</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="icon-list">
+          <li>Highways</li>
+          <li>Wastewater treatment plants</li>
+          <li>Cogeneration plants</li>
+          <li>Mining & Marine projects</li>
+        </ul>
+      </div>
+    </div>
+        <div class="hr av-ka8h242c-cfb14ef1dea2dc97018d909dd00b9a95 hr-invisible  avia-builder-el-24  el_after_av_one_third  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Check more on:</p>
+        <ul>
+        <li>Residential estimating services</li>
+        <li>Commercial estimating services</li>
+        <li>Industrial estimating services</li>
+        </ul>
+        </div></section>
+        <div class="av-special-heading av-bb36ly-4949cc1cc98889102225c35418f8a926 av-special-heading-h2 blockquote modern-quote  avia-builder-el-26  el_after_av_textblock  el_before_av_hr  "><h2 class="av-special-heading-tag " itemprop="headline">Our Services</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-ka8h242c-29e95ef7446619ded186c13965755393 hr-invisible  avia-builder-el-27  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p><strong>Bid Estimates: </strong>Subcontractors and contractors approach us for their bid estimates and filing their proposals for public or private projects. We incorporate location-specific material, labor pricing data using our developed construction cost estimating database. We have provided bid estimates to the subcontractors involved in nearly all the trades from airport highways to simple mechanical HVAC projects.</p>
+        <p><strong>Design Estimates: </strong>Design estimates and takeoffs are generated for projects where there are fewer details and specifications. These projects require assumptions supported by arguments that are defensible and reliable at the end for clients and our estimators are always available to satisfy the client’s need at its maximum.</p>
+        <p><strong>Preliminary Estimates: </strong>These are often made during the preconstruction phase of the project when it is in the design stages or just prior to starting construction. Preliminary estimates are useful in getting loans, budgeting for clients, and cost-benefit analysis of the land before acquiring and preparing cost budget to hire contractors.</p>
+        <p><strong>Conceptual Estimates: </strong>The conceptual estimate and takeoff are required during the initial stages where there are fewer details and specifications designed for the project and it needs to be evaluated for the cost and benefit analysis involving the feasibility of the project.</p>
+        <p><strong>Structural steel and MEP shop drawings: </strong>Other than estimating services, we also serve contractors, manufacturers, and fabricators by providing comprehensive CAD shop drawing services to facilitate the manufacture and installation of prefabricated components. The software used for CAD drafting is Revit, AutoCAD, and Solid Works.</p>
+        <p><strong>Monthly Takeoff Packages: </strong>Contractors save 60% of the expense of an in house construction estimator by signing up for our monthly takeoff packages. Our expert estimators are proficient with certified estimating software. This enables them to easily bid on more projects and so their chance of being awarded the job increases.</p>
+        <p><strong>Consultation: </strong>We provide consultation to our clients to help them develop an understanding of construction cost and budget management. Our services in this regard include assistance in bid filing and management of the client’s bidding network profile.</p>
+        </div></section>
+        <div class="av-special-heading av-8qrhty-069a2d18b780224a86da4dce798c3d20 av-special-heading-h2 blockquote modern-quote  avia-builder-el-29  el_after_av_textblock  el_before_av_hr mt-4 "><h3 class="av-special-heading-tag " itemprop="headline">Our Trades</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-ka8h242c-29e95ef7446619ded186c13965755393 hr-invisible  avia-builder-el-30  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>We provide construction estimating services in all CSI divisions.</p>
+        </div></section>
+       <div class="row">
+
+      <!-- Column 1 -->
+      <div class="col-md-4">
+        <ul class="icon-list">
+          <li>Concrete</li>
+          <li>Masonry</li>
+          <li>Mechanical</li>
+          <li>Electrical</li>
+          <li>Plumbing</li>
+          <li>Flooring</li>
+        </ul>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-md-4">
+        <ul class="icon-list">
+          <li>HVAC</li>
+          <li>Sitework</li>
+          <li>Interior/exterior finishes</li>
+          <li>Drywall</li>
+          <li>Painting</li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-md-4">
+        <ul class="icon-list">
+          <li>Metals</li>
+          <li>Structural steel</li>
+          <li>Doors & Windows</li>
+          <li>Wood-plastic composites</li>
+          <li>Thermal moisture protection</li>
+        </ul>
+      </div>
+
+    </div>
+        <div class="av-special-heading av-7vivpy-3ca8e903f132e880fd8f81b280653bbd av-special-heading-h2 blockquote modern-quote  avia-builder-el-38  el_after_av_one_third  el_before_av_hr mt-5 "><h2 class="av-special-heading-tag " itemprop="headline">Benefits of hiring us</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-ka8h242c-29e95ef7446619ded186c13965755393 hr-invisible  avia-builder-el-39  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>We are experts in construction estimating services, construction cost engineering, and material takeoffs. By partnering with us, you get the following benefits:</p>
+        <ul>
+        <li>We offer a quick turnaround time of 24-48 hours.</li>
+        <li>We provide highly accurate and comprehensive estimates.</li>
+        <li>Our estimates are highly affordable (200$ on average, which can be less or more depending on the scope of work).</li>
+        <li>Our monthly takeoff packages can save 60 % expense of an in house estimator.</li>
+        <li>The bid winning ratio of our construction estimates in more than 85%.</li>
+        <li>We provide construction software consultancy and use trade-specific software.</li>
+        <li>Our certified construction estimators follow the guidelines of credible American estimator organization like American Association of Cost Engineers (AACE) &amp; Australian Institute of Quantity Surveyors (AIQS).</li>
+        <li>We provide 24/7 customer support.</li>
+        </ul>
+        </div></section>
+        <div class="av-special-heading av-67fdx2-cadb83b93a8958088ec4cb9da4d04bca av-special-heading-h2 blockquote modern-quote  avia-builder-el-41  el_after_av_textblock  el_before_av_hr mt-4 "><h2 class="av-special-heading-tag " itemprop="headline">Our Construction Estimating Software</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-ka8h242c-29e95ef7446619ded186c13965755393 hr-invisible  avia-builder-el-42  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>We use certified estimating software i.e.Blue Beam, PlanSwift,Trimble, IMHS Mark Systems, ProEst, RS Means, Bid Point XL, and Quest Estimating. FastPIPE and fastDUCT are used for MEP estimates.</p>
+        </div></section>
+        <div class="av-special-heading av-4rsoc6-4c7369e7f5df831280073301352401ec av-special-heading-h2 blockquote modern-quote  avia-builder-el-44  el_after_av_textblock  el_before_av_hr mt-4 "><h2 class="av-special-heading-tag " itemprop="headline">Our Construction Estimating Template</h2></div>
+        
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text">
+           <div class="row mt-4">
+              <div class="col-md-6">
+            <img decoding="async" class=" wp-image-2254 alignleft img-fluid" src="https://worldestimating.com/wp-content/uploads/2020/02/Construction-Estimating-Services-2.jpg" alt="Construction-Estimating-Services-New-York" height="270" srcset="https://worldestimating.com/wp-content/uploads/2020/02/Construction-Estimating-Services-2.jpg 1000w, https://worldestimating.com/wp-content/uploads/2020/02/Construction-Estimating-Services-2-300x200.jpg 300w, https://worldestimating.com/wp-content/uploads/2020/02/Construction-Estimating-Services-2-768x512.jpg 768w, https://worldestimating.com/wp-content/uploads/2020/02/Construction-Estimating-Services-2-705x470.jpg 705w" sizes="(max-width: 406px) 100vw, 406px">
+            </div>
+            <div class="col-md-6">
+ <p>The construction estimating templates that we follow are approved by nearly all general contracting leading corporations and companies. The top leading construction developers have used takeoffs and estimates for documenting bid and supplier purposes. As a member of Australian Institute of Quantity Surveyors (AIQS) and AACE (American Association of Cost Engineers), we ensure accurate, economical, and timely takeoff and estimates at your hour of need.</p>
+            </div>
+          
+          </div>
+       
+        <p class="mb-5" style="text-align: left;">Our template can be modified as per your needs and can be on editable EXCEL sheets. The contractor can also provide his own template of material takeoff sheets.</p>
+        </div></section>
+        <div class="av-special-heading av-2q8s9i-82c5e42b004cdced662581025314c2af av-special-heading-h2 blockquote modern-quote  avia-builder-el-47  el_after_av_textblock  el_before_av_hr  "><h2 class="av-special-heading-tag " itemprop="headline">Our Construction Estimating Process</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-ka8h242c-29e95ef7446619ded186c13965755393 hr-invisible  avia-builder-el-48  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p><strong>Drawing review:</strong> Our estimating process usually starts with reviewing the plans and drawings provided by the client and meeting of the expert estimators and material takeoff experts to discuss the key features of the items and trades to be quantified and takeoff.</p>
+        <p><strong>Estimation:</strong> We use certified software I.e. Planswift, BlueBeam, OST (OnScreenTakeoff). After careful preparation of takeoff and pricing of the trades and specific major impact line items. We deliver the estimate and takeoff sheet in the client template or in our own template or EXCEL sheets.</p>
+        <p><strong>Pricing:</strong> We usually organize the estimate with codes from the drawings or CSI codes, then after offsetting the value against each relevant trade and code. We offer zip code based pricing and also accept local vendor pricing. The major constraints used for the pricing are political impacts and labor wages. Other concerns like material logistics, inflation. Site constraints, etc are taken into consideration.</p>
+        <p><strong>Final Audit: </strong>At last. a final audit is performed by an expert to ensure the quality of the estimate.</p>
+        </div></section>
+       
+        </div>
+
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+
+        <div class="price-sidebar">
+          <a href="#">Cost Estimating</a>
+          <a href="#">Outsource Estimating</a>
+          <a href="#">BIM Estimating Services</a>
+          <a href="#">Budget Estimating Services</a>
+          <a href="#">Commercial Estimating</a>
+          <a href="#">Industrial Estimating</a>
+          <a href="#">Residential Estimating Services</a>
+          <a href="#">Preliminary Estimating Services</a>
+          <a href="#">Construction Estimating Consultant</a>
+          <a href="#">Construction Takeoff Services</a>
+          <a href="#">CPM Scheduling Services</a>
+          <a href="#">Dedicated Construction Cost Estimator</a>
+          <a href="#">Freelance Construction Estimating</a>
+          <a href="#">Mechanical Insulation Estimating Services</a>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+        <div class="price-contact-box ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+  
+
+
+  <!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+  <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+    <div class="row">
+      
+      <!-- World Estimating -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+             <ul class="list-unstyled footer-links">
+          <li><a href="../ourtrader.html">Our Trades</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="../about.html">About Us</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../aboutu/faqs.html">FAQs</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="../js.js/script.js"></script>
+</body>
+</html>

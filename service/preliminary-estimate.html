@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+       <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
+            <li><a class="dropdown-item" href="../service/construction-estimating.html">Construction Estimating</a></li>
+            <li><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
+            <li><a class="dropdown-item" href="../service/residential-estimating.html">Residential Estimating</a></li>
+          </ul>
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block active" href="../ourtrader.html">OUR TRADES</a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item active"  href="../ourtrader/concrete-estimating.html">Concrete Estimating</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link active" href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block" href="../about.html">About us </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li><a class="dropdown-item" href="../aboutu/review.html">Reviews</a></li>
+            <li><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+ <div class="container-lg container-fluid px-lg-0 px-md-5 px-3 my-5">
+    <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+      <div class="entry-content-wrapper clearfix"><div class="av-special-heading av-swysu-92a7409ec0f11a29502274500f89b6f5 av-special-heading-h1 blockquote modern-quote  avia-builder-el-0  el_before_av_one_full  avia-builder-el-first  "><h1 class="av-special-heading-tag " itemprop="headline">Preliminary Estimate</h1><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<div class="flex_column av-n8ljk-c3fdb97cc8d6d647005f19b76dcc3137 av_one_full  avia-builder-el-1  el_after_av_heading  el_before_av_hr  first flex_column_div av-zero-column-padding "><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p><img decoding="async" class="wp-image-3222 alignright" src="https://worldestimating.com/wp-content/uploads/2020/04/GEORGIA-CONSTRUCTION-ESTIMATING-SERVICES-845x667.jpg" alt="GEORGIA CONSTRUCTION ESTIMATING SERVICES" width="413" height="326">Are you somewhere in the range of 30%, 60%, and 90% of your drawing plans? Or frustrated by preparing estimates with incomplete drawing plans? Or in need of a quick <strong>preliminary estimate</strong> to check if the project is in your client’s budget? Or your suppliers are delaying in quoting prices? We can serve you by providing fast and detailed preliminary estimates with <strong>square footage cost</strong> to analyze the feasibility of your project and proceed effectively with your clients.</p>
+<p>With 15 years of experience in the AEC industry and portfolio in <strong>commercial</strong>, <strong>residential, private, </strong>and <strong>public</strong> projects, World estimating can promise the most reliable and defensible preliminary estimates based on assumptions from the past projects. We come up with per square feet or square meter costs for finished projects as well as superstructures by utilizing professional estimating Software and our developed databases, <strong>RS Means </strong>and<strong> Craftsmen</strong>. Our location-based database and relations with local vendors help in performing the bill of material as accurately as possible.</p>
+</div></section></div>
+<div class="hr av-kbuo10j3-30a9e81c407163686ec3c7a8cb81c816 hr-invisible  avia-builder-el-3  el_after_av_one_full  el_before_av_one_full  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div class="flex_column_table av-den9c-aabb172a8ada0f78eb7bb596fbb10722 sc-av_one_full av-equal-height-column-flextable"><div class="flex_column av-den9c-aabb172a8ada0f78eb7bb596fbb10722 av_one_full  avia-builder-el-4  el_after_av_hr  el_before_av_hr  first flex_column_table_cell av-equal-height-column av-align-top av-zero-column-padding "><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h4><strong><span style="color: #ff0000;">Contact us today and get 30% off on your first cost estimate!</span></strong></h4>
+</div></section></div></div><!--close column table wrapper. Autoclose: 1 -->
+<div class="hr av-kbuo10j3-30a9e81c407163686ec3c7a8cb81c816 hr-invisible  avia-builder-el-6  el_after_av_one_full  el_before_av_one_full  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div class="flex_column_table av-den9c-aabb172a8ada0f78eb7bb596fbb10722 sc-av_one_full av-equal-height-column-flextable"><div class="flex_column av-den9c-aabb172a8ada0f78eb7bb596fbb10722 av_one_full  avia-builder-el-7  el_after_av_hr  el_before_av_one_full  first flex_column_table_cell av-equal-height-column av-align-top av-zero-column-padding "><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h4><strong><span style="color: #ff0000;">Call us: 347 480-1903</span></strong></h4>
+</div></section></div></div><!--close column table wrapper. Autoclose: 1 -->
+<div class="flex_column av-kpjx6f-7ba75abd0f5a65814e62f3e8738bbbfb av_one_full  avia-builder-el-9  el_after_av_one_full  el_before_av_heading  first flex_column_div av-zero-column-padding column-top-margin"><div class="hr av-k74ptlmj-17bfbe58a4b7375582a753dad50e647e hr-invisible  avia-builder-el-10  el_before_av_textblock  avia-builder-el-first  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h4><span style="color: #ff0000;"><strong>Or j</strong>ust upload plans in the below link, we will review and send a quote in next 5 minutes:</span></h4>
+<div class="flex_column av_one_full  flex_column_div av-zero-column-padding first  avia-builder-el-10  el_after_av_one_full  el_before_av_one_full  column-top-margin">
+<div class="hr hr-invisible   avia-builder-el-11  el_before_av_button  avia-builder-el-first "></div>
+</div>
+</div></section>
+<section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	<a class="paoc-popup-click paoc-popup-cust-4434 paoc-popup-button paoc-popup-btn " href="javascript:void(0);">Upload Plans</a>
+</center></div></section>
+<div class="hr av-kbkyro4t-c49685e4fda672f398ba35de09bb8b16 hr-invisible  avia-builder-el-13  el_after_av_codeblock  avia-builder-el-last  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div></div>
+<div class="av-special-heading av-jel6m-34b8aa3c769d96f5b1d939262021bdc3 av-special-heading-h2 blockquote modern-quote  avia-builder-el-14  el_after_av_one_full  el_before_av_one_full  "><h2 class="av-special-heading-tag " itemprop="headline">What is a preliminary estimate and how it helps?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<div class="flex_column av-n8ljk-c3fdb97cc8d6d647005f19b76dcc3137 av_one_full  avia-builder-el-15  el_after_av_heading  el_before_av_hr  first flex_column_div av-zero-column-padding "><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>A preliminary estimate or <strong>conceptual estimate</strong> is used to forecast the project cost to analyze the economic feasibility of the construction project prior to the development of detailed drawing plans. It helps <strong>contractors, real estate developers, home builders, </strong>and<strong> owners</strong> in making decisions for allocating funds, setting the preliminary budget and comparing initial design alternatives.</p>
+<p>As preliminary cost estimates are carried out at the beginning of the project before the actual design and construction, therefore they are mainly based on historical data of the projects adjusted to the time, location, size, and prepared using engineering concepts.</p>
+<p>There are several types of preliminary cost estimates that are employed at various stages in the lifecycle of the project. The accuracy of these estimates depends on the extent of the information provided by the client.</p>
+</div></section></div>
+<div class="hr av-kbcdaujd-8f1fb764c623e57622e166779250b112 hr-invisible  avia-builder-el-17  el_after_av_one_full  el_before_av_one_half  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div class="flex_column_table av-den9c-aabb172a8ada0f78eb7bb596fbb10722 sc-av_one_half av-equal-height-column-flextable"><div class="flex_column av-den9c-aabb172a8ada0f78eb7bb596fbb10722 av_one_half  avia-builder-el-18  el_after_av_hr  el_before_av_one_half  first flex_column_table_cell av-equal-height-column av-align-top av-zero-column-padding "><div class="av-special-heading av-hgwp2-9a3c3b47e560b4b153b05147f14196d9 av-special-heading-h2  avia-builder-el-19  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">Rough Order Magnitude Estimate </h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<div class="hr av-kbcdaujd-5ccb39581c484ff511983fff4c69ad01 hr-invisible  avia-builder-el-20  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>The first attempt to estimate in the project’s lifecycle is regarded as a rough order magnitude estimate or ROM. It is employed to analyze the feasibility of the project that contributes to the project’s selection and allocation. It has accuracy in the range of -50% to +50%.</p>
+</div></section>
+<div class="av-special-heading av-kbuo6i6x-16f0a7499ed6c138c5aa3b66828e7ece av-special-heading-h2 blockquote modern-quote  avia-builder-el-22  el_after_av_textblock  el_before_av_textblock  "><h2 class="av-special-heading-tag " itemprop="headline">Ballpark Estimate </h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Ballpark estimate is developed by the contractors to define the scope of work to their clients, so that owners can make decisions according to their budget. It is evaluated on the basis of preliminary drawings and specifications, and its accuracy lies within 20% of the actual cost.</p>
+</div></section></div>
+<div class="av-flex-placeholder"></div><div class="flex_column av-den9c-7f66b27bb78529f8bfd822d4c2d5bd3a av_one_half  avia-builder-el-24  el_after_av_one_half  el_before_av_hr  flex_column_table_cell av-equal-height-column av-align-top av-zero-column-padding "><div class="av-special-heading av-kbuo6azm-d586150ea8698d35899bbd31d51b73ac av-special-heading-h2 blockquote modern-quote  avia-builder-el-25  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">Budget Estimate</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<div class="hr av-kbcdaujd-5ccb39581c484ff511983fff4c69ad01 hr-invisible  avia-builder-el-26  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>The budget estimate is prepared using past projects’ data and plans when the project comes into its planning stage. It defines the costs associated with the major components of the projects in each line description including materials and labor costs. Its accuracy lies in the range of -10% to +25% of the actual cost.</p>
+</div></section>
+<div class="av-special-heading av-kbuo6pdh-5b969a0b5ad58789a1e3e6c5fdb27b71 av-special-heading-h2 blockquote modern-quote  avia-builder-el-28  el_after_av_textblock  el_before_av_textblock  "><h2 class="av-special-heading-tag " itemprop="headline">Definitive Estimate </h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>A definitive estimate is also known as a digital cost estimate contains a detailed itemized list of components involved in the project. It is prepared by using thoroughly developed project plans and has an accuracy of -5% to +15%.</p>
+</div></section></div></div><!--close column table wrapper. Autoclose: 1 -->
+<div class="hr av-kbcdaujd-dada126ae2b15d8f03cdda624aaeda4d hr-invisible  avia-builder-el-30  el_after_av_one_half  el_before_av_one_full  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div class="flex_column av-n8ljk-c3fdb97cc8d6d647005f19b76dcc3137 av_one_full  avia-builder-el-31  el_after_av_hr  el_before_av_one_full  first flex_column_div av-zero-column-padding "><div class="av-special-heading av-a90zi-6a7c69830464f84c713aa162c2fe0280 av-special-heading-h2 blockquote modern-quote  avia-builder-el-32  el_before_av_textblock  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">How can our preliminary estimate benefit you?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Our estimates can help you in evaluating the initial cost to support in:</p>
+<ul>
+<li>Managing the budget and getting loans</li>
+<li>Setting the project cost limit for Architects and designers</li>
+<li>Getting the idea of probable amount and cost of material and labor.</li>
+<li>Planning the next phase.</li>
+<li>Allocating and negotiating with contractors and subcontractors.</li>
+</ul>
+</div></section></div>
+<div class="flex_column av-n8ljk-c3fdb97cc8d6d647005f19b76dcc3137 av_one_full  avia-builder-el-34  el_after_av_one_full  el_before_av_one_full  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kbccswgo-0146386657b5cf22f85f1f3ec2d0a6aa av-special-heading-h2 blockquote modern-quote  avia-builder-el-35  el_before_av_textblock  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">How can you quote a preliminary estimate to your prospective clients?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Our preliminary cost estimates are based on the floor area which makes it easy for your clients and architects to understand and interpret the information.</p>
+<p>Our bill of material comprises of:</p>
+<ul>
+<li>The total area (square foot or square meter) of the complete project</li>
+<li>Linear measurement (foot or meter) of each structure like walls etc.</li>
+<li>Area of each unit i.e. rooms, floors, etc.</li>
+</ul>
+</div></section></div>
+<div class="flex_column av-n8ljk-c3fdb97cc8d6d647005f19b76dcc3137 av_one_full  avia-builder-el-37  el_after_av_one_full  el_before_av_one_full  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kbccswgo-4a264324cd33025a0ed2a5de707eb7f4 av-special-heading-h2 blockquote modern-quote  avia-builder-el-38  el_before_av_textblock  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">What do you get in our preliminary estimate?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>The estimate consists of the breakdown of quantities, and the following divisions are considered:</p>
+<ul>
+<li>Preliminaries</li>
+<li>Substructures (footings, foundations, etc.)</li>
+<li>Superstructures ( brickwork, walls, sidings, roofs, staircase, floors, doors, windows)</li>
+<li>External/Internal finishes (flooring, drywall, painting, etc.)</li>
+<li>Fittings</li>
+<li>Mechanical (HVAC systems, ductwork, etc.)</li>
+<li>Plumbing (pipes, drains, fixtures, etc.)</li>
+<li>Electrical (cable, conduit, lighting, etc.)</li>
+<li>Labor</li>
+<li>Man Hours</li>
+<li>Contingency</li>
+<li>Project Schedule</li>
+</ul>
+</div></section></div>
+<div class="flex_column av-n8ljk-c3fdb97cc8d6d647005f19b76dcc3137 av_one_full  avia-builder-el-40  el_after_av_one_full  el_before_av_one_full  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kbccswgo-f86a030cd80b18672cff7760e265bf21 av-special-heading-h2 blockquote modern-quote  avia-builder-el-41  el_before_av_textblock  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">How do we prepare a preliminary estimate?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+<li>First, our estimators study and evaluate the information to analyze the scope of the project and produce an estimating plan.</li>
+<li>Then, the data of similar past projects is collected.</li>
+<li>The adjustments are applied with respect to time, location, and size. A contingency is also applied.</li>
+<li>All the specifications, adjustments, assumptions, are mentioned in detail.</li>
+</ul>
+</div></section></div>
+<div class="flex_column av-n8ljk-c3fdb97cc8d6d647005f19b76dcc3137 av_one_full  avia-builder-el-43  el_after_av_one_full  el_before_av_hr  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kbccswgo-47813ea70b9f288aebae1584b4a9ce78 av-special-heading-h2 blockquote modern-quote  avia-builder-el-44  el_before_av_textblock  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">What factors contribute towards the right preliminary estimates?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>While performing a bill of material based on previous projects’ data, we make assumptions and adjustments with respect to time, location, type, and size of the project.</p>
+<ul>
+<li>We modify the project cost to the <strong>time </strong>of the start of construction because these estimates are calculated two or more years in advance to construction therefore cost must be identified with respect to the future. It is adjusted using a time index which includes relative inflation or deflation with respect to time due to factors like labor rates, material costs, interest rates, etc.</li>
+<li>The anticipated project cost is evaluated with respect to<strong> location</strong> as the material, labor rates vary in different parts of the country. For this purpose, we employ our location index to national average cost to adjust the bill of material for a particular region or closest capital city.</li>
+<li>Project cost is also dependent on the <strong>type and size</strong> of the project. Here, we apply the size factor which relates the proposed building area to the typical building area.</li>
+<li>The <strong>quality</strong> of the basic material required in the construction is also considered eg brick veneer, CMU, framed, etc)</li>
+</ul>
+</div></section></div>
+<div class="hr av-kbcdaujd-5ccb39581c484ff511983fff4c69ad01 hr-invisible  avia-builder-el-46  el_after_av_one_full  el_before_av_one_half  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div class="flex_column_table av-den9c-aabb172a8ada0f78eb7bb596fbb10722 sc-av_one_half av-equal-height-column-flextable"><div class="flex_column av-den9c-aabb172a8ada0f78eb7bb596fbb10722 av_one_half  avia-builder-el-47  el_after_av_hr  el_before_av_one_half  first flex_column_table_cell av-equal-height-column av-align-top av-zero-column-padding "><div class="avia-image-container av-k4pkrww2-17df39132e4519b9e96d25985063053e av-styling- avia-align-center  avia-builder-el-48  avia-builder-el-no-sibling  " itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject"><div class="avia-image-container-inner"><div class="avia-image-overlay-wrap"><img fetchpriority="high" decoding="async" class="wp-image-673 avia-img-lazy-loading-not-673 avia_image" src="https://worldestimating.com/wp-content/uploads/2019/12/preliminary-estimate-and-conceptual-estimate.jpg" alt="preliminary estimates" title="preliminary estimate and conceptual estimate" height="667" width="1000" itemprop="thumbnailUrl" srcset="https://worldestimating.com/wp-content/uploads/2019/12/preliminary-estimate-and-conceptual-estimate.jpg 1000w, https://worldestimating.com/wp-content/uploads/2019/12/preliminary-estimate-and-conceptual-estimate-300x200.jpg 300w, https://worldestimating.com/wp-content/uploads/2019/12/preliminary-estimate-and-conceptual-estimate-768x512.jpg 768w, https://worldestimating.com/wp-content/uploads/2019/12/preliminary-estimate-and-conceptual-estimate-705x470.jpg 705w" sizes="(max-width: 1000px) 100vw, 1000px"></div></div></div></div>
+<div class="av-flex-placeholder"></div><div class="flex_column av-n8ljk-2c310c83de001a76594c50499706036c av_one_half  avia-builder-el-49  el_after_av_one_half  el_before_av_heading  flex_column_table_cell av-equal-height-column av-align-top av-zero-column-padding "><div class="av-special-heading av-eln3q-4cf6670b6c7f721cec084b86ee3a1ca6 av-special-heading-h2 blockquote modern-quote  avia-builder-el-50  el_before_av_textblock  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">Here is what you get when you outsource your estimates to us!</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+<li>Reliable and precise estimates</li>
+<li>Affordable estimates (<a href="https://worldestimating.com/pricing/"><u>Click here</u></a> to check rates)</li>
+<li>Quick turnaround times <strong>(24 to 48 hours)</strong></li>
+<li>Cost-effective monthly takeoff packages</li>
+<li>Expert estimators certified with American estimator organization like<strong>&nbsp;<a href="https://web.aacei.org/" rel="nofollow">AACE</a> &amp;&nbsp;<a href="https://www.aiqs.com.au/" rel="nofollow">AIQS</a></strong></li>
+<li>24/7 customer support</li>
+</ul>
+</div></section></div></div><!--close column table wrapper. Autoclose: 1 --><div class="av-special-heading av-aalba-6ad0698e889a97080a47a90421e26aff av-special-heading-h2 blockquote modern-quote  avia-builder-el-52  el_after_av_one_half  el_before_av_hr  "><h2 class="av-special-heading-tag " itemprop="headline">We are eager to help you with your next estimate!</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div><p></p>
+<div class="hr av-9mtlq-8a4e626db4b4e4d4f34f266325f3fc43 hr-invisible  avia-builder-el-53  el_after_av_heading  el_before_av_one_third  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div class="flex_column av-lzwr2-a1e44c3eb8e5e9a248b68a8ba89d219d av_one_third  avia-builder-el-54  el_after_av_hr  el_before_av_one_third  first flex_column_div av-zero-column-padding "><div class="av-special-heading av-kbcdgqas-43418104c6e15f3cfe474df5b230cc85 av-special-heading-h3 blockquote modern-quote  avia-builder-el-55  el_before_av_textblock  avia-builder-el-first  "><h3 class="av-special-heading-tag " itemprop="headline">1. Submit your plans:</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Send us plans and drawings (Dropbox link, Plans Portal link, etc.) at <a href="mailto:info@worldestimating.com">info@worldestimating.com</a> or call us at 347 480-1903 or go to <a href="https://worldestimating.com/contact/"><u>contact us</u></a> page, attach the file, and fill the form.</p>
+</div></section></div>
+<div class="flex_column av-ffzp2-1bd3c72c5db5226b5012d17f3703f3bb av_one_third  avia-builder-el-57  el_after_av_one_third  el_before_av_one_third  flex_column_div av-zero-column-padding "><div class="av-special-heading av-kbcdgvzm-90017d2395a468f60dbb65e9366a3022 av-special-heading-h3 blockquote modern-quote  avia-builder-el-58  el_before_av_textblock  avia-builder-el-first  "><h3 class="av-special-heading-tag " itemprop="headline">2. Get a Quote:</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>You will get a quote consisting of the invoice, turnaround time, and delivery date. Then you can pay via credit card or debit card or PayPal.</p>
+</div></section></div>
+<div class="flex_column av-7j52e-bc89070227dbf36cc4e35a1c8b0194ca av_one_third  avia-builder-el-60  el_after_av_one_third  el_before_av_promobox  flex_column_div av-zero-column-padding "><div class="av-special-heading av-kbcdh1hj-6b5cb738d9804137a0a2db0a0938caf3 av-special-heading-h3 blockquote modern-quote  avia-builder-el-61  el_before_av_textblock  avia-builder-el-first  "><h3 class="av-special-heading-tag " itemprop="headline">3. Get estimate:</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Your estimate will be delivered to you in EXCEL sheets either in our format or a format supplied by you.</p>
+</div></section></div>
+
+<style type="text/css" id="style-css-av-k52mbvod-64999b78aedbe51aa77f2b568be33183">
+.av_promobox.av-k52mbvod-64999b78aedbe51aa77f2b568be33183{
+color:#ffffff;
+background:#f0f0f0;
+border-color:#e5e5e5;
+}
+</style>
+<div class="av_promobox av-k52mbvod-64999b78aedbe51aa77f2b568be33183 avia-button-yes  avia-builder-el-63  el_after_av_one_third  avia-builder-el-last  "><div class="avia-promocontent"><p></p>
+<h4><strong>Fee free to contact us we are always ready to help you out</strong></h4>
+<p>
+</p></div><div class="avia-button-wrap avia-button-right "><a href="https://worldestimating.com/contact/" class="avia-button av-k52mbvod-a77896730d993437b175b8e3cce7782c avia-icon_select-no avia-size-large avia-position-right avia-color-blue "><span class="avia_iconbox_title">CALL US &amp; <br> GET 30% OFF</span></a></div></div>
+</div>
+
+      </div>
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+
+        <div class="price-sidebar">
+          <a href="#">Cost Estimating</a>
+          <a href="#">Outsource Estimating</a>
+          <a href="#">BIM Estimating Services</a>
+          <a href="#">Budget Estimating Services</a>
+          <a href="#">Commercial Estimating</a>
+          <a href="#">Industrial Estimating</a>
+          <a href="#">Residential Estimating Services</a>
+          <a href="#">Preliminary Estimating Services</a>
+          <a href="#">Construction Estimating Consultant</a>
+          <a href="#">Construction Takeoff Services</a>
+          <a href="#">CPM Scheduling Services</a>
+          <a href="#">Dedicated Construction Cost Estimator</a>
+          <a href="#">Freelance Construction Estimating</a>
+          <a href="#">Mechanical Insulation Estimating Services</a>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+        <div class="price-contact-box ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+  <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+    <div class="row">
+      
+      <!-- World Estimating -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+             <ul class="list-unstyled footer-links">
+          <li><a href="../ourtrader.html">Our Trades</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="../about.html">About Us</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../aboutu/faqs.html">FAQs</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="../js.js/script.js"></script>
+</body>
+</html>

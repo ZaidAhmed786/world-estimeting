@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>]
+<style>
+  p{
+    font-size: 18px;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+       <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block active" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
+            <li><a class="dropdown-item" href="../service/construction-estimating.html">Construction Estimating</a></li>
+            <li><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
+            <li><a class="dropdown-item active" href="../service/residential-estimating.html">Residential Estimating</a></li>
+          </ul>
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block " href="../ourtrader.html">OUR TRADES</a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item "  href="../ourtrader/concrete-estimating.html">Concrete Estimating</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link " href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block" href="../about.html">About us </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li><a class="dropdown-item" href="../aboutu/review.html">Reviews</a></li>
+            <li><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+ <div class="container-lg container-fluid px-lg-0 px-md-5 px-3 my-5">
+    <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+        <div class="entry-content-wrapper clearfix"><div class="av-special-heading av-1n5yi4-97ca670e3c3b333d5d1ee5aad6ae5b43 av-special-heading-h1 blockquote modern-quote  avia-builder-el-0  el_before_av_textblock  avia-builder-el-first  "><h1 class="av-special-heading-tag " itemprop="headline">Residential Estimating Services</h1><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Offering quick turnarounds and reliable solutions in residential estimating services tailored to the specific needs of Residential Contractors, Subcontractors, Homebuilders, Home Owners, Developers, Investors, Lenders, and Architects.</p>
+        </div></section>
+        <div class="hr av-kcc00bdm-d7f7eead89e77ab7b958acf6275d89f1 hr-invisible  avia-builder-el-2  el_after_av_textblock  el_before_av_heading  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <div class="av-special-heading av-kqb419bs-fd6078bb208c029b339b55972fe4b01d av-special-heading-h2 blockquote modern-quote  avia-builder-el-3  el_after_av_hr  el_before_av_one_third  "><h2 class="av-special-heading-tag  mt-5" itemprop="headline">PORTFOLIO OF RESIDENTIAL ESTIMATING SERVICES PROJECTS</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+ <div class="row align-items-center">
+
+    <!-- Column 1 -->
+    <div class="col-md-4">
+      <section itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+        <div itemprop="text">
+          <ul>
+            <li>Single-Family Residential Houses</li>
+            <li>Multi-Family Residential Houses</li>
+            <li>Duplex/Triplex Houses</li>
+            <li>Custom homes</li>
+            <li>Modular homes</li>
+            <li>Apartments</li>
+            <li>Bungalows</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="col-md-4">
+      <section itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+        <div itemprop="text">
+          <ul>
+            <li>Townhouses</li>
+            <li>Mansions</li>
+            <li>Condominium</li>
+            <li>Home additions</li>
+            <li>Home Improvements</li>
+            <li>Remodeling</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Column 3 (Image) -->
+    <div class="col-md-4 text-center">
+      <div itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+        <img 
+          fetchpriority="high" 
+          decoding="async" 
+          src="https://worldestimating.com/wp-content/uploads/2019/12/yellow-house.jpg" 
+          alt="Residential Estimating" 
+          title="Residential Estimating" 
+          class="img-fluid rounded shadow"
+          itemprop="thumbnailUrl"
+          srcset="https://worldestimating.com/wp-content/uploads/2019/12/yellow-house.jpg 1000w, https://worldestimating.com/wp-content/uploads/2019/12/yellow-house-300x185.jpg 300w, https://worldestimating.com/wp-content/uploads/2019/12/yellow-house-768x473.jpg 768w, https://worldestimating.com/wp-content/uploads/2019/12/yellow-house-705x434.jpg 705w" 
+          sizes="(max-width: 1000px) 100vw, 1000px"
+        >
+      </div>
+    </div>
+
+  </div>
+        <div class="hr av-kcc00bdm-6f4c8f45bd12e1b5435b25cc8630e3f1 hr-invisible  avia-builder-el-10  el_after_av_one_third  el_before_av_one_full  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <div class="flex_column av-d10is-1144ca8e849fc177a975e05967d6fcf4 av_one_full  avia-builder-el-11  el_after_av_hr  el_before_av_heading  first flex_column_div av-zero-column-padding "><div class="hr av-k87mfjso-8d00c3470f9042af92c8ce75907dfdec hr-invisible  avia-builder-el-12  el_before_av_button  avia-builder-el-first  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <div class="avia-button-wrap avia-button-center  avia-builder-el-13  el_after_av_hr  el_before_av_hr "> <div class="text-center my-5"><button class="price-upload-btn  ">VIEW OUR RESIDENTIAL ESTIMATE SAMPLE</button></div></div>
+        <div class="hr av-k87mfjso-1537dd8501643956cd59b5f8a0de7d6c hr-invisible  avia-builder-el-14  el_after_av_button  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>An accurate residential estimate serves as a basis for the entire construction cash flows.</p>
+        <p>For planning the construction of residential buildings, a proper cost estimate gives the idea of the potential costs that helps calculate markups, allocate budget, obtain financing, quote prices to the clients, and negotiate with contractors and subcontractors through our Residential estimating services.</p>
+        </div></section>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>World Estimating is best in the business with seasoned, expert estimators for residential construction estimating services of your project. After the thorough analysis of plans, we digitally takeoff the quantities using the latest software and consult our construction cost database and <strong>RSMeans for zip-code pricing</strong> on your residential estimate. We perform the breakdown of labor costs with respect to union and prevailing wages including standard time and overtime. The bill of material is listed in CSI MasterFormat division wise or by the pattern of CSI costs in EXCEL spreadsheets so that you can easily review and send it to your vendors for pricing.</p>
+        <p><strong>Our deliverables of residential construction estimating services include:</strong></p>
+        <ul>
+        <li>Residential Detailed Estimate tailored to your specific needs being a contractor, home builder, owner for bidding, procurement, budgeting and financing purposes.</li>
+        <li>Digital Takeoff EXCEL files</li>
+        <li>Material Types &amp; Quantities</li>
+        <li>Material &amp; Labor Costs</li>
+        <li>Coloured Marked up Plans</li>
+        <li>Complete Takeoff Summary containing labor hours, permits, taxes, contingencies, overheads, profit percentages and various other costs.</li>
+        </ul>
+        </div></section></div>
+        <div class="av-special-heading av-1dbd2k-d73238dae8e884b3779e0cf86f81fab3 av-special-heading-h2 blockquote modern-quote  avia-builder-el-17  el_after_av_one_full  el_before_av_hr  "><h2 class="av-special-heading-tag " itemprop="headline">WHY CHOOSE WORLD ESTIMATING?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k74ptlmj-4715221cbdbd9d14c6ca1c81cb04edfd hr-invisible  avia-builder-el-18  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>We promise to deliver the following things in our residential estimating services:</p>
+        <ul>
+        <li>Detailed estimates with a high emphasis on accuracy</li>
+        <li>Cost-effective solutions at market competitive rates (<u>check prices</u>)</li>
+        <li>Faster and timely delivery of estimates so you meet your deadlines</li>
+        <li>Reduce overheads and only pay us when you need us</li>
+        <li>Increase efficiency and get more jobs by bidding on more projects</li>
+        <li>Consultation on smartly filing bids to acquire more projects</li>
+        <li>Help you Increase your bid-hit ratio and win more bids</li>
+        <li>24/7 chat &amp; email support</li>
+        </ul>
+        </div></section>
+        <div class="flex_column av-kpjx6f-7ba75abd0f5a65814e62f3e8738bbbfb av_one_full  avia-builder-el-20  el_after_av_textblock  el_before_av_heading  first flex_column_div av-zero-column-padding column-top-margin"><div class="hr av-k74ptlmj-17bfbe58a4b7375582a753dad50e647e hr-invisible  avia-builder-el-21  el_before_av_textblock  avia-builder-el-first  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h5 class="mt-4"><span style="color: #ff0000;"><strong>Get in touch with us for accurate and prompt residential estimating services!</strong></span></h5>
+        <div class="hr hr-invisible avia-builder-el-11 el_before_av_button avia-builder-el-first "></div>
+        </div></section>
+        <div class="hr av-k74ptlmj-17bfbe58a4b7375582a753dad50e647e hr-invisible  avia-builder-el-23  el_after_av_textblock  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section my-4" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h5><span style="color: #ff0000;"><strong>Call us at 347 480-1903</strong></span></h5>
+        <div class="hr hr-invisible avia-builder-el-11 el_before_av_button avia-builder-el-first "></div>
+        </div></section>
+        <div class="hr av-k74ptlmj-17bfbe58a4b7375582a753dad50e647e hr-invisible  avia-builder-el-25  el_after_av_textblock  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h5><span style="color: #ff0000;"><strong>Or upload your plans in the link below and get a quote in the next 5 minutes.</strong></span></h5>
+        <div class="hr hr-invisible avia-builder-el-11 el_before_av_button avia-builder-el-first "></div>
+        </div></section>
+        <div class="hr av-k74ptlmj-40dcadb8833a1edd0e5cb42c61cfd3ca hr-invisible  avia-builder-el-27  el_after_av_textblock  el_before_av_codeblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	<div class="text-center my-5"><button class="price-upload-btn  ">Upload Plan</button></div>
+        </center></div></section>
+        <div class="hr av-kbkyro4t-8da98336550ccbc13053c8795b4dc4f8 hr-invisible  avia-builder-el-29  el_after_av_codeblock  avia-builder-el-last  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div></div>
+        <div class="av-special-heading av-174o3g-82b967e8fb5ca4132c7a56fe5faed4f4 av-special-heading-h2 blockquote modern-quote  avia-builder-el-30  el_after_av_one_full  el_before_av_hr  "><h2 class="av-special-heading-tag " itemprop="headline">OUR RESIDENTIAL ESTIMATING SERVICES INCLUDES</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k87mfjso-e2b6def56f0390927995fd49558f4533 hr-invisible  avia-builder-el-31  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>The items quantified in Residential projects in our portfolio of residential estimating services include items in their respective <strong>units of volume, length, area, and number.</strong></p>
+        <p>But depending upon your needs, we cater the quantity takeoff in our residential construction estimating services based on the units that are suitable for a specific purpose e.g. for the supply of lumber, the vendors usually need beams, studs, joists, and rafters quantified in EA with a complete detailed description of nails and clips.</p>
+        <p>We generally quantify the following materials in our residential takeoffs:</p>
+        <ul>
+        <li>General conditions (permits, taxes, logistics, storage, etc.)</li>
+        <li><u>Sitework</u> (site preparation, excavation, backfilling earthwork, landscaping)</li>
+        <li><u>Concrete</u> (foundation, driveway, sidewalk, paving)</li>
+        <li><u>Masonry</u> (walls and piers)</li>
+        <li><u>Wood/Plastic composites</u> (Structural<u>lumber</u>, millwork, carpentry)</li>
+        <li><u>Thermal &amp; moisture protection</u> (Insulation of roof and walls)</li>
+        <li><u>Doors &amp; Windows</u></li>
+        <li><u>Metals</u> (Structural steel reinforcements, metal railings)</li>
+        <li><u>Interior/exterior finishes</u> (<u>drywall</u>. plastering, painting, flooring, tiling, roofing, wall and pier finishes)</li>
+        <li><u>Plumbing</u> fixtures</li>
+        <li><u>Mechanical</u> (exhaust fan, HVAC systems)</li>
+        <li><u>Electrical</u> (lighting, alarms, detectors, ceiling fans, TV cables)</li>
+        <li>Other specialties (stairs, toilet accessories, kitchen equipment, and furnishings)</li>
+        <li>Contingencies</li>
+        </ul>
+        <p>Labor costs and Man-hours</p>
+        </div></section>
+        <div class="av-special-heading av-10kk3g-16afbc63bc1751172b9e06c92f32f06f av-special-heading-h2 blockquote modern-quote  avia-builder-el-33  el_after_av_textblock  el_before_av_hr  "><h2 class="av-special-heading-tag mt-5" itemprop="headline">Why you should use our Residential Estimating Services</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k87mfjso-4a0d8a8bbfb2a7b8c5841f877ad9aac0 hr-invisible  avia-builder-el-34  el_after_av_heading  el_before_av_two_fifth  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+
+      <div class="row my-4">
+
+    <!-- Column 1 -->
+    <div class="col-md-6">
+      <section itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+        <div itemprop="text">
+          <ul>
+            <li>Planswift</li>
+            <li>Bluebeam</li>
+            <li>Quest Estimating</li>
+            <li>RS Means</li>
+            <li>Xactimate</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="col-md-6">
+      <section itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+        <div itemprop="text">
+          <ol>
+            <li>FastPIPE</li>
+            <li>FastDUCT</li>
+            <li>FastWRAP</li>
+            <li>Trimble</li>
+            <li>IMHS Mark Systems</li>
+          </ol>
+        </div>
+      </section>
+    </div>
+
+  </div>
+        <div class="av-special-heading av-zjgg4-1dcad7c0b47dc061efd7539b3f3e913b av-special-heading-h2 blockquote modern-quote  avia-builder-el-39  el_after_av_two_fifth  el_before_av_hr  "><h2 class="av-special-heading-tag " itemprop="headline">FOR RESIDENTIAL CONTRACTORS</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k87mfjso-e2b6def56f0390927995fd49558f4533 hr-invisible  avia-builder-el-40  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>If you are a busy contractor involved in the field activities, our residential estimating services can help you in winning bids on your projects by preparing your bid estimates and bid documents to submit. Let us handle your estimates and your quotes will be ready to submit before the deadline.</p>
+        </div></section>
+        <div class="flex_column av-n8ljk-c3fdb97cc8d6d647005f19b76dcc3137 av_one_half  avia-builder-el-42  el_after_av_textblock  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kcc28blr-ed3615c8a97d37ff115d7dcf9f00cc00 av-special-heading-h3  avia-builder-el-43  el_before_av_hr  avia-builder-el-first  "><h3 class="av-special-heading-tag  mt-5" itemprop="headline">Detailed Accurate Residential Bid Estimates</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k87mfjso-e2b6def56f0390927995fd49558f4533 hr-invisible  avia-builder-el-44  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>As we have been committed to providing Residential Estimates to the Construction industry for so long, our residential estimators and Engineers takeoff quantities of material, labor, and man-hours.</p>
+        <p>Our relations with the local vendors and utilizing the RSMeans database, we employ the up to date pricing to achieve the right estimate. Our services include:</p>
+        <ul>
+        <li>Accurate and quick bid estimates with marked-up plans</li>
+        <li>Assistance on smartly filing bids</li>
+        <li>Bidding network profile management</li>
+        <li>New project lead generation</li>
+        <li>Subcontractor marketing</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-n8ljk-2c310c83de001a76594c50499706036c av_one_half  avia-builder-el-46  el_after_av_one_half  el_before_av_one_full  flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-w3cus-d41253ff9ecacd1e670c726a5f73a200 av-special-heading-h3  avia-builder-el-47  el_before_av_hr  avia-builder-el-first  "><h3 class="av-special-heading-tag mt-5 " itemprop="headline">New Construction Residential Estimates</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k87mfjso-e2b6def56f0390927995fd49558f4533 hr-invisible  avia-builder-el-48  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Whether it’s a simple three family residence or a highly complex residential apartment, our estimators have such tremendous expertise to list down material, labor and create an accurate residential estimate through our residential estimating services.</p>
+        <p>Our experience with the residential builds and proficiency in the software helps us quickly takeoff the quantities to prepare quotes for you so that you remain committed to your daily site work. We are currently serving residential contractors from all 50 states and dealing in all new construction.</p>
+        </div></section></div>
+        <div class="flex_column av-n8ljk-c3fdb97cc8d6d647005f19b76dcc3137 av_one_full  avia-builder-el-50  el_after_av_one_half  el_before_av_one_third  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kqb456lj-060f82a49640482d928700cd2ffb3215 av-special-heading-h3 blockquote modern-quote  avia-builder-el-51  el_before_av_hr  avia-builder-el-first  "><h3 class="av-special-heading-tag mt-5 " itemprop="headline">residential construction estimating services For Trade Contractors</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k87mfjso-e2b6def56f0390927995fd49558f4533 hr-invisible  avia-builder-el-52  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Whether you specialize in small domestic builds or large residential projects, we can assure you that our estimates comply with your specific needs to win bid proposals, set good profit margins, and procure material and labor. With a team of specialized trade estimators, we have served the subcontractors involved in our residential construction estimating services:</p>
+        </div></section></div>
+      
+  <div class="row my-4">
+
+    <!-- Column 1 -->
+    <div class="col-md-4">
+      <section itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+        <div itemprop="text">
+          <ul>
+            <li>Excavation &amp; Sitework</li>
+            <li>Earthwork</li>
+            <li>Landscaping</li>
+            <li>Concrete</li>
+            <li>Masonry</li>
+            <li>Plastering</li>
+            <li>Painting</li>
+            <li>Framing</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="col-md-4">
+      <section itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+        <div itemprop="text">
+          <ul>
+            <li>Drywall</li>
+            <li>Tiling</li>
+            <li>Flooring</li>
+            <li>Glazing</li>
+            <li>Joinery</li>
+            <li>Gyprock</li>
+            <li>Lumber</li>
+            <li>Carpentry</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="col-md-4">
+      <section itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+        <div itemprop="text">
+          <ul>
+            <li>Electrical</li>
+            <li>Mechanical</li>
+            <li>Plumbing</li>
+            <li>Insulation</li>
+            <li>Doors &amp; Windows</li>
+            <li>Accessories</li>
+            <li>Equipment</li>
+            <li>Furnishings</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+        <div class="row align-items-center my-4">
+
+    <!-- Text Column -->
+    <div class="col-md-6">
+      <h3>Renovations, Remodeling &amp; Home additions</h3>
+      <p>
+        We are helping remodeling and renovation contractors for any sort of work that has to be done to an existing home. 
+        Home Renovation estimates have been a hectic and serious task for contractors to come up with figures to present to their clients.
+      </p>
+      <p>
+        We have a seasoned team of Residential estimators to help the remodeling and renovation industry with material takeoffs 
+        and Residential Construction Estimating Services.
+      </p>
+    </div>
+
+    <!-- Image Column -->
+    <div class="col-md-6 text-center">
+      <img src="https://worldestimating.com/wp-content/uploads/2019/12/door-opening2-845x667.jpg" 
+           alt="Residential Estimating Services" 
+           title="Residential Estimating" 
+           class="img-fluid">
+    </div>
+
+  </div>
+        <div class="hr av-k87mfjso-4a0d8a8bbfb2a7b8c5841f877ad9aac0 hr-invisible  avia-builder-el-66  el_after_av_one_half  el_before_av_heading  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <div class="av-special-heading av-n1m04-615dce39b229c50c4ba0606bbd204435 av-special-heading-h2 blockquote modern-quote  avia-builder-el-67  el_after_av_hr  el_before_av_hr  "><h2 class="av-special-heading-tag " itemprop="headline">FOR RESIDENTIAL DEVELOPERS</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k87mfjso-05af4dcb065e8da80d0d644c4afef59b hr-invisible  avia-builder-el-68  el_after_av_heading  el_before_av_one_half  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <div class="flex_column av-n8ljk-c3fdb97cc8d6d647005f19b76dcc3137 av_one_half  avia-builder-el-69  el_after_av_hr  el_before_av_one_half  first flex_column_div av-zero-column-padding "><div class="av-special-heading av-kcc2je36-6df6a0f94ba10928cf63c39a9b8d04ce av-special-heading-h3 blockquote modern-quote  avia-builder-el-70  el_before_av_hr  avia-builder-el-first  "><h3 class="av-special-heading-tag " itemprop="headline">Preliminary Residential Estimates</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k87mfjso-e2b6def56f0390927995fd49558f4533 hr-invisible  avia-builder-el-71  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>We understand how important are preliminary estimates for investors and developers to have correct budget numbers for making the right decisions. From single-family, duplex to multi-family residential projects our estimators perform budget estimates and show you some hidden costs that you may have overlooked to help you identify issues before it would cost you hundreds or thousands of dollars. We also assist in the reevaluation of the estimate as a design or the project progresses.</p>
+        <p>Our preliminary estimate comprises the breakdown of the following quantities for material and labor:</p>
+        <ul>
+        <li>Preliminaries</li>
+        <li>Substructures ( foundations, footings)</li>
+        <li>Superstructures (brickwork, walls, roofs, sidings, staircase, floors, screen, doors, windows, etc)</li>
+        <li>Finishes (flooring, drywall, painting, etc.)</li>
+        <li>Fittings</li>
+        <li>Services (mechanical, electrical, plumbing, fire, insulation, etc)</li>
+        <li>External Services</li>
+        <li>Contingency</li>
+        </ul>
+        </div></section></div>
+        <div class="flex_column av-n8ljk-2c310c83de001a76594c50499706036c av_one_half  avia-builder-el-73  el_after_av_one_half  el_before_av_heading  flex_column_div av-zero-column-padding "><div class="av-special-heading av-kcc2ji53-413bcfdf14577ddf05eb1423ecac5a11 av-special-heading-h3 blockquote modern-quote  avia-builder-el-74  el_before_av_hr  avia-builder-el-first  "><h3 class="av-special-heading-tag " itemprop="headline">Final Pre-Construction Residential Estimates</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k87mfjso-e2b6def56f0390927995fd49558f4533 hr-invisible  avia-builder-el-75  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Before the commencement of construction, an investor has comparative bids from contractors that should get verified by a 3rd party estimate. Our estimates provide you with quality control of bids to verify that the bids comply with the market value to help in negotiating and getting bids from GCs and subcontractors.</p>
+        </div></section>
+        <div class="av-special-heading av-kcc2jntu-72644bf2b760a1d9f7a1e6a69d82854e av-special-heading-h3 blockquote modern-quote  avia-builder-el-77  el_after_av_textblock  el_before_av_hr  "><h3 class="av-special-heading-tag " itemprop="headline">Multi-Family <span class="special_amp">&amp;</span> Apartment Residential Estimates</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k87mfjso-e2b6def56f0390927995fd49558f4533 hr-invisible  avia-builder-el-78  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Many large projects especially multi-use family or apartment residential estimates are absolutely critical for the success of a profitable outcome before an investment goes in vain. We not only provide estimates but also assist in value engineering and pinpoint items and trades that bring huge costs and cut down the developer’s profit.</p>
+        </div></section></div>
+        <div class="av-special-heading av-dv998-222298e5d19d4ce9355d6a0e08a509c6 av-special-heading-h2 blockquote modern-quote  avia-builder-el-80  el_after_av_one_half  el_before_av_hr  "><h2 class="av-special-heading-tag " itemprop="headline">FOR RESIDENTIAL ARCHITECTS AND RESIDENTIAL DESIGNERS</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="hr av-k87mfjso-121aa34add5d0f0ce907872085791e21 hr-invisible  avia-builder-el-81  el_after_av_heading  el_before_av_one_full  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <div class="flex_column av-am9u0-bbd4af238163bcb9fa96309a9705287f av_one_full  avia-builder-el-82  el_after_av_hr  el_before_av_heading  first flex_column_div av-zero-column-padding "><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Whether designing a new home or remodel, some of the most time-consuming tasks are going back to redoing design work after an architect design doesn’t meet your client’s budget for the project. We help architects throughout the design phase. Our estimators work on schematic, conceptual, design development, and final construction documents to design estimates for architects and designers.</p>
+        </div></section></div>
+        <div class="av-special-heading av-12v6k-eab0e942ed9fb1d66bf66d5c170141c7 av-special-heading-h2 blockquote modern-quote  avia-builder-el-84  el_after_av_one_full  el_before_av_hr  "><h2 class="av-special-heading-tag mt-4 " itemprop="headline">Focus on Growing your Business and Let Us Help You With Your Quotes <span class="special_amp">&amp;</span> Estimates!</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+        <div class="row text-start my-5">
+    
+    <!-- Step 1 -->
+    <div class="col-md-4">
+      <h4>1. Upload your plans</h4>
+      <hr>
+      <p>
+        Upload your drawing plans and specifications that can be Bid set, Schematic, Design Development, Construction document, or conceptual drawings in the following formats: .PDF, .TIF, .TIFF, .DXF, .DWF, .DWG, .JPG, .PLN, JPEG, .OSX, .CPC, .DJVU, .CAL
+      </p>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="col-md-4">
+      <h4>2. Get a quote</h4>
+      <hr>
+      <p>
+        You will quickly get a quote consisting of the invoice, turnaround time, and delivery date that you can pay via Credit Card or Debit Card or PayPal.
+      </p>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="col-md-4">
+      <h4>3. Receive estimate</h4>
+      <hr>
+      <p>
+        Estimates will be delivered to you in EXCEL sheets comprising all the material and labor pricing categorized by divisions or CSI costs either in MasterFormat or your customized format.
+      </p>
+    </div>
+
+  </div>
+        <div class="hr av-k87mfjso-4a0d8a8bbfb2a7b8c5841f877ad9aac0 hr-invisible  avia-builder-el-98  el_after_av_one_third  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>At World estimating, residential estimating is the major portion of the work that we do, serving North American, Caribbean, and Australian regions. In the US, we serve the following markets: <u>Newyork</u>, <u>Florida</u>,&nbsp; Oklahoma,&nbsp; Minnesota, Tennessee, <u>Illinois</u>, <u>Texas</u>, <u>Georgia</u>, <u>Arizona</u>, Michigan, Missouri, Massachusetts,<u>Ohio</u>, Colorado,&nbsp; Indiana, Kentucky, Louisiana, Maryland,&nbsp; Alabama, Connecticut, <u>Pennsylvania</u>, <u>California</u>, Washington, South Carolina, <u>North Carolina</u>, Oregon, New Jersey, Virginia.</p>
+        <div id="gtx-trans" style="position: absolute; left: 489px; top: 168.333px;">
+        <div class="gtx-trans-icon"></div>
+        </div>
+        </div></section>
+
+       
+        </div>
+
+      </div>
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+
+        <div class="price-sidebar">
+          <a href="#">Cost Estimating</a>
+          <a href="#">Outsource Estimating</a>
+          <a href="#">BIM Estimating Services</a>
+          <a href="#">Budget Estimating Services</a>
+          <a href="#">Commercial Estimating</a>
+          <a href="#">Industrial Estimating</a>
+          <a href="#">Residential Estimating Services</a>
+          <a href="#">Preliminary Estimating Services</a>
+          <a href="#">Construction Estimating Consultant</a>
+          <a href="#">Construction Takeoff Services</a>
+          <a href="#">CPM Scheduling Services</a>
+          <a href="#">Dedicated Construction Cost Estimator</a>
+          <a href="#">Freelance Construction Estimating</a>
+          <a href="#">Mechanical Insulation Estimating Services</a>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+        <div class="price-contact-box ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+  <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+    <div class="row">
+      
+      <!-- World Estimating -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+        <ul class="list-unstyled footer-links">
+          <li><a href="../ourtrader.html">Our Trades</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="../about.html">About Us</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../aboutu/faqs.html">FAQs</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="../js.js/script.js"></script>
+</body>
+</html>
