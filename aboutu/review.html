@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+    .avia-testimonial-row {
+        margin-top: 30px;
+          background: whitesmoke;
+    padding: 28px;
+    border: 1px solid #d6d6d6 !important;
+    }
+    .avia-testimonial-row p{
+        font-size: 18px;
+    }
+
+</style>
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+        <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+        <!-- <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li><a class="dropdown-item" href="../services.html#estimation">Estimation</a></li>
+            <li><a class="dropdown-item" href="../services.html#consulting">Consulting</a></li>
+            <li><a class="dropdown-item" href="../services.html#design">Design</a></li>
+            <li><a class="dropdown-item" href="../services.html">All Services</a></li>
+          </ul> -->
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block" href="../ourtrader.html">OUR TRADES</a>
+
+          <!-- <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item" href="../ourtrader.html#residential">Residential</a></li>
+            <li><a class="dropdown-item" href="../ourtrader.html#commercial">Commercial</a></li>
+            <li><a class="dropdown-item" href="../ourtrader.html#industrial">Industrial</a></li>
+            <li><a class="dropdown-item" href="../ourtrader.html">All Trades</a></li>
+          </ul> -->
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block active" href="../about.html">About us </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li><a class="dropdown-item active" href="../aboutu/review.html">Reviews</a></li>
+            <li><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+<div class="container my-5">
+ <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+      <div class="entry-content-wrapper clearfix"><div class="flex_column av-xhidzc-45a96d7c8e1681cffbb8f01b9b0de718 av_one_full  avia-builder-el-0  el_before_av_one_full  avia-builder-el-first  first flex_column_div av-zero-column-padding "><div class="av-special-heading av-knf0ffcf-4695489d6d30c1861cd8a2e83f8114f2 av-special-heading-h1 blockquote modern-quote  avia-builder-el-1  avia-builder-el-no-sibling  "><h1 class="av-special-heading-tag mb-5" itemprop="headline">Our Reviews</h1><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div class="flex_column av-vrq0tk-1dc1712812505a0cf7e2204ed9b31f27 av_one_full  avia-builder-el-2  el_after_av_one_full  el_before_av_one_full  first flex_column_div av-zero-column-padding column-top-margin"><div class="avia-testimonial-wrapper av-knf11dsq-47d521d9668810fc4b889ec14cadb019 avia-grid-testimonials avia-grid-1-testimonials avia_animate_when_almost_visible custom_reviews avia_start_animation" data-autoplay="1" data-interval="5" data-animation="fade" data-hoverpause="1">
+<section class="avia-testimonial-row"><div class="avia-testimonial av-urtl1k-ef695d53a92faa7a6abd026fb66e4be5 avia-testimonial-row-1 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>World Estimating is the solution we have been looking for and have finally found. We have used their services on two projects thus far and have been pleased with not only the work, but the turn around time, their willingness to work with us, the end results and the ease of use.</p>
+<p>We highly recommend World Estimating for estimating services on all your mid to large scale construction projects! Don’t even hesitate for a second. We have benefitted greatly!</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">MEP Giants</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-2x4maw-0832a0985a574708a97d4e8c04cc4455 avia-testimonial-row-2 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>World Estimating is the solution we have been looking for and have finally found. We have used their services on several projects thus far and have been pleased with not only the work, but the turn around time, their willingness to work with us. Such a pleasure doing business with Shawn.</p>
+<p>We highly recommend World Estimating for estimating services on all your mid to large scale construction projects! Don’t even hesitate for a second. We have benefitted greatly!</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">All Builders</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-rri6yg-5cbb41e563d639f51929e6c43d00163c avia-testimonial-row-3 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>Howdy!!!!  We are really happy by working with this company. Its been 5 months we are with this company and they helped us a lot in winning bids. They are really professional Thanks! Really appreciate Shawn and his team.</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">Pro Contractors</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-pqvyaw-b659a1194da6e06f2778bd52380d5b86 avia-testimonial-row-4 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>I’ve known this guy for a long time… He is very professional and provides detailed breakdown with his accurate estimates. The most importantly he is there when you need him, even with last minute cost estimate projects. Thanks</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">Jon Russel</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-onnwyw-40081ab1fc71c3df6a8d1a1ed867737c avia-testimonial-row-5 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>I highly recommend World Estimating. As a Commercial Broker myself, I assist my clients when it comes to assisting in buildout costs and realistic budgets. World Estimating is always on time, extremely Accurate, and Always exceeds my expectations! Hands down the best Construction Estimating source out there!</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">Tom Harry</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-mzl2bc-3ad5c6dcd7d99095cc66edcaccf1d201 avia-testimonial-row-6 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>Great dealing with Shawn I needed an estimate of HVAC and received my estimate on time. I’m Really satisfied with them.</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">Kim S</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-7kbeg-52c5bf4e8711a57bbc71df939e4dc66a avia-testimonial-row-7 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>You guys help with this estimate was really appreciated…and just what we needed. We were able to forward it to the right person and everyone was impressed. Can’t thank you enough. We’ll be in touch again soon.</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">chris john</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-jqnqtk-cd192010320f15629b9f2d7dab519584 avia-testimonial-row-8 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>We have been using World Estimating services for several months now and have always found their service exceptional. Plans have been priced quickly and accurately enabling us to win a number of bids. I would have no hesitation in recommending World Estimating.</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">Brian Brown</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-hinq9k-f1f25541c3d78fb9abbccfc7de9291dc avia-testimonial-row-9 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>World Estimating has been a valued part of our development team over the last few years. Their cost and quantity estimates are thorough and well documented and are a reliable part of our budgeting process which is critical to our land acquisitions. We fully endorse World Estimating cost estimating services.</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">Kathy Finch</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-ftqnnc-a0dc32e551447cdaafbeccf127ed47c7 avia-testimonial-row-10 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>World Estimating is by far the fastest and most professional estimating service I’ve had the pleasure of working with in the construction business. There work was of high quality and I received the estimates I needed promptly. Communication was easy and always done in a timely manner, and any changes I needed were done almost immediately. I look forward to sending them my future business.</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">AimsBuilding GC</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-desigo-5bc61ee47bb89661b04a6310adeff126 avia-testimonial-row-11 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>Surely the best estimating company in the area and everytime I reach out to them, they provide accurate servivce within least turnarounds.</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">official Wes</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-c0ab7s-d8721e060df50fcd513d19c2ada2a240 avia-testimonial-row-12 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>You guys are awsome. I tried a lot of estimating companies but you guys rock. Fast delivery and competitive bids. I think no one can provide such quality estimates in NY &amp; California. I will definitely recommend you guys to other contractors.</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">Ted Taniyama</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-aahawo-9b73e4e4265f8c9ef5037f866e4b13ee avia-testimonial-row-13 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>Excellent team, and quality work. It’s been more than 6 months our company is working with world estimating and we won a lot of bids.</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">FiveStar Painting</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-8hycd4-d0f0322b060feecd01e0fae3b802262b avia-testimonial-row-14 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>The estimates are very accurate and they charge very economical. I loved their service and bought a monthly package from them of $2500 and estimated 7 Jobs out of that I won 3 jobs. I was very close to the winners iin remaining 4 out of 7. Highly recommended</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">Alex Parker</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-75cxyw-cce56d91f5b57d246fe1a292cd2857d7 avia-testimonial-row-15 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>“Very good Response Times. Very good Turn Around Time. On Time…Every time. Very detail Oriented. Works with me to Ensure our Estimates are just the way we need them. Very competitive Prices.”</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">Jony smith</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-687qq0-c0a9b3d97fc61c3cc7357412c776f32b avia-testimonial-row-16 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>Thanks for a detailed take off it was very much appreciated.  All the information helped me put forth a solid quote to my customer.  Look forward working with on the next project</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">Carlton Smith</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-f73dk-9e4bb230344cb8a7b47d3591ee62c688 avia-testimonial-row-17 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>quality services with less turnaround time of 38 hours.<br>
+Very accurate MEP estimate services. Highly recommended.<br>
+Nathaniel great job.</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">Shawn james</strong></div></div></div></div></section>
+<section class="avia-testimonial-row"><div class="avia-testimonial av-a54g8-a11bd3d1b177d33b131af5c802fb2b4f avia-testimonial-row-18 avia-first-testimonial flex_column no_margin av_one_full avia_start_animation"><div class="avia-testimonial_inner" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia-testimonial-content "><div class="avia-testimonial-markup-entry-content" itemprop="text"><p>The company World Estimating llc is very professional company. As a general contractor I rely on them to ensure plan take offs are of a high standard. I am very confident to recommending World Estimating Services.</p>
+</div></div><div class="avia-testimonial-meta"><div class="avia-testimonial-arrow-wrap"><div class="avia-arrow"></div></div><div class="avia-testimonial-meta-mini" itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person"><strong class="avia-testimonial-name" itemprop="name">Thomas jame</strong></div></div></div></div></section>
+</div></div>
+<div class="flex_column av-1vl8m0-f91b72af4e92b913042214b95feaa1b7 av_one_full  avia-builder-el-4  el_after_av_one_full  avia-builder-el-last  first flex_column_div av-zero-column-padding column-top-margin"><section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text">
+<div class="wpcf7 js" id="wpcf7-f5215-p5208-o1" lang="en-US" dir="ltr" data-wpcf7-id="5215">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+ <form class="my-5">
+          <div class="mb-3">
+            <label class="form-label">Your Name</label>
+            <input type="text" class="form-control test-input">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Company</label>
+            <input type="text" class="form-control test-input">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Your Email (required)</label>
+            <input type="email" class="form-control test-input" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Your Cell (required)</label>
+            <input type="tel" class="form-control test-input" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Subject</label>
+            <input type="text" class="form-control test-input" value="Construction Estimates">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Your Message</label>
+            <textarea rows="5" class="form-control test-input"></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark px-4 test-btn">Send</button>
+        </form>
+</div>
+</div></section></div>
+</div>
+
+      </div>
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+
+        <div class="price-sidebar">
+          <a href="#">Concrete Estimating</a>
+          <a href="#">Electrical Estimating Services</a>
+          <a href="#">Interior & Exterior Finishes</a>
+          <a href="#">Masonry Estimating</a>
+          <a href="#">MEP Estimating Services</a>
+          <a href="#">Metals Estimating Services</a>
+          <a href="#">Openings Estimating Services</a>
+          <a href="#">Sitework Estimating Services</a>
+          <a href="#">Thermal & Moisture Protection Estimating Services</a>
+          <a href="#">Lumber Takeoff</a>
+        </div>
+          <div class="price-contact-box my-4 ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+      
+      </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+        <div class="row">
+            
+            <!-- World Estimating -->
+            <div class="col-md-3 mb-4">
+                <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+        <ul class="list-unstyled footer-links">
+          <li><a href="#">Our Trades</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="./js.js/script.js"></script>
+</body>
+</html>

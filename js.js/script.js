@@ -51,3 +51,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+ document.querySelectorAll('.nav-item.dropdown > a').forEach(function (dropdownLink) {
+    dropdownLink.addEventListener('click', function (e) {
+      let parent = this.parentElement;
+
+      // Agar dropdown already open hai to route karein
+      if (parent.classList.contains('show')) {
+        window.location.href = this.getAttribute('href');
+      }
+    });
+  });

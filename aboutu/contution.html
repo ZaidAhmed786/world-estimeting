@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+    .avia-testimonial-row {
+        margin-top: 30px;
+          background: whitesmoke;
+    padding: 28px;
+    border: 1px solid #d6d6d6 !important;
+    }
+    .avia-testimonial-row p{
+        font-size: 18px;
+    }
+
+</style>
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+        <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+          <!-- <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li><a class="dropdown-item" href="../services.html#estimation">Estimation</a></li>
+            <li><a class="dropdown-item" href="../services.html#consulting">Consulting</a></li>
+            <li><a class="dropdown-item" href="../services.html#design">Design</a></li>
+            <li><a class="dropdown-item" href="../services.html">All Services</a></li>
+          </ul> -->
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block" href="../ourtrader.html">OUR TRADES</a>
+
+          <!-- <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item" href="../ourtrader.html#residential">Residential</a></li>
+            <li><a class="dropdown-item" href="../ourtrader.html#commercial">Commercial</a></li>
+            <li><a class="dropdown-item" href="../ourtrader.html#industrial">Industrial</a></li>
+            <li><a class="dropdown-item" href="../ourtrader.html">All Trades</a></li>
+          </ul> -->
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block active" href="../about.html">About us </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li><a class="dropdown-item" href="../aboutu/review.html">Reviews</a></li>
+            <li><a class="dropdown-item active" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+<div class="container my-5">
+ <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+ <div class="entry-content-wrapper clearfix"><div class="flex_column av-gp7r4-9733167a426c0a5d9303d14ed3ee3463 av_one_full  avia-builder-el-0  el_before_av_textblock  avia-builder-el-first  first flex_column_div av-zero-column-padding "><div class="av-special-heading av-kbumrlid-4234e8f7345fd378007ef7dc85505764 av-special-heading-h1 blockquote modern-quote  avia-builder-el-1  el_before_av_hr  avia-builder-el-first  "><h1 class="av-special-heading-tag " itemprop="headline">Construction Management Services</h1><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<div class="hr av-kbumk53c-0f3014bfe9c2eefa059231eab3822875 hr-invisible  avia-builder-el-2  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text">
+    <div class="row   mt-5">
+        <div class="col-sm-6">
+
+            <p>Stay ahead by acquiring our construction cost management services to ensure that your team is hitting the target budget.</p>
+            
+            <p>Project cost management refers to the set of activities employed to estimate, designate, and manage the cost of the construction project by analyzing the scope and productivity with regard to the stated budget limits. It ensures maximum efficiency throughout the entire lifecycle of the project and overrules the effect of cost overruns and time delays.</p>
+        </div>
+        <div class="col-sm-6">
+            <img decoding="async" class=" wp-image-481 alignright img-fluid" src="https://worldestimating.com/wp-content/uploads/2019/12/project-cost-management-845x667.jpg" alt="Construction Management Services" >
+        </div>
+            
+    </div>
+        <p>World estimating being an integrated construction estimating and cost management consultancy, thoroughly understands the challenges of construction companies and the expectations of their clients. Our years of experience in the industry and in-depth knowledge help us to identify our client’s goals, accompany them in their project’s planning, execution, and completion, and strategize their business decisions.</p>
+</div></section></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Our expert quantity surveyors and cost managers remain fully involved with the project teams from feasibility analysis, design and development, documentation,pre-construction planning, and construction to closeout rendering cost estimation and cost budgeting and control services. We have a diverse portfolio of working with residential, commercial, industrial, and civil projects in both private and public sectors.</p>
+</div></section>
+<div class="hr av-kb9jip3o-e42c9066875f004d169497c2acc067cf hr-invisible  avia-builder-el-5  el_after_av_textblock  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h5 class="py-3"><span style="color: #ff0000;">Contact us now for construction cost management services and get 30% off!</span></h5>
+</div></section>
+<div class="flex_column av-kpjx6f-7ba75abd0f5a65814e62f3e8738bbbfb av_one_full  avia-builder-el-7  el_after_av_textblock  el_before_av_heading  first flex_column_div av-zero-column-padding column-top-margin"><div class="hr av-k74ptlmj-17bfbe58a4b7375582a753dad50e647e hr-invisible  avia-builder-el-8  el_before_av_textblock  avia-builder-el-first  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h5 class="pb-3"><span style="color: #ff0000;">Or just upload plans in the below link, we will review and send a quote in next 5 minutes:</span></h5>
+<div class="flex_column av_one_full  flex_column_div av-zero-column-padding first  avia-builder-el-10  el_after_av_one_full  el_before_av_one_full  column-top-margin">
+<div class="hr hr-invisible   avia-builder-el-11  el_before_av_button  avia-builder-el-first "></div>
+</div>
+</div></section>
+<section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	 <div class="text-center py-5"><button class="price-upload-btn   ">Upload Plans</button></div>
+</center></div></section>
+<div class="hr av-kbkyro4t-c49685e4fda672f398ba35de09bb8b16 hr-invisible  avia-builder-el-11  el_after_av_codeblock  avia-builder-el-last  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div></div><div class="av-special-heading av-exx7c-f65239dae03ce83480bb466a1144127e av-special-heading-h2 blockquote modern-quote  avia-builder-el-12  el_after_av_one_full  el_before_av_hr  "><h2 class="av-special-heading-tag " itemprop="headline">Why is project cost management important in the construction industry?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div><p></p>
+<div class="hr av-kbkyro4t-c49685e4fda672f398ba35de09bb8b16 hr-invisible  avia-builder-el-13  el_after_av_heading  el_before_av_one_half  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div class="flex_column av-ecpbc-818ef4a51679ac8343ba6d00bbacdbe1 av_one_half  avia-builder-el-14  el_after_av_hr  el_before_av_one_half  first flex_column_div av-zero-column-padding "><div class="avia-image-container av-k4pe07he-f1092bc7b5c00d3273e33128431e9219 av-styling- avia-align-center  avia-builder-el-15  avia-builder-el-no-sibling  " itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject"><div class="avia-image-container-inner"><div class="avia-image-overlay-wrap"></div></div></div></div>
+<div class="flex_column av-agmvk-5b57cbb55372a2dc9caebb8be4911cf0 av_one_half  avia-builder-el-16  el_after_av_one_half  el_before_av_hr  flex_column_div av-zero-column-padding "><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text">
+    <div class="row ">
+       <div class="col-sm-6">
+          <img fetchpriority="high" decoding="async" class="wp-image-486 avia-img-lazy-loading-not-486 avia_image img-fluid" src="https://worldestimating.com/wp-content/uploads/2019/12/pcm.jpg" alt="Project Cost Management System" title="pcm" height="667" width="1000" itemprop="thumbnailUrl" srcset="https://worldestimating.com/wp-content/uploads/2019/12/pcm.jpg 1000w, https://worldestimating.com/wp-content/uploads/2019/12/pcm-300x200.jpg 300w, https://worldestimating.com/wp-content/uploads/2019/12/pcm-768x512.jpg 768w, https://worldestimating.com/wp-content/uploads/2019/12/pcm-705x470.jpg 705w" >
+        </div>
+            
+        <div class="col-sm-6">
+
+            <p>Stay ahead by acquiring our construction cost management services to ensure that your team is hitting the target budget.</p>
+            
+            <p>Project cost management refers to the set of activities employed to estimate, designate, and manage the cost of the construction project by analyzing the scope and productivity with regard to the stated budget limits. It ensures maximum efficiency throughout the entire lifecycle of the project and overrules the effect of cost overruns and time delays.</p>
+        </div>
+     
+    </div>
+</div></section></div>
+<div class="hr av-kb9jip3o-fa354283850cc3302112195e5db5899e hr-invisible  avia-builder-el-18  el_after_av_one_half  el_before_av_heading  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div class="av-special-heading av-9k21c-d7cbd318a533c33d67bda7ae1f8cdb75 av-special-heading-h2 blockquote modern-quote  avia-builder-el-19  el_after_av_hr  el_before_av_hr  "><h2 class="av-special-heading-tag " itemprop="headline">By achieving effective project cost management practices, you can:</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<div class="hr av-kb9jip3o-fa354283850cc3302112195e5db5899e hr-invisible  avia-builder-el-20  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><ul>
+<li>Set clear objectives for all the stakeholders involved in the project</li>
+<li>Track project progress to aid in taking the corrective measures instantly</li>
+<li>Attain good markup, increase return on investment, and mitigate the risk of losing money.</li>
+<li>Develop data to benchmark for future projects</li>
+<li>Empowers the extensive features of the project planning including pre-plan, feasibility, operating cost, commissioning, risk analysis, contingency, design, development, maintenance, etc.</li>
+</ul>
+</div></section>
+<div class="hr av-kb9jip3o-fa354283850cc3302112195e5db5899e hr-invisible  avia-builder-el-22  el_after_av_textblock  el_before_av_one_full  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div class="flex_column av-h9314-10426a00da602a8ac9b151ac4ba67656 av_one_full  avia-builder-el-23  el_after_av_hr  el_before_av_one_full  first flex_column_div av-zero-column-padding "><div class="av-special-heading av-iiz1c-6d53e8c2620eef47eb28ac79501a9392 av-special-heading-h2 blockquote modern-quote  avia-builder-el-24  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">Why choose us?</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<div class="hr av-kb9jip3o-fa354283850cc3302112195e5db5899e hr-invisible  avia-builder-el-25  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Our construction cost management plan comprises all the details on how project costs will be managed throughout the entire lifecycle of the project. It clearly states the criteria by which the costs are evaluated, reported, updated, and identifies all the stakeholders involved in the particular phase of the project. The process starts with estimating all the costs including costs for acquiring land, planning, design, labor, material, contingency, maintenance, etc. Then leading to budget scheduling, managing costs, and analyzing progress at various project milestones.</p>
+<p>At World estimating, we offer the most effective management of funds and resources in order to achieve the project’s milestones within budget and time.</p>
+<ul>
+<li>Cost-effective rates and fastest turnaround times.</li>
+<li>We have a track record of creating highly precise and comprehensive cost estimates while considering our client’s expectations and design requirements. This ensures that estimated figures meet the final actual cost to the maximum.</li>
+<li>If at any stage, project cost exceeds the budget limit, we employ value engineering to set the project back on track. While working closely with the designers, our cost managers make sure that all their requirements and considerations are fully met before the next stage starts.</li>
+<li>Our quantity surveyors perform accurate estimates for labor and material at regular intervals during the construction to develop the cost performance report. If the estimate shows price fluctuations from the initial estimate then cost updates are applied after approval from the owner.</li>
+<li>We properly organize all the costs involved in the project like direct, indirect, fixed, variable costs, etc. that at any time our client can easily visualize and foresee the project costs.</li>
+</ul>
+</div></section></div>
+<div class="flex_column av-h9314-10426a00da602a8ac9b151ac4ba67656 av_one_full  avia-builder-el-27  el_after_av_one_full  el_before_av_one_full  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-ftq9k-1d38d29e1b4faddc4625cd5c61f20e03 av-special-heading-h2 blockquote modern-quote  avia-builder-el-28  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">Our Construction Cost Management Services</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<div class="hr av-kb9jip3o-fa354283850cc3302112195e5db5899e hr-invisible  avia-builder-el-29  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p><strong>Cost planning and control –</strong> initially defines the cost plan and then monitor, report, update and control the cost variations to ensure the on-budget project delivery</p>
+<p><strong>Contract analysis –</strong> advice on contract procedures to assure it adds value, meets the requirements to avoid risks.</p>
+<p><strong>Construction Cost Estimating – preliminary</strong> estimates, design estimates, budget estimates, quantity take-offs, bid estimates</p>
+<p><strong>Feasibility study –</strong> gives the initial idea to decide if it is profitable to invest time and resources in the project</p>
+<p><strong>Bid management – </strong>assistance with bidding process including bid filling and management of bidding network profile</p>
+<p><strong>Risk analysis and management – </strong>evaluating risks and advice to alleviate its effect on project cost and schedule</p>
+<p><strong>Life-cycle costing –</strong> providing cost estimates, budgeting and cost control services throughout the entire lifecycle of the project from preconstruction to closeout</p>
+<p><strong>Cost benchmarking – </strong>better cost control by improving efficiency and mitigating risk using benchmarking data</p>
+<p><strong>Value engineering – </strong>employing a well-planned approach to reduce costs while adding value and maintaining the quality of the project</p>
+</div></section></div>
+<div class="flex_column av-h9314-10426a00da602a8ac9b151ac4ba67656 av_one_full  avia-builder-el-31  el_after_av_one_full  el_before_av_promobox  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-6obgw-b7c9ab178e8844880ee558fc286f12b8 av-special-heading-h2 blockquote modern-quote  avia-builder-el-32  el_before_av_hr  avia-builder-el-first  "><h2 class="av-special-heading-tag " itemprop="headline">Our Service Areas </h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<div class="hr av-kb9jip3o-fa354283850cc3302112195e5db5899e hr-invisible  avia-builder-el-33  el_after_av_heading  el_before_av_textblock  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>World estimating is US-based construction estimating consultancy working on projects throughout the North American region as well as the Caribbean and Australian regions. In the US, we provide services in the following markets: New York, Florida, Texas, New Jersey, California, Pennsylvania, Illinois, Arizona, Georgia, North Carolina, South Carolina, Michigan, Virginia, Washington, Massachusetts, Missouri, Maryland, Colorado, Indiana, Teeneese, Minnesota, Alabama, Kentucky, Connecticut, Oklahoma, Oregon, Louisiana.</p>
+</div></section></div>
+
+</div>
+
+      </div>
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+
+        <div class="price-sidebar">
+          <a href="#">Cost Estimating</a>
+          <a href="#">Outsource Estimating</a>
+          <a href="#">BIM Estimating Services</a>
+          <a href="#">Budget Estimating Services</a>
+          <a href="#">Commercial Estimating</a>
+          <a href="#">Industrial Estimating</a>
+          <a href="#">Residential Estimating Services</a>
+          <a href="#">Preliminary Estimating Services</a>
+          <a href="#">Construction Estimating Consultant</a>
+          <a href="#">Construction Takeoff Services</a>
+          <a href="#">CPM Scheduling Services</a>
+          <a href="#">Dedicated Construction Cost Estimator</a>
+          <a href="#">Freelance Construction Estimating</a>
+          <a href="#">Mechanical Insulation Estimating Services</a>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+        <div class="price-contact-box ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+        <div class="row">
+            
+            <!-- World Estimating -->
+            <div class="col-md-3 mb-4">
+                <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+        <ul class="list-unstyled footer-links">
+          <li><a href="#">Our Trades</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="./js.js/script.js"></script>
+</body>
+</html>
