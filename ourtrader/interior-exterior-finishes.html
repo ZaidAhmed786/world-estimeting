@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+    p{
+    font-size: 18px;
+  }
+  li{
+    font-size: 18px;
+  }
+</style>
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+        <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/construction-estimating.html">Construction Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/residential-estimating.html">Residential Estimating</a></li>
+          </ul>
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block active" href="../ourtrader.html">OUR TRADES</a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/concrete-estimating.html">Concrete Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/electrical-estimator.html">Electrical Estimator</a></li>
+            <li class="mt-2"><a class="dropdown-item ative active"  href="../ourtrader/interior-exterior-finishes.html">Interior & Exterior <br>
+                Finishes
+            </a></li>
+          </ul>
+          
+
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+           <a class="nav-link d-none d-lg-inline-block " href="../about.html">ABOUT US </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li class="mt-2"><a class="dropdown-item " href="../aboutu/review.html">Reviews</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+  
+
+  <div class="container my-5">
+  <main role="main" class="content">
+    <div class="row">
+      <div class="col-12 ">
+        <h1 class="mb-4">CONCRETE ESTIMATING AND TAKEOFF SERVICES</h1>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row align-items-center mt-4">
+      <!-- Image -->
+      
+
+      <!-- Text -->
+      <div class="col-md-7">
+        <p>
+        Interior and exterior finishes estimations are very important for the construction of buildings. Painting, stucco, plaster, specialized coatings estimates are necessary for winning bids and quoting a price to the client for contractors. They normally demand for bid and material takeoffs for ordering and procuring material.
+        </p>
+        <p>
+        Accuracy matters a lot when contractors are held responsible for any shortcoming in the estimate, therefore experience, professionalism and ability along with ensured practices are maintained by the estimation company. Hence, relying on outsourcing the estimates and cutting down your in-house costs always save expenditure if and only if accuracy is established and promised.
+        </p>
+      </div>
+      <div class="col-md-5 text-center">
+        <img 
+          src="../image/ourtrade/interior-finshes.webp" 
+          alt="Concrete Estimating Services" 
+          class="img-fluid rounded shadow">
+      </div>
+      <p class="mt-4">Metallics, Patinas & chrome, interior & exterior finishes work always costs a lot and waste is always dumped when excess is ordered and expenses are credited to the contractor so to avoid wastage, accurate takeoff is required which is only possible when the contractor is provided with exact accurate estimate and pricing.</p>
+    </div>
+  </main>
+</div>
+
+
+<div class="container my-5">
+ <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+  <div class="entry-content-wrapper clearfix">
+<div class="flex_column av-epa313-6df9914f166f96d12bf8b2466e24a7f5 av_one_full  avia-builder-el-5  el_after_av_section  el_before_av_one_full  avia-builder-el-first  first flex_column_div "><div class="av-special-heading av-eioik7-4bff72858b27e25662b74e1b621d1a45 av-special-heading-h3 custom-color-heading blockquote modern-quote modern-centered  avia-builder-el-6  avia-builder-el-no-sibling  "><h5 class="text-center text-danger" itemprop="headline">Contact Us Today And Get 30% Off On Your First Cost Estimate!</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div class="flex_column av-e8qel3-966a4c3b689bf92c348f4fad3aac21e3 av_one_full  avia-builder-el-7  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	 <div class="text-center my-5"><button class="price-upload-btn  ">Upload Plans</button></div>
+</center></div></section></div>
+<div class="flex_column av-1e49z3-866b8fab8f4e75bc1840b7a6a125fc46 av_one_full  avia-builder-el-9  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><div class="av-special-heading av-1dkphz-0e93a762e2bd1cb8150c676ee2f1003e av-special-heading-h2 blockquote modern-quote  avia-builder-el-10  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag " itemprop="headline">THE RANGE OF FINISHES ESTIMATING SERVICES</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+  
+      <!-- Question -->
+      
+      <!-- Answer -->
+      
+        <div class="row">
+          <!-- Col 1 -->
+          <div class="col-md-3">
+           <ul>
+            <li class="mt-2">Material Takeoffs</li>
+            <li class="mt-2">Flooring Estimates</li>
+            <li class="mt-2">Painting Estimates</li>
+            </ul>
+          </div>
+
+          <!-- Col 2 -->
+          <div class="col-md-3">
+        <ul>
+            <li class="mt-2">Ceiling Estimates</li>
+            <li class="mt-2">Drywall Estimates</li>
+            <li class="mt-2">Stucco Estimates</li>
+            </ul>
+          </div>
+
+          <!-- Col 3 -->
+          <div class="col-md-3">
+           <ul>
+                <li class="mt-2">Bid Estimate</li>
+                <li class="mt-2">Bid Reviews</li>
+                <li class="mt-2">Budget Estimate</li>
+                </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+            <li class="mt-2">Change Order Estimate</li>
+            <li class="mt-2">Project Lead Generation</li>
+            <li class="mt-2">Subcontractor Marketing</li>
+            </ul>
+          </div>
+     
+      
+    </div>
+ <div class="row align-items-center my-5">
+      
+      <!-- Left Content -->
+      <div class="col-md-7">
+        <h2 class="">
+          Outsource your finishes estimating services to us and submit more bids, improve accuracy, and increase your profit margins. Get 30%off on your first estimate!
+        </h2>
+        <p>
+          Or Just Upload Plans In The Below Link, We Will Review And Send A Quote In Next 5 Minutes:
+        </p>
+     <div class="my-2"><button class="price-upload-btn  ">Upload Plans</button></div>
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-md-5 text-center">
+        <img src="https://worldestimating.com/wp-content/uploads/2019/12/exterior-finshes.jpg" 
+             alt="masonry construction takeoffs" 
+             class="img-fluid rounded shadow">
+      </div>
+
+    </div><!--close column table wrapper. Autoclose: 1 -->
+
+<div class="flex_column av-bfrxjb-58a845455d53f84764fb7f7a1d9a07e5 av_one_full  avia-builder-el-23  el_after_av_hr  el_before_av_one_half  first flex_column_div "><div class="av-special-heading av-ba5dvb-1e13718db81a0b11b926bbf0497df557 av-special-heading-h2 blockquote modern-quote  avia-builder-el-24  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag " itemprop="headline">FLOORING ESTIMATING SERVICES</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<!-- Font Awesome -->
+
+<p>At World Estimating, we strive to provide expert material takeoffs and cost estimates for flooring contractors, flooring installation companies, carpet mills, architects, designers, and manufacturers. Our highly accurate flooring estimating services are tailored to minimize waste keeping in mind all the patterns, inlays, and design elements.</p>
+<p>With the ability to handle the complex patterns and inlays, we have successfully delivered flooring estimates including access flooring, stair details, stair nosing, etc for multi use residential buildings, commercial buildings, apartments, hotels, restaurants, schools, hospitals, arenas, banks, libraries, stores, etc.</p>
+<p>Our expert flooring estimators are well versed with Planswift, Oncenter, Bluebeam, etc to perform the right material takeoff and reach the right figures. We also contribute to provide easy to follow seeming diagrams for flooring installers.</p>
+<p><strong>Our flooring estimate deliverables include:</strong></p>
+<ul>
+<li class="mt-2">Digital flooring takeoff file</li>
+<li class="mt-2">Material spreadsheet</li>
+<li class="mt-2">Color-coded plans</li>
+<li class="mt-2">Seaming diagrams</li>
+<li class="mt-2">Takeoff summary including total square feet, seaming &amp; welding linear feet, wall base, stair information, etc</li>
+<li class="mt-2">Review of bid documents and addendums</li>
+</ul>
+
+<div class="row my-5">
+<p><strong>We provide the flooring takeoffs along with wainscoting, wall base, wall tiles quantities, and quantify the following trades:</strong></p>
+
+
+    <!-- Left Column -->
+    <div class="col-md-6">
+      <ul class="list-unstyled fs-4">
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i>Broadloom Carpet
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i>Resinous Flooring
+
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Linoleum
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Stair tread & nosing
+        </li>
+        <li class="my-5  d-flex align-items-center">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> <div> Sealed concrete</div>
+        </li>
+         <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Rubber base
+        </li>
+         <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Terrazzo
+        </li>
+         <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i>Laminate Flooring
+        </li>
+         <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Leather Flooring
+        </li>
+         <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Dance Flooring
+        </li>
+         <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Fluid Applied Flooring
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-md-6">
+      <ul class="list-unstyled fs-4">
+        
+
+
+
+
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i>Vinyl Composite flooring
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i>Rubber flooring
+
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i>Wood flooring
+        </li>
+        <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i>Epoxy flooring
+        </li>
+        <li class="my-5  d-flex align-items-center">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> <div>Plank Flooring</div>
+        </li>
+         <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Athletic flooring system
+        </li>
+         <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Ceramic Tile
+        </li>
+         <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i>Mosaic Tile
+        </li>
+         <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Carpet Tiles
+        </li>
+         <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Resilient Tile
+        </li>
+         <li class="my-5 ">
+          <i class="fa fa-check-circle  fa-2xl me-2"></i> Cork Flooring
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="flex_column av-8je5fz-0ab1acc416166c3617f18af96fcfcb0e av_one_full  avia-builder-el-31  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><div class="avia-button-wrap avia-button-center  avia-builder-el-32  avia-builder-el-no-sibling "> <div class="text-center my-5"><button class="price-upload-btn  ">View Our Concrete Estimate Sample</button></div></div></div>
+<div class="flex_column av-84m0t3-24b360c7c665d836ef0c0ff6f4ef990e av_one_full  avia-builder-el-33  el_after_av_one_full  el_before_av_one_half  first flex_column_div column-top-margin"><div class="av-special-heading av-80z0rb-1c717d820d9f9f43594e5046d9635c05 av-special-heading-h2 blockquote modern-quote  avia-builder-el-34  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag " itemprop="headline">TPAINTING & COATING ESTIMATING SERVICES</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<p>Let us help you with the quick and accurate painting estimating services to improve your efficiency, increase bid hit ratio, and profit potential and save your time to handle your business growth. We have aced in providing painting estimates for residential, commercial, and industrial projects.</p>
+<p>With the use of the latest software technology and practical knowledge, we have empowered interior & exterior painting contractors with the exact figures to produce the quality bid estimates to land on more jobs, and also minimize rework and wastage.</p>
+<p>In our painting takeoffs, we properly specify the amount of interior painting finishes for walls & ceiling, door/window, spindles, baseboards & chair rails, patching, crown molding, etc, and the amount used for exterior painting for siding, overhang, soffit, doors/windows, dormer, gables, shutters, guttering, flashing, concrete blocks, etc.</p>
+<div class="avia_textblock  " itemprop="text"><p><strong>Our painting estimate deliverables include:</strong></p>
+<ul>
+<li class="mt-2">Takeoff EXCEL spreadsheets</li>
+<li class="mt-2">Material &amp; Labor costs per SF</li>
+<li class="mt-2">Color-coded plans</li>
+<li class="mt-2">Labor hours</li>
+<li class="mt-2">Bid summary including total cost, overheads, profit percentage, etc and review of inclusions and exclusions</li>
+</ul>
+<p><strong>We offer a complete range of painting takeoffs including wall coverings &amp; floor coatings and quantify the following painting and coating finishes:</strong></p>
+<ul>
+<li class="mt-2">Graffiti-Resistant Coatings</li>
+<li class="mt-2">Fire-Retardant Coatings</li>
+<li class="mt-2">Elastomeric Coatings</li>
+<li class="mt-2">Special Coatings</li>
+<li class="mt-2">Concrete Coatings</li>
+<li class="mt-2">Stucco Coatings</li>
+<li class="mt-2">Masonry Coatings</li>
+<li class="mt-2">Elastomeric Coatings for Wall</li>
+<li class="mt-2">Mold Retardant Coatings</li>
+</ul>
+</div>
+</div></section>
+
+<div class="flex_column av-6wldqn-af33fc47d5c37188dfc98cd630dc9103 av_one_full  avia-builder-el-41  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><div class="av-special-heading av-6pec4f-d6e37d0aa327ca2e41f9c2ddbe1be0dd av-special-heading-h2 blockquote modern-quote  avia-builder-el-42  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag " itemprop="headline">DRYWALL ESTIMATING SERVICES</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div class="flex_column py-4 av-6i597b-6cc54a9b0b2b47a09a3aaa22ca9a3ef4 av_one_full  avia-builder-el-43  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock cust_bullets " itemprop="text"><div class="border-2 border p-4 mt-4">
+    <p>Drywall and ceiling contractors are the regular clients that reach to us for their interior & exterior finishes of framing, taping, and gypsum boards. Our takeoffs are accurate and help our clients not only in quoting marked-up prices to general contractors but also to their suppliers. Mosaic, tile, acoustical consultants, and athletics floor courts have to work so much apart from winning jobs and implementing the work at the site.
+        </p>
+    <span class="pt-4"><strong>Click here </strong> to learn more about our drywall estimating services.</span>
+    </div>
+    <div class="border-2 border p-4 mt-4">
+        <h3>CEILING ESTIMATING SERVICES:</h3>
+   <ul>
+<li class="mt-2">Acoustical Ceilings</li>
+<li class="mt-2">Ceiling Suspension Assemblies</li>
+<li class="mt-2">Specialty Ceilings</li>
+<li class="mt-2">Luminous Ceilings</li>
+<li class="mt-2">Suspended Decorative Grids</li>
+<li class="mt-2">Stretched-Fabric Ceiling Systems</li>
+<li class="mt-2">Textured Ceilings</li>
+<li class="mt-2">Tin Ceilings</li>
+<li class="mt-2">Maintenance of Ceilings &amp; Restoration</li>
+</ul>
+    </div>
+
+    <div class="border-2 border p-4 mt-4">
+        <h3>PLASTER &amp; GYPSUM BOARD ESTIMATING SERVICES</h3>
+        <ul>
+        <li class="mt-2">Non-Load-Bearing Wall Framing</li>
+        <li class="mt-2">Head-of-wall Framing Systems</li>
+        <li class="mt-2">Portland Cement Plaster (Stucco)</li>
+        <li class="mt-2">Drywall</li>
+        <li class="mt-2">Plaster Fabrications</li>
+        <li class="mt-2">Venetian &amp; Other Lime Plasters</li>
+        <li class="mt-2">Gypsum Board</li>
+        <li class="mt-2">Gypsum Wallboard</li>
+        <li class="mt-2">Glass Tiles &amp; Mosaics</li>
+        <li class="mt-2">Acoustical Plaster</li>
+        <li class="mt-2">Mosaic Tiles</li>
+        <li class="mt-2">Specialty Tiles</li>
+        <li class="mt-2">Terracotta Tiles</li>
+        </ul>
+    </div>
+
+</div></section></div>
+
+
+ <div class="row align-items-center my-5">
+    
+    <!-- Left Column (Image) -->
+    <div class="col-md-6">
+      <img src="https://worldestimating.com/wp-content/uploads/2022/10/Construction-PNG-Image.png" 
+           alt="Construction" class="img-fluid">
+    </div>
+    
+    <!-- Right Column (Text + Buttons) -->
+    <div class="col-md-6 ">
+      <h4><strong><i class="fa-solid fa-tag text-primary"></i> Offer:</strong></h3>
+      <h2 class="mt-3">If you are from Texas then Get <span class="text-danger">30% off</span> on your first estimate!</h2>
+      <p class="text-muted">Just upload plans, we will review and send a quote in the next 5 minutes.</p>
+      
+      <div class="mt-4">
+        <a href="https://worldestimating.com/get-estimate/" 
+           class="btn btn-outline-primary btn-lg me-3">
+          GET A FREE QUOTE
+        </a>
+        
+        <a href="tel:+13474801903" 
+           class="btn btn-primary btn-lg">
+          CALL US
+        </a>
+      </div>
+    </div>
+    
+  </div>
+
+ <section class="faq-section py-5 bg-white">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3 ">
+      <h2 class="mb-4 fw-bold ">FREQUENTLY ASKED QUESTIONS</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">What do we charge for estimates of Interior & Exterior Finishes? <i class="fas fa-plus"></i></button>
+          <div class="faq-answer">We usually charge $200 on average as per the scope of the project you are bidding on. It can be as low as $100 for a few hours of work.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Are there any monthly packages available for finishing contractors?<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our monthly takeoff packages are very much cost-effective and save your expense of hiring an estimator and will definitely save your time if you are doing takeoffs yourselves. Click here to learn more.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">What do we takeoff for painting contractors? <i class="fas fa-plus"></i></button>
+          <div class="faq-answer">We take off all the quantities of coatings, finishes, DTM, glazed and specialized coatings by mentioning the Walls and partitions details and descriptions in proper line items.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">What are the turnaround times of most of the finishing estimates?<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Typically the turnaround time is within 24-48 hrs.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">How is the price established against the takeoff of the finishes? <i class="fas fa-plus"></i></button>
+          <div class="faq-answer">
+            <p>
+                We have links with suppliers/vendors and have developed our own databases of pricing. We also employ RSMeans for up to date and zip code based pricing.
+            </p>
+            <p>
+                World Estimating is a construction estimating company working on projects across North America, Australia, Africa, and the Caribbean. In the US, the following markets have been served: Florida, Massachusetts, Georgia, South Carolina, Minnesota, Illinois, Arizona, Michigan, Missouri, Indiana, New Jersey, Louisiana, Pennsylvania, Alabama, Washington, California, Connecticut, Oklahoma, Tennessee, Ohio, Oregon, Alaska, Delaware, Idaho, Minnesota, Mississippi, Nebraska, New Hampshire, Utah, Vermont, New York, North Carolina, Texas, Colorado, Maryland, Kentucky, Wyoming, Arkansas, Hawaii, Virginia, Wisconsin, Iowa, Montana, Nevada.
+            </p>
+          </div>
+        </div>
+    
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    
+  </section>
+
+</div>
+
+      
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+
+        <div class="price-sidebar">
+          <a href="#">Concrete Estimating</a>
+          <a href="#">Electrical Estimating Services</a>
+          <a href="#">Interior & Exterior Finishes</a>
+          <a href="#">Masonry Estimating</a>
+          <a href="#">MEP Estimating Services</a>
+          <a href="#">Metals Estimating Services</a>
+          <a href="#">Openings Estimating Services</a>
+          <a href="#">Sitework Estimating Services</a>
+          <a href="#">Thermal & Moisture Protection Estimating Services</a>
+          <a href="#">Lumber Takeoff</a>
+        </div>
+          <div class="price-contact-box my-4 ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+      
+      </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+        <div class="row">
+            
+            <!-- World Estimating -->
+            <div class="col-md-3 mb-4">
+                <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+             <ul class="list-unstyled footer-links">
+          <li class="mt-2"><a href="../ourtrader.html">Our Trades</a></li>
+          <li class="mt-2"><a href="../services.html">Services</a></li>
+          <li class="mt-2"><a href="#">Portfolio</a></li>
+          <li class="mt-2"><a href="../about.html">About Us</a></li>
+          <li class="mt-2"><a href="../contact.html">Contact</a></li>
+          <li class="mt-2"><a href="../aboutu/faqs.html">FAQs</a></li>
+          <li class="mt-2"><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="../js.js/script.js"></script>
+</body>
+</html>

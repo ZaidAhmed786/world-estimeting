@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+    p{
+    font-size: 18px;
+  }
+  li{
+    font-size: 18px;
+  }
+</style>
+<style>
+    .avia-testimonial-row {
+        margin-top: 30px;
+          background: whitesmoke;
+    padding: 28px;
+    border: 1px solid #d6d6d6 !important;
+    }
+    .avia-testimonial-row p{
+        font-size: 18px;
+    }
+
+</style>
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+        <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+          <!-- <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li class="mt-2" ><a class="dropdown-item" href="../services.html#estimation">Estimation</a></li>
+            <li class="mt-2" ><a class="dropdown-item" href="../services.html#consulting">Consulting</a></li>
+            <li class="mt-2" ><a class="dropdown-item" href="../services.html#design">Design</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../services.html">All Services</a></li>
+          </ul> -->
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block active" href="../ourtrader.html">OUR TRADES</a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/concrete-estimating.html">Concrete Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item active"  href="../ourtrader/electrical-estimator.html">Electrical Estimator</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/interior-exterior-finishes.html">Interior & Exterior <br>
+                Finishes
+            </a></li>
+          </ul>
+          
+
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block active" href="../about.html">About us </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/review.html">Reviews</a></li>
+            <li class="mt-2"><a class="dropdown-item active" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+<div class="container my-5">
+ <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+<div class="entry-content-wrapper clearfix"><div class="flex_column av-1e5j7im-c2e8105d9286b6c201916d73d2aa29d1 av_one_full  avia-builder-el-0  el_before_av_one_full  avia-builder-el-first  first flex_column_div av-zero-column-padding "><div class="av-special-heading av-4w7av2-64dab9f2aa5246d42da91178c0129cb8 av-special-heading-h1 blockquote modern-quote  avia-builder-el-1  avia-builder-el-no-sibling  av-linked-heading "><h1 class="av-special-heading-tag  " itemprop="headline">Electrical Estimators for Accurate Electrical Estimating Services</h1><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div><div class="flex_column av-1aohyri-648e99205797a06330a8f7d58d0218b6 av_one_full  avia-builder-el-2  el_after_av_one_full  el_before_av_three_fifth  first flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Electrical Estimators at World Estimating are competent and professional enough to deliver you quick and accurate estimates. Our Electrical Estimators are distinctive from other estimating companies because they are well-equipped, seasoned, reliable, and experienced to use all the up-to-date electrical estimating software. They will help you bid on more projects and increase the chance to win more.</p>
+</div></section></div><p></p>
+ <div class="row align-items-center my-5">
+    
+    <!-- Left Column (Text) -->
+    <div class="col-md-7">
+      <h2> Electrical Estimating Services</h2>
+      <p class="mt-3">
+        Our expert team of electrical estimators, engineers, industrial electronics professionals with diverse past
+        experiences working with contractors, estimators, and electricians possess their expertise in delivering
+        electrical takeoff software like <strong>PlanSwift</strong>, <strong>ConEst</strong>, <strong>Accubid</strong>, and <strong>Bluebeam</strong>.
+        Their expertise in this industry benefits you in providing accurate and useful electrical estimates
+        to win bids and elevate your project.
+      </p>
+    </div>
+    
+    <!-- Right Column (Image) -->
+    <div class="col-md-5 text-center">
+      <img src="https://worldestimating.com/wp-content/uploads/2021/02/Electrical-Estimators.jpg" 
+           alt="Electrical Estimators" 
+           class="img-fluid rounded shadow">
+    </div>
+    
+  </div><!--close column table wrapper. Autoclose: 1 -->
+<div class="hr av-ktddsvia-9572d83c0681d492a42efab340f42a75 hr-invisible  avia-builder-el-8  el_after_av_two_fifth  el_before_av_one_full  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div class="flex_column av-15vv472-a79b55170bc07583cdbba341b8b5b824 av_one_full  avia-builder-el-9  el_after_av_hr  el_before_av_one_half  first flex_column_div av-zero-column-padding "><div class="avia-button-wrap avia-button-center  avia-builder-el-10  avia-builder-el-no-sibling ">
+   <div class="text-center my-5"><button class="price-upload-btn  ">Watch our Electrical Estimating Sample</button></div></div></div>
+<div class="row">
+    
+    <!-- Left Column -->
+    <div class="col-md-6">
+      <h2>Electrical Estimating Services We Offer</h2>
+      <p class="mt-2">
+        Our reliable electrical estimators deliver few expert services that are as follows:
+      </p>
+      <ul>
+        <li class="mt-2" >Electrical Material Takeoffs</li>
+        <li class="mt-2" >Electrical Cost per Square Foot</li>
+        <li class="mt-2" >Electrical CAD Drafting Services</li>
+        <li class="mt-2" >Electrical Cost Estimates for Residential, Commercial, and Industrial Construction Projects</li>
+        <li class="mt-2" >Value Engineering</li>
+        <li class="mt-2" >Bid Preparation and Submission</li>
+        <li class="mt-2" >Electric Project Cost Management</li>
+      </ul>
+    </div>
+    
+    <!-- Right Column -->
+    <div class="col-md-6">
+      <h2>Our Clients</h2>
+      <p class="mt-2">
+        Our Electrical Estimators deal with few specific clients that are as follows:
+      </p>
+      <ul>
+        <li class="mt-2" >General Contractors</li>
+        <li class="mt-2" >Electrical Contractors</li>
+        <li class="mt-2" >EPC Contractors</li>
+        <li class="mt-2" >Low Voltage Contractors</li>
+        <li class="mt-2" >Instrumentation Contractors</li>
+        <li class="mt-2" >Instrumentation and Control Systems Technicians</li>
+        <li class="mt-2" >Electrical Vendors</li>
+        <li class="mt-2" >Electricians</li>
+        <li class="mt-2" >Architects</li>
+        <li class="mt-2" >Designers</li>
+      </ul>
+    </div>
+
+  </div>
+<div class="flex_column av-11nbfku-2c5708e149a4466cd6ac850dcb6eaeba av_one_full  avia-builder-el-15  el_after_av_one_half  el_before_av_one_full  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kkr7oln2-0520d4e6924c19352e2879b27d26199c av-special-heading-h2 blockquote modern-quote  avia-builder-el-16  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag mt-5 " itemprop="headline">Our Electrical Takeoff Sheets</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div class="flex_column av-104b6zy-f315b2cf75d71755f3d79035c417425e av_one_full  avia-builder-el-17  el_after_av_one_full  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Our Electrical Estimators genuinely understand the effectiveness of contractors and electricians that require detailed estimates to order and install the individual components including electrical systems, effectively. Our electrical estimators will surely deliver estimates covering all the hidden costs with up to date and zip- code based pricing. It will help you to set your profit margins accordingly.</p>
+<p>Our Electrical Estimator organizes several takeoffs into different sections with a comprehensive line-item description concerning different types and sizes, marked with color-coded plans that are easily understandable for you. We deliver electrical takeoff sheets along with the following sections:</p>
+</div></section></div>
+
+<div class="row">
+    
+    <!-- Left Column -->
+    <div class="col-md-6">
+     
+      <ul>
+        <li class="mt-2" >Conduit</li>
+        <li class="mt-2" >Conductors</li>
+        <li class="mt-2" >Lighting fixtures</li>
+        <li class="mt-2" >Lighting controls</li>
+        <li class="mt-2" >EMT fittings</li>
+        <li class="mt-2" >Grounding</li>
+        <li class="mt-2" >Conductors</li>
+        <li class="mt-2" >Fuses</li>
+        <li class="mt-2" >Receptacles</li>
+        <li class="mt-2" >Plates</li>
+        </ul>
+    </div>
+    
+    <!-- Right Column -->
+    <div class="col-md-6">
+     
+      <ul>
+        <li class="mt-2" >Switches</li>
+        <li class="mt-2" >Panels and Circuit breakers</li>
+        <li class="mt-2" >Wiring</li>
+        <li class="mt-2" >Switches</li>
+        <li class="mt-2" >Switchboards</li>
+        <li class="mt-2" >Branch devices</li>
+        <li class="mt-2" >Low voltage and other devices</li>
+        <li class="mt-2" >Cable Tray</li>
+        <li class="mt-2" >Feeders</li>
+        </ul>
+    </div>
+
+  </div>
+
+<div class="row">
+      
+      <!-- Residential Electrical Estimating -->
+      <div class="col-md-6 mb-4">
+        <h2 class="mb-3">Residential Electrical Estimating</h2>
+        <p>
+          Our expert Electrical Estimators are hand on to provide residential electrical estimating services ranging from different improvements, upgrading new homes, apartments, eco-homes, smart homes, etc. Our estimators usually takeoff all the significant components like power transmission lines, service panels, electrical boxes, subpanels, electric meters, household wiring, switches, and other appliances, lights, equipment, etc.
+        </p>
+        <p><strong>Our experts estimate all the electrical systems that involve residential buildings like:</strong></p>
+        <ul>
+          <li class="mt-2" >Building automation systems</li>
+          <li class="mt-2" >Home security systems</li>
+          <li class="mt-2" >Electrical heating systems</li>
+          <li class="mt-2" >Network and communication systems</li>
+          <li class="mt-2" >Entertainment systems</li>
+          <li class="mt-2" >Solar electric panels</li>
+          <li class="mt-2" >Lighting</li>
+          <li class="mt-2" >Switches and controls, doorbells, and intercoms</li>
+        </ul>
+      </div>
+
+      <!-- Commercial Electrical Estimating -->
+      <div class="col-md-6 mb-4">
+        <h2 class="mb-3">Commercial Electrical Estimating</h2>
+        <p>
+          We hire electrical estimators who deliver accurate and reliable estimates to different commercial electrical contractors under high work pressure and tight budgets, and short deadlines. We have well-trained and seasoned electrical estimators with the latest takeoff software and electrical components, including light fixtures, conduits, receptacles, gear, and panels, to accurately estimate the project cost.
+        </p>
+        <p><strong>In commercial electrical estimating, our estimators deliver take off for the following systems like:</strong></p>
+        <ul>
+          <li class="mt-2" >Commercial communications cabling systems</li>
+          <li class="mt-2" >Wiring for HVAC systems</li>
+          <li class="mt-2" >Commercial walk-in freezers and chiller systems</li>
+          <li class="mt-2" >Standby power generating systems</li>
+          <li class="mt-2" >Emergency and alarm systems</li>
+          <li class="mt-2" >Low voltage distribution systems</li>
+          <li class="mt-2" >Electronic door readers</li>
+          <li class="mt-2" >Temperature controls</li>
+          <li class="mt-2" >Solar power systems</li>
+          <li class="mt-2" >Geothermal systems</li>
+          <li class="mt-2" >Solar Power Systems</li>
+        </ul>
+      </div>
+
+    </div>
+<div class="flex_column av-rwhz32-fa896f3cad5a7e3558c630351a4c3ea8 av_one_full  avia-builder-el-27  el_after_av_one_half  el_before_av_one_full  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-kkr7oln2-74a844037510631381579f336fd2f32f av-special-heading-h2 blockquote modern-quote  avia-builder-el-28  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag mt-5 " itemprop="headline">Industrial Electrical Estimating Services</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div class="flex_column av-qgj1ou-bcba49a3dfba88f8609222ca8087da76 av_one_full  avia-builder-el-29  el_after_av_one_full  el_before_av_one_full  first flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Our electrical estimators are professional enough to deal with industrial estimates. We offer comprehensive electrical estimating services to handle all types and sizes of industrial projects. Our estimators deal with reliable and accurate cost projections in pre-construction planning, budgeting, bidding, and winning jobs for the existing electrical system. Our estimators worked on different portfolios of industrial projects like:</p>
+<ul>
+<li class="mt-2" >Sewerage treatment plants</li>
+<li class="mt-2" >Wastewater treatment plants</li>
+<li class="mt-2" >Power generations, distribution</li>
+<li class="mt-2" >Metals, food, and beverages</li>
+<li class="mt-2" >Chemical</li>
+<li class="mt-2" >Petrochemical</li>
+<li class="mt-2" >Manufacturing and mining industries.</li>
+</ul>
+</div></section></div>
+<div class="flex_column av-o1ptz2-094e00254aff6a7c01bd31f71c499341 av_one_full  avia-builder-el-31  el_after_av_one_full  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  mt-4" itemprop="text"><p><strong>We mainly deliver our expertise to the following industrial systems:</strong></p>
+</div></section></div>
+<div class="row">
+    
+    <!-- Left Column -->
+    <div class="col-md-6">
+     
+      <ul>
+        <li class="mt-2" >Industrial Automation systems</li>
+        <li class="mt-2" >Program and Logic control systems</li>
+        <li class="mt-2" >Conveying Systems</li>
+        <li class="mt-2" >Power distribution systems</li>
+        <li class="mt-2" >Temperature sensor systems</li>
+        <li class="mt-2" >Wind energy</li>
+        <li class="mt-2" >Solar power</li>
+        <li class="mt-2" >Geothermal systems</li>
+        <li class="mt-2" >Emergency systems</li>
+        <li class="mt-2" >Backup generators</li>
+        <li class="mt-2" >Resettable PTCs</li>
+        <li class="mt-2" >Polymer Suppressors</li>
+        </ul>
+    </div>
+    
+    <!-- Right Column -->
+    <div class="col-md-6">
+     <ul>
+        <li class="mt-2" >Fuses</li>
+        <li class="mt-2" >Protection Relays and Controls</li>
+        <li class="mt-2" >Transistors</li>
+        <li class="mt-2" >Sensors</li>
+        <li class="mt-2" >Enclosures</li>
+        <li class="mt-2" >Power Sources</li>
+        <li class="mt-2" >Cables and Connectors</li>
+        <li class="mt-2" >Resistors</li>
+        <li class="mt-2" >Thyristors</li>
+        <li class="mt-2" >Diode Arrays</li>
+        <li class="mt-2" >Diodes</li>
+        <li class="mt-2" >Fuse Blocks and Accessories</li>
+        <li class="mt-2" >Protection Relays and Controls</li>
+        </ul>
+    </div>
+
+  </div>
+
+<div class="flex_column av-rwhz32-fa896f3cad5a7e3558c630351a4c3ea8 av_one_full  avia-builder-el-37  el_after_av_one_half  el_before_av_one_full  first flex_column_div av-zero-column-padding column-top-margin"><div class="av-special-heading av-teouke-19eeb5dff535739a13df2d4523832d17 av-special-heading-h2 blockquote modern-quote  avia-builder-el-38  avia-builder-el-no-sibling  "><h2 class="av-special-heading-tag mt-5 " itemprop="headline">Low Voltage Estimating Services</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div></div>
+<div class="flex_column av-mh2nha-98984bf9fae096640432c34393efbecf av_one_full  avia-builder-el-39  el_after_av_one_full  el_before_av_one_half  first flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>We usually have expert and skilled estimators that provide estimating services for the following range of low voltage system</p>
+</div></section></div>
+<div class="row">
+    
+    <!-- Left Column -->
+    <div class="col-md-6">
+     
+    <ul>
+      <li class="mt-2" >Telephone</li>
+      <li class="mt-2" >Audio and Visual</li>
+      <li class="mt-2" >Thermostats</li>
+      <li class="mt-2" >Network Data</li>
+      <li class="mt-2" >Wireless Clocks</li>
+      <li class="mt-2" >Nurse Call</li>
+      </ul>
+    </div>
+    
+    <!-- Right Column -->
+    <div class="col-md-6">
+    <ul>
+      <li class="mt-2" >Fire Alarm</li>
+      <li class="mt-2" >Landscape Lighting</li>
+      <li class="mt-2" >Garage Door Openers</li>
+      <li class="mt-2" >Access Control</li>
+      <li class="mt-2" >Structured Cabling Wireless Connectivity</li>
+      <li class="mt-2" >Fire Suppression</li>
+      </ul>
+    </div>
+
+  </div>
+ <div class="row text-center">
+
+      <!-- Low Voltage Sample -->
+      <div class="col-md-3 my-5">
+        <a>
+          <img src="https://worldestimating.com/wp-content/uploads/2021/02/Low-Voltage-Electrical-Estimating-Services.jpg" 
+               alt="Low Voltage Electrical Estimating Services" 
+               class="img-fluid mb-3"  height="220">
+          <h5>View Our Low Voltage Sample</h5>
+        </a>
+      </div>
+
+      <!-- Power Distribution Sample -->
+      <div class="col-md-3 my-5">
+        <a>
+          <img src="https://worldestimating.com/wp-content/uploads/2021/02/Power-Distribution-Electrical-Estimating.jpg" 
+               alt="Power Distribution Estimating Services" 
+               class="img-fluid mb-3"  height="220">
+          <h5>View Our Power Distribution Sample</h5>
+        </a>
+      </div>
+
+      <!-- Residential Sample -->
+      <div class="col-md-3 my-5">
+        <a>
+          <img src="https://worldestimating.com/wp-content/uploads/2021/02/Residential-Electrical-Estimating-Services.jpg" 
+               alt="Residential Electrical Estimating Services" 
+               class="img-fluid mb-3"  height="220">
+          <h5>View Our Residential Sample</h5>
+        </a>
+      </div>
+
+      <!-- Industrial Sample -->
+      <div class="col-md-3 my-5">
+        <a>
+          <img src="https://worldestimating.com/wp-content/uploads/2021/02/Industrial-Electrical-Estimating.jpg" 
+               alt="Industrial Electrical Estimating Services" 
+               class="img-fluid mb-3"  height="220">
+          <h5>View Our Industrial Sample</h5>
+        </a>
+      </div>
+
+    </div><!--close column table wrapper. Autoclose: 1 -->
+<div class="flex_column av-mh2nha-571a8e229ab4f0ff1073057e58e635b6 av_one_full  avia-builder-el-57  el_after_av_one_fourth  el_before_av_one_third  first flex_column_div av-zero-column-padding column-top-margin"><section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p><strong>Below given is the simple process to have quality services of our Electrical Estimators:</strong></p>
+</div></section></div>
+<div class="row mb-5">
+    
+    <!-- Column 1 -->
+    <div class="col-md-4">
+      <h3 class="my-4" >Upload your plans</h3>
+      <p>
+        <a href="#">Click here</a> now to upload your schematic, bid set, and conceptual samples.  
+        Acceptable formats: PDF, TIFF, TIF, DXF, DWG, PLN, DWF, OSX, JPEG, JPG, CAL, CPC, DJVU.
+      </p>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="col-md-4">
+      <h3 class="my-4" >Get a quote</h3>
+      <p>
+        Our team will send you a quote that includes the invoice, delivery date, and turnaround time,  
+        payable through Credit Card, Debit Card, or PayPal.
+      </p>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="col-md-4">
+      <h3 class="my-4" >Receive estimate</h3>
+      <p>
+        We will assist you in delivering the estimate comprising man-hours, labor, and material pricing.  
+        A professional bidding proposal with an inclusion sheet is also available on demand.
+      </p>
+    </div>
+
+  </div><!--close column table wrapper. Autoclose: 1 -->
+
+<div class="row align-items-center">
+    
+
+
+    <!-- Text Column -->
+    <div class="col-md-7">
+      <p>
+        The electrical estimator at World Estimating is way different from other electrical estimation companies 
+        because we have a seasoned, well-equipped, and hands-on team of experienced electrical cost estimators. 
+        Nearly no software is in the market in which our estimators have not worked yet. Apart from that, our 
+        specialty electrical estimation allows you to bid more projects and likely increase the chance to win more.
+      </p>
+
+    
+    </div>
+        <!-- Image Column -->
+    <div class="col-md-5">
+      <img 
+        src="https://worldestimating.com/wp-content/uploads/2020/04/electrical-estimating.jpg" 
+        alt="Electrical Estimator" 
+        class="img-fluid rounded shadow">
+    </div>
+      <p class="mt-4">
+        Our specificity software for electrical estimation is Trimble, Planswift, Bluebeam, ConEst. 
+        Even if you want us to work in a specific template using your prescribed software, 
+        we can commit the electrical estimate in that particular software as well.
+      </p>
+
+      <p>
+        Usually, for in-house estimators of large electrical projects, it takes a week to prepare the bid 
+        and finalize the particulars. While in that much time, you can bid on 4-5 small jobs, and the dynamics 
+        for winning are the same as for large projects.
+      </p>
+
+  </div>
+<div class="flex_column av-1udwby-df2e2cd45e2a594295d2c60912f03d1d av_one_full  avia-builder-el-70  el_after_av_textblock  el_before_av_one_full  first flex_column_div av-zero-column-padding column-top-margin"><div class="avia-button-wrap avia-button-center  avia-builder-el-71  el_before_av_hr  avia-builder-el-first "> <div class="text-center my-5"><button class="price-upload-btn  ">SEE OUR SAMPLES </button></div>
+ </div>
+<div class="hr av-k74ptlmj-3be4101036244ba6bf8297a101e7a4d2 hr-invisible  avia-builder-el-72  el_after_av_button  avia-builder-el-last  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div></div>
+<div class="flex_column av-kpjx6f-7ba75abd0f5a65814e62f3e8738bbbfb av_one_full  avia-builder-el-73  el_after_av_one_full  el_before_av_heading  first flex_column_div av-zero-column-padding column-top-margin"><div class="hr av-k74ptlmj-40dcadb8833a1edd0e5cb42c61cfd3ca hr-invisible  avia-builder-el-74  el_before_av_textblock  avia-builder-el-first  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h4><span style="color: #ff0000;"><strong>J</strong>ust upload plans in the below link, we will review and send a quote in next 5 minutes:</span></h4>
+<div class="flex_column av_one_full flex_column_div av-zero-column-padding first avia-builder-el-10 el_after_av_one_full el_before_av_one_full column-top-margin">
+<div class="hr hr-invisible avia-builder-el-11 el_before_av_button avia-builder-el-first "></div>
+</div>
+</div></section>
+<section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	 <div class="text-center my-5"><button class="price-upload-btn  ">Upload Plans</button></div>
+</center></div></section>
+<div class="hr av-kbkyro4t-8da98336550ccbc13053c8795b4dc4f8 hr-invisible  avia-builder-el-77  el_after_av_codeblock  avia-builder-el-last  "><span class="hr-inner "><span class="hr-inner-style"></span></span></div></div>
+<div class="av-special-heading av-koleny-4672cce424e18521412f4a712ff2b670 av-special-heading-h2 blockquote modern-quote  avia-builder-el-78  el_after_av_one_full  el_before_av_textblock  "><h2 class="av-special-heading-tag mt-5 " itemprop="headline">Electrical Estimating Outsourcing</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>The one stop shop solution to all Electrical contractor problems is to get your every scope of plan estimated with line details descriptions in your prescribed SYSTEM of UNITS.</p>
+<p>A solution just like your in-house estimator but with more expertise, exposure to huge projects and capacity in least turnaround time is WORLD ESTIMTING.</p>
+<p>Your capacity to bid more and win more will increase as you outsource the estimation to WORLD ESTIMATING. The best in price and more adaptable to your expense and need.</p>
+</div></section>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>YOUR OWN ELECTRICAL ESTIMATOR WORKING FOR YOU IN OUR OFFICE.</p>
+</div></section>
+<div class="flex_column av-1udwby-908797004e7ec09b267f587e01ca06e3 av_one_full  avia-builder-el-81  el_after_av_textblock  el_before_av_heading  first flex_column_div av-zero-column-padding column-top-margin"><div class="avia-button-wrap avia-button-center  avia-builder-el-82  el_before_av_hr  avia-builder-el-first "> <div class="text-center my-5"><button class="price-upload-btn  ">Our Pricing</button></div></div>
+
+<div class="av-special-heading av-ivb86m-f515a4360b6b862a3d9c543473229ddb av-special-heading-h2 blockquote modern-quote  avia-builder-el-84  el_after_av_one_full  el_before_av_textblock  "><h2 class="av-special-heading-tag mt-5  " itemprop="headline">Electrical Cost Estimator</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>The Pricing of the electrical takeoff is done using RSMeans, National Cost estimator and our own build databases.</p>
+<p>Our Estimators will do all of your pricing for all configurations and types of projects i.e. Commercial, Residential and Industrial Projects.</p>
+</div></section>
+<div class="av-special-heading av-1o9cim-8ae35e2ae5ae64fc2a477b1c05f623fc av-special-heading-h2 blockquote modern-quote  avia-builder-el-86  el_after_av_textblock  el_before_av_textblock  "><h2 class="av-special-heading-tag mt-5" itemprop="headline">Independent Electrical Estimator</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Whether you are looking for a freelance or an independent electrical estimator, we encourage to contact us for your concerns, we have full job rates and other hourly configurations for the contractors working for public projects or private commercial or residential projects. The best is you will never regret once you get any of your job estimated from our estimators. We work in any configuration that will be suitable for you.</p>
+</div></section>
+<div class="av-special-heading av-gailu6-7dc215ea352fc69634cd8ae8282d8dfb av-special-heading-h2 blockquote modern-quote  avia-builder-el-88  el_after_av_textblock  el_before_av_textblock  "><h2 class="av-special-heading-tag mt-5" itemprop="headline"> Electrical Estimating Companies</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>World Estimating has been the electrical estimating company serving the Electrical Contractors associations of Northern &amp; Southern America, Europe and Australia for past 15 years. We recommend to avoid using any estimation company that has no past portfolio and existence anywhere in Electrical construction industry.</p>
+<p>Our Electrical estimating company has huge and past portfolio of industrial, commercial and residential projects of all scope and extent.</p>
+</div></section>
+<div class="av-special-heading av-eep4bi-aa2b5bab5a57c597024ae265d73e5b8a av-special-heading-h2 blockquote modern-quote  avia-builder-el-90  el_after_av_textblock  el_before_av_textblock  "><h2 class="av-special-heading-tag mt-5" itemprop="headline">Our Electrical Estimation Process</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>World Estimating provide Cabling, Low voltage electrical estimation, instrumentation and controls estimation with Material, Labor takeoff along with Manhours to complete the job.</p>
+</div></section>
+<div class="av-special-heading av-c0m9oe-ca2ceffece01ca403db3883b52c9e71c av-special-heading-h2 blockquote modern-quote  avia-builder-el-92  el_after_av_textblock  el_before_av_textblock  "><h2 class="av-special-heading-tag mt-5" itemprop="headline">Electrical Estimate Template</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Our Electrical engineers provides a unique solution to your customized needs even we will perform in your provided template with your requirements. Our Electrical estimate template is attached below:</p>
+<p>Our portfolio of electrical estimation includes</p>
+<ol>
+<li class="mt-2" >Industrial Electrical Estimating</li>
+<li class="mt-2" >Residential Electrical Estimating</li>
+<li class="mt-2" >Commercial Electrical Estimating</li>
+</ol>
+</div></section>
+<div class="av-special-heading av-b63l7i-4b8d82b05255a8071629c83fb388dc2f av-special-heading-h2 blockquote modern-quote  avia-builder-el-94  el_after_av_textblock  el_before_av_textblock  "><h2 class="av-special-heading-tag mt-5" itemprop="headline">Electrical Estimating Software</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>We use the best in market estimation technology and software for your Electrical takeoffs and preparing your bid.</p>
+<p>Our electrical estimators prepare competitive bids utilizing latest Electrical takeoff software like: Trimble, Planswift and Bluebeam.</p>
+</div></section>
+<div class="av-special-heading av-9ahe1a-ae0f96bf7663e3d15be77b08b47f3a1e av-special-heading-h2 blockquote modern-quote  avia-builder-el-96  el_after_av_textblock  el_before_av_textblock  "><h2 class="av-special-heading-tag mt-5" itemprop="headline">Electrical Bidding Software</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Our certified and seasoned electrical estimators are very much experienced in managing and establishing the construction management software in your organization.</p>
+<p>Few of the construction management software we have been working on for our contracting clients are:</p>
+<ul>
+<li class="mt-2" ><a href="https://www.sage.com/en-us/" rel="nofollow">Sage Estimating</a></li>
+<li class="mt-2" >Coconstruct</li>
+<li class="mt-2" >True Enterprise</li>
+<li class="mt-2" >Procore</li>
+</ul>
+</div></section>
+<div class="av-special-heading av-7a80ce-58bee88f76180145d998192c1814ad97 av-special-heading-h2 blockquote modern-quote  avia-builder-el-98  el_after_av_textblock  el_before_av_textblock  "><h2 class="av-special-heading-tag mt-5 " itemprop="headline">Electrical Contractor Bidding</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Our construction estimator and Project Managers are also assisting your business by electronically filing the bids on your behalf by signing-in the portal of which you will provide the credentials.</p>
+<p>The construction networks like PLANHUB, BlueBook, Building Connected and many more. The electrical bid filing has paved the way for many contractors in this age. Now they can easily file bids sitting in office and focusing on the prime business.</p>
+<p>We also recommend the medium and sometimes small contracting companies to use construction management software to prepare bids, manage the logistics and cash flows so to get rid of any discrepancies.</p>
+</div></section>
+<div class="av-special-heading av-22va6-b1f6987b57c8f6c4b2f66ecdb8b1f511 av-special-heading-h2 blockquote modern-quote  avia-builder-el-100  el_after_av_textblock  el_before_av_textblock  "><h2 class="av-special-heading-tag mt-5 " itemprop="headline">Bid On Electrical Jobs</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>Our least turnaround time and on-time delivery has enabled contractors to estimates as many projects as they want and thus bid more projects. The bidding more strategy always benefits in such a way that it increases the probability of winning more jobs. The more you spend on estimation for accuracy and least turnaround time, the more you will have chance to win more work and hence more revenue.</p>
+<p>The least turnaround times of 24-48 hrs. and accuracy is only possible as World Estimating has employed a huge Construction estimator having immense experience and most of them are trade specialists. Like Electrical Estimator, HVAC Estimator, MEP Estimator.</p>
+</div></section>
+<div class="av-special-heading av-4ujxim-c6fc2b76bec2c7075d4d3b2c7b647968 av-special-heading-h2 blockquote modern-quote  avia-builder-el-102  el_after_av_textblock  el_before_av_textblock  "><h2 class="av-special-heading-tag mt-5 " itemprop="headline">FAQ:</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><h4 class="mt-4" ><strong>How to begin with our electrical estimating services?</strong></h4>
+<p>Ans. If you are planning to work on any residential, commercial or any industrial project, then email us all the project details, drawings, specifications and wholesale supplier lists with material pricing (if you have your own pricing otherwise not required). We will review the project details and revert back with a quote and turnaround time.</p>
+<p>When the quote gets accepted by the client, we will send an invoice for the payment. We will leave no stone unturned to satisfy our clients.</p>
+<h4 class="mt-4" ><strong>What does World Estimating charge for electrical takeoffs and estimates?</strong></h4>
+<p>Ans. World Estimating usually charges $200 on average but it depends upon the scope of the work and size of the project. So for better quotation, just send us plans and drawings at <a href="mailto:info@worldestimating.com">info@worldestimating.com</a> or call us: 347 480-1903 to discuss.</p>
+<h4 class="mt-4" ><strong>What is under our scope of services in Electrical estimation?</strong></h4>
+<p>Ans. The estimate you will get will include all power, system and motor feeders &amp; equipment, controls and instrumentation takeoffs of material and labor along with manhours for the particular item. Quantifying all lighting fixtures, conduit, wiring, switches and switchboards.</p>
+</div></section>
+<div class="av-special-heading av-2m975q-1fda43e67060af017efd7205089758d1 av-special-heading-h2 blockquote modern-quote  avia-builder-el-104  el_after_av_textblock  el_before_av_textblock  "><h2 class="av-special-heading-tag mt-5  " itemprop="headline">Case Study:</h2><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text"><p>A Seattle based electrical contractor-based had an expense saving and less time consuming experience with outsourcing their projects to WORLD ESTIMATING.</p>
+<h4 class="mt-4" ><strong>Problem:</strong></h4>
+<p>The 15 years old Electrical contracting company was struggling with an expert overview of their bids and many of the times, their bids are piling up so they came across World Estimating, Florida. Initially, worked with us as per project basis.</p>
+<h4 class="mt-4" ><strong>Solution:</strong></h4>
+<p>World Estimating provided the electrical detailed takeoff in $250 on average for medium sized jobs, helped them with timely delivery of bids and with 100% accurate material lists. Most of the projects were delivered on the very day they were assigned to our company.</p>
+<h4 class="mt-4" ><strong>Outcomes:</strong></h4>
+<p>The results were awesome and created a proud moment for the contractor that not only they filed 10 jobs that month but also close 6 projects out of them. The contractor’s portfolio does matter a lot but the crucial role of estimate and takeoff have drastic effects on them closing more leads.</p>
+</div></section>
+<div class="flex_column av-1udwby-df2e2cd45e2a594295d2c60912f03d1d av_one_full  avia-builder-el-106  el_after_av_textblock  avia-builder-el-last  first flex_column_div av-zero-column-padding column-top-margin"><div class="avia-button-wrap avia-button-center  avia-builder-el-107  avia-builder-el-no-sibling "> <div class="text-center my-5"><button class="price-upload-btn  ">Upload Plans</button></div></div></div>
+</div>
+
+      </div>
+      </div>
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+
+        <div class="price-sidebar">
+          <a href="#">Cost Estimating</a>
+          <a href="#">Outsource Estimating</a>
+          <a href="#">BIM Estimating Services</a>
+          <a href="#">Budget Estimating Services</a>
+          <a href="#">Commercial Estimating</a>
+          <a href="#">Industrial Estimating</a>
+          <a href="#">Residential Estimating Services</a>
+          <a href="#">Preliminary Estimating Services</a>
+          <a href="#">Construction Estimating Consultant</a>
+          <a href="#">Construction Takeoff Services</a>
+          <a href="#">CPM Scheduling Services</a>
+          <a href="#">Dedicated Construction Cost Estimator</a>
+          <a href="#">Freelance Construction Estimating</a>
+          <a href="#">Mechanical Insulation Estimating Services</a>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+        <div class="price-contact-box ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+        <div class="row">
+            
+            <!-- World Estimating -->
+            <div class="col-md-3 my-5">
+                <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 my-5">
+        <h6 class="fw-bold">NAVIGATION</h6>
+             <ul class="list-unstyled footer-links">
+          <li class="mt-2" ><a href="../ourtrader.html">Our Trades</a></li>
+          <li class="mt-2" ><a href="../services.html">Services</a></li>
+          <li class="mt-2" ><a href="#">Portfolio</a></li>
+          <li class="mt-2" ><a href="../about.html">About Us</a></li>
+          <li class="mt-2" ><a href="../contact.html">Contact</a></li>
+          <li class="mt-2" ><a href="../aboutu/faqs.html">FAQs</a></li>
+          <li class="mt-2" ><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 my-5">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 my-5">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="./js.js/script.js"></script>
+</body>
+</html>
