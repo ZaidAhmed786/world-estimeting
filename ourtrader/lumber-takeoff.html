@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+       p{
+    font-size: 18px;
+  }
+  li{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  h1{
+    color: #0a2e57;
+  }
+  h2{
+    color: #0a2e57;
+  }
+ 
+  h4{
+    color: #0a2e57;
+  }
+ h3{
+    color: #0a2e57;
+ }
+ h5{
+    color: #0a2e57;
+ }
+ 
+</style>
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+        <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/construction-estimating.html">Construction Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/residential-estimating.html">Residential Estimating</a></li>
+          </ul>
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block active" href="../ourtrader.html">OUR TRADES</a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/concrete-estimating.html">Concrete Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/electrical-estimator.html">Electrical Estimator</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/interior-exterior-finishes.html">Interior & Exterior <br>
+                Finishes
+            </a></li>
+            <li class="mt-2"><a class="dropdown-item"  href="../ourtrader/masonry-estimating.html">Masonry Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/openings-estimating.html">Openings Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/thermal-moisture.html">Thermal Moisture <br> Protection Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/sitework-estimating.html">Sitework Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item active"  href="../ourtrader/lumber-takeoff.html">Lumber-takeoff</a></li>
+
+          </ul>
+          
+
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+           <a class="nav-link d-none d-lg-inline-block " href="../about.html">ABOUT US </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li class="mt-2"><a class="dropdown-item " href="../aboutu/review.html">Reviews</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+  
+
+
+
+
+<div class="container my-5">
+ <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+          <div class="">
+  <main role="main" class="content">
+    <div class="row">
+      <div class="col-12 ">
+        <h1 class="mb-4">LUMBER TAKEOFF</h1>
+        <p class="">If you are a lumber contractor, framer, or vendor seeking for reliable lumber takeoff services, we are here to help!</p>
+      </div>
+    </div>
+
+    <div class="row align-items-start mt-4">
+      <!-- Image -->
+      
+
+      <!-- Text -->
+      <div class="col-md-6">
+        <p>
+            World estimating is the culmination of many years of experience in the construction estimation industry while featuring expertise in thorough and precise estimates and material takeoffs for all CSI divisions for residential, commercial, industrial, retail, and civil projects. We offer our clients a time saving and cost-saving model by blending our knowledge gained from experience and the latest Software to serve them in the best way possible. Our company provides all wood & plastic composites estimating services including lumber takeoff.
+        </p>
+        
+      
+      </div>
+      <div class="col-md-6 text-center">
+        <img 
+          src="https://worldestimating.com/wp-content/uploads/2020/02/LUMBER-WPC.jpg" 
+          alt="Concrete Estimating Services" 
+          class="img-fluid rounded shadow" width="386" height="337">
+      </div>
+      <h2 class="mt-4 mb-3">What Do We Deliver in Our Lumber Takeoffs?</h2>
+      <p>Our lumber takeoffs include all the details like timber or lumber, labor cost, labor-hours, and transportation cost. Through these details, we have helped them in winning the bids and in getting good markups. Furthermore, our estimates have also helped General contractors and builders to negotiate with their suppliers.</p>
+      <p>Moving forward, we also include an accurate lumber cut list. It eases the woodworkers with the lineal foot to board foot conversions. This ensures that the most of the timber is used with minimum wastage.</p>
+      
+    
+    </div>
+  </main>
+</div>
+<h4 class="mt-4 mb-3">Our Deliverables for The Lumber Takeoff Comprises</h4>
+
+      <ul>
+            <li>Lumber takeoff EXCEL sheets</li>
+            <li>Labor and material costs</li>
+            <li>man-hours</li>
+            <li>Marked up drawing plans</li>
+            <li>Lumber cut list</li>
+            <li>Bid Summary comprising total material. labor &amp; equipment costs, profit percentage, overheads, insurance, logistics, permits, taxes, and various other costs.</li>
+            <li>Complete review of inclusions and exclusions</li>
+            </ul>
+
+            <div class="entry-content-wrapper clearfix">
+      <h5 class="mt-5 text-center">In case you are looking for such takeoffs! Contact us and benefit from our services.</h5>
+
+	 <div class="text-center my-5"><button class="price-upload-btn  ">Upload Plans</button></div>
+
+
+      <h2 class="mt-4 mb-3">Our Lumber Estimator Expertise</h2>
+      <p>We have a dedicated lumber estimator for woodwork and lumber, who has past experience of working with various contractors in North America. Our team of construction cost estimators ensures each project is met with strict policies and guidelines of the certified American estimators organization like American Association of Cost Engineers (AACE) and the Australian Institute of Quantity Surveyors (AIDS). Our Lumber estimator figures out each and every wood sill, structural and non-structural lumber and fascia in your plans and takeoff and describes them in detail. Our wood-plastic composites estimating services are reliable and accurate.</p>
+
+         <div class="row ">
+         
+          <div class="col-md-6">
+         	 <div class="text-center my-5"><button class="price-upload-btn  "> View Our Lumber Takeoff Estimate Sample</button></div>
+
+          </div>
+            <div class="col-md-6">
+          	 <div class="text-center my-5"><button class="price-upload-btn  ">VIEW OUR LUMBER ESTIMATE SAMPLE</button></div>
+
+          </div>
+          </div>
+
+               <div class="row mt-5">
+            <h2>Our Clients</h2>
+          <!-- Col 3 -->
+          <div class="col-md-6">
+          <ul>
+            <li>General Contractors</li>
+            <li>Developers</li>
+            <li>Millwork Contractors</li>
+            <li>Framing Contractors</li>
+            <li>Carpenters</li>
+            <li>Lumberyards</li>
+            <li>Lumber Wholesale Supply Companies</li>
+            <li>Lumber Retailers</li>
+            <li>Architects/Designers</li>
+            </ul>
+          </div>
+            <div class="col-md-6">
+                <p>Woodwork Contractors, framers, builders and carpenters are among our regular clients when it comes to affordable lumber estimates.</p>
+                <p>Our estimates that include all the details like timber or lumber, labor cost, man-hours, transportation cost, insurance, permits, etc. have not only helped them in winning the bids but also getting good markups.</p>
+                <p>Our estimates also help General contractors and builders to negotiate with their suppliers and subcontractors.</p>
+          </div>
+           <p>Lumber wholesalers, suppliers, and retailers also reach out to us for the accurate lumber estimate of wood log quantities that help them in getting orders from their millwork contractors. Our highly precise takeoffs help their salesperson to advise the right material quantity to their customers, which results in increased sales and long-term business relations.</p>
+           <p>We also provide an accurate lumber cut list that eases the woodworkers with the lineal foot to board foot conversions to ensure the most of the timber is used without much wastage. Less wastage translates into a green environment and reduces costs.</p>
+          </div>
+
+
+
+        <div class="row mt-5">
+            <h2>OUR RANGE OF LUMBER ESTIMATING</h2>
+          <!-- Col 3 -->
+          <div class="col-md-6">
+          <ul>
+            <li>Lumber Takeoffs</li>
+            <li>Framing Takeoffs</li>
+            <li>Lumber Cut Lists</li>
+            <li>Bid Estimates</li>
+            <li>Budget Estimates</li>
+            <li>Project Lead Generation</li>
+            </ul>
+          </div>
+            <div class="col-md-6">
+                <ul>
+                <li>Preliminary Estimates</li>
+                <li>Bidding Assistance</li>
+                <li>Subcontractor Marketing</li>
+                <li>Change Orders</li>
+                <li>Value Engineering</li>
+                </ul>
+          </div>
+           <p>Let us estimate your next and every woodwork takeoff. It could be your framing takeoff or carpentry countertops to be quantified. We help Framers, rough carpentry, trim, and millwork contractors in their busy schedules and alleviate their pressure by minimizing their cost and workload with our experienced lumber estimators and framing material estimator. Each estimate is proofread and reviewed through cold eyes on a line-item basis.</p>
+          </div>
+
+          <h4 class="mt-5">We Are a Call Away. Don’t Miss the Opportunity to Avail 30% Off for Lumber Takeoff Of Your Plan.</h4>
+          <h4 class=" text-danger fw-semibold">Call Us: 347 480-1903</h4>
+          <h4 class=" text-danger fw-semibold">just Upload Plans in The Below Link, We Will Review and Send a Quote in Next 5 Minutes</h4>
+        
+          	 <div class="text-center my-5"><button class="price-upload-btn  ">Upload Plans</button></div>
+
+            
+        <div class="row mt-5">
+            <h2>What Materials Do We Quantify for Lumber Takeoffs?</h2>
+            <p class="mt-3">We provide complete wood plastic composites or lumber estimating services (DIVISION 6) in all of the following trades:</p>
+          <!-- Col 3 -->
+          <div class="col-md-6">
+          <ul>
+            <li>Cabinets</li>
+            <li>Millwork</li>
+            <li>Wood stairs &amp; railing</li>
+            <li>Timber</li>
+            <li>Countertops</li>
+            <li>Plastic fabrication</li>
+            <li>Paver stands</li>
+            <li>Woodwork</li>
+            <li>Wood veneers</li>
+            <li>Plastic laminates</li>
+            <li>Slatwall paneling</li>
+            <li>Rough carpentry</li>
+            <li>Wood decking</li>
+            <li>Sheathing</li>
+            <li>Drywall framing</li>
+            <li>Fiberglass gratings</li>
+            <li>Exterior trim</li>
+            </ul>
+          </div>
+            <div class="col-md-6">
+        <ul>
+            <li>Standing &amp; running trim</li>
+            <li>Wood trusses</li>
+            <li>Subfascia</li>
+            <li>Framing</li>
+            <li>Eaves &amp; rakes</li>
+            <li>Wooden studs</li>
+            <li>Wood framing</li>
+            <li>Wooden joists &amp; beams</li>
+            <li>Structural timber</li>
+            <li>Wood trusses</li>
+            <li>Floor joists</li>
+            <li>Wood shelving</li>
+            <li>Trim &amp; siding</li>
+            <li>Casework</li>
+            <li>Wood paneling</li>
+            <li>Stair components</li>
+            <li>Structural insulated panels</li>
+            </ul>
+          </div>
+           
+          </div>
+             
+
+          <div class="row align-items-start mt-4">
+      <!-- Image -->
+      
+
+      <!-- Text -->
+      <div class="col-md-6">
+        <p>We have a dedicated team of lumber estimators. Our estimators are proficient enough in their work. They follow the guidelines of international associations. These associations include, the <strong>American Association of Cost Engineers (AACE)</strong> and the <strong>Australian Institute of Quantity Surveyors (AIQS)</strong>. Thus, we offer all the lumber estimates like wood sill, structural and non-structural lumber.</p>
+        
+      
+      </div>
+      <div class="col-md-6 text-center">
+        <img 
+          src="https://worldestimating.com/wp-content/uploads/2020/08/LUMBER-ESTIMATION-PROCESS.jpg" 
+          alt="Concrete Estimating Services" 
+          class="img-fluid rounded shadow" width="386" height="337" >
+      </div>
+      <h2 class="mt-5 mb-3">Outsourcing Your Lumber Takeoffs is the Right Strategy</h2>
+      <p>The right lumber estimate and quantity takeoff require an in-depth knowledge of millwork construction techniques, wall arrangements, lumber qualities, structural connections, labor costs, man-hours, transportation costs, etc.</p>
+      <p>Performing takeoff and estimation by yourself can be very time consuming and frustrating. By hiring an estimating company like ours, you can save a lot of time that can be utilized in other activities like bidding on more projects, developing business strategies, etc. By outsourcing your millwork estimates you are relieved from hiring and training professional staff which also bear huge costs. You also save the expense of costly estimating software.</p>
+      <p>Professional estimation companies have expert estimators to perform highly accurate and timely takeoffs, by getting services from them, your chance of getting the jobs increases, and it also contributes towards long term relations with your general contractor.</p>
+      
+    
+    </div>
+     <h2 class="mt-5 mb-3">Outsource Your Next Lumber Estimate to Us!</h2>
+      <p>By outsourcing to us, you get a detailed and accurate estimate containing detailed material takeoff with each line-item description that contributes towards bidding and winning more projects. We deliver lumber estimates within quick turnaround times and we have connections with local vendors with a huge database of location-based pricing that gets updated many times in a year.</p>
+      <ul>
+        <li>Comprehensive estimates with easy-to-follow marked up plans</li>
+        <li>Fastest turnaround within 24 to 48 hours and always on-time delivery of estimates</li>
+        <li>Cost-effective estimates that offer great value for money</li>
+        <li>Complete consultancy regarding bid filing and also manage biding network profiles of our clients</li>
+        <li>Dedicated expert lumber estimator to handle all the woodwork estimates</li>
+        <li>The bid-hit ratio of as high as 92%</li>
+        <li>24/7 customer support on live chat &amp; Email</li>
+        </ul>
+
+        <section class="mt-5 pt-4">
+            <h2 >Our Estimation Process</h2>
+            <p>The expert estimators at our firm have the complete knowledge of construction techniques, wall alignments, lumber quality, temporary bracing, and reinforcement, and easily pinpoint the structural issues, product suitability, and substitutes.</p>
+            <p>Our estimation process starts with a review of drawing plans, material specifications, usages, field requirements, delivery sequences, etc. provided by the client to define the scope of work. This is followed by the on-screen takeoff using the latest software like Planswift, Bluebeam, Trimble, etc. to import the plans and accurately measure the dimensions.</p>
+            <p>All the lumber quantities required for framing are exported to EXCEL spreadsheets that are well referenced with color-coded plans. Our takeoff includes the breakdown of the following quantities but is not limited to:</p>
+         <ul>
+            <li>Wooden posts, with different types and sizes</li>
+            <li>Structural lumber components including framing panels, sill plates, wall studs, corner studs, ladder studs, etc.</li>
+            <li>Insulation gaps and sheathings</li>
+            <li>Rough carpentry and timber accessories</li>
+            <li>Floor decking &amp; roof decking</li>
+            <li>Window/door casings including headers, beams, cripples, and trimmers</li>
+            <li>Joists, rafters, &amp; trusses</li>
+            </ul>
+            <p>We perform a precise lumber cut list to ensure the usage of maximum wooden posts to avoid wastage by cutting lengths. It also helps framers to properly utilize each and every piece of timber.</p>
+            <p>We estimate the cost of your project based on your requirements. This means that we can either send you the quoted material lists to forward to your suppliers or we can utilize our construction cost database and RSMeans for up to date and location-based pricing. And for labor costs, we can work with your labor rates as well as union or non-union and prevailing wages as per your demand.</p>
+            <p>Our estimates include all the direct and indirect costs like lumber costs, transportation costs, insurances, safety costs, cleanups, and other miscellaneous costs.</p>
+
+              
+        </section>
+ 
+
+           <div class="row mt-5">
+                <h2 class="mb-4">Many Lumber Yards, Millwork and Framing Contractors Trust Us for The Precise Lumber Takeoff Services. We Believe You Should Give Us a Try</h2>
+          <!-- Col 3 -->
+          <div class="col-md-4">
+            <h4>1. Submit your drawing plans & specifications:</h4>
+            <p class="mt-4">Click here to upload your drawing plans. Formats that we accept are. PDF, .PLN, TIFF, .DXF, .TIF, .DWG, .DWF, .OSX, .JPG, .DJVU, DAL, .CPC, .JPEG. You will get a quote in the next five minutes.</p>
+           
+          </div>
+
+            <div class="col-md-4">
+            <h4>2- Get a Quote</h4>
+            <p class="mt-4">A quote will be sent to you consisting of the invoice, turnaround time, and delivery date. After you approve the quote, you can pay via Credit Card, Debit Card, or PayPal and we will start preparing your estimate.</p>
+           
+          </div>
+
+            <div class="col-md-4">
+            <h4>3. Get an estimate:</h4>
+            <p class="mt-4">You will receive your estimate in EXCEL sheets either in CSI MasterFormat or using your cost codes, as per your demand.</p>
+           
+          </div>
+
+           
+          </div> 
+
+          <h2 class="mt-5">
+            Frequently Asked Questions – FAQS
+          </h2>
+
+          <h5 class="mt-4 fw-semibold">What quantities do you consider while providing framing takeoff?</h5>
+          <p>We consider wood panels, plates, studs, joists, sheathing, headers, cripples, trimmers, and trusses for framing takeoff. Furthermore, the labor, labor-hours, logistics, permits, insurances, taxes are included in them.</p>
+
+          <h5 class="mt-4 fw-semibold">How much time do you usually take to deliver your lumber estimate?</h5>
+          <p>We provide lumber estimating services in no time. A detailed lumber estimate and quantity takeoff will be delivered to you in 24 to 48 hours.</p>
+
+          
+          <h5 class="mt-4 fw-semibold">What do you quantify in lumber estimates?</h5>
+          <p>We have diverse experience in the takeoff. We quantify cabinetry, millwork, lumber and timber. Moreover, countertops, veneers, wood stairs and railings, trim and siding are few important ones to mention. Moving forward, paneling, laminates, wood truss, decking, sheathing, wood shelving, and fascia are also included in this regard.</p>
+
+          
+          <h5 class="mt-4 fw-semibold">In what format do you provide takeoff?</h5>
+          <p>We deliver the takeoff in EXCEL sheets either in our format or the one provided by the client.</p>
+
+          <h5 class="mt-4 fw-semibold">How much do you charge for lumber takeoff?</h5>
+          <p>We usually charge on average $200 for wood-plastic composites and lumber takeoffs but it always depends on the scope and extent of the work required. it can be as low as $100 for a few hours’ jobs.</p>
+          
+          <h5 class="mt-4 fw-semibold">How Lumber companies are getting more business by outsourcing estimation to you?</h5>
+          <p>As outsourcing saves them time and money, they focus on their core business, ordering and supplying lumber to contractors and builders. They also save the expense of hiring a full-time lumber estimator.</p>
+          <p>Being in the AEC industry for 15 years, World Estimating has flourished in delivery construction estimating services across North America, Australia, Africa, and the Caribbean. We have the exposure of serving in all the states of the US and are well aware of the construction regulations.</p>
+          <p>New York, Illinois, Massachusetts, Hawaii, South Carolina, North Carolina, Minnesota, Michigan, Colorado, Arizona, Missouri, Indiana, Kentucky, Louisiana, Maryland, Minnesota, Idaho, Pennsylvania, Alabama, Washington, California Arkansas, Connecticut, Tennessee, Oklahoma, Virginia, Ohio, Oregon, Nebraska, Wisconsin, Wyoming, Alaska, Delaware, Iowa, Mississippi, Montana, Nevada, Vermont, Utah, New Hampshire, Texas, Georgia, New Jersey, Florida.</p>
+
+          <h5 class="mt-5 fw-bold text-center px-3">What Are You Waiting For? If You Are Planning to Hire a Construction Project Estimator, Then World Estimating Is the Right Option for You to Choose!</h5>
+
+          	 <div class="text-center my-5"><button class="price-upload-btn  ">Upload Plans</button></div>
+
+      <!-- Question -->
+      
+
+
+
+      
+      <!-- Answer -->
+      
+       
+
+
+</div></section>
+
+
+
+
+
+</div>
+
+      
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+        <h3 class="py-3 " style="border-top: 2px solid rgb(174, 174, 174); border-bottom: 2px solid rgb(174, 174, 174);">Our Trades</h3>
+        <div class="price-sidebar">
+          <a href="#">Concrete Estimating</a>
+          <a href="#">Electrical Estimating Services</a>
+          <a href="#">Interior & Exterior Finishes</a>
+          <a href="#">Masonry Estimating</a>
+          <a href="#">MEP Estimating Services</a>
+          <a href="#">Metals Estimating Services</a>
+          <a href="#">Openings Estimating Services</a>
+          <a href="#">Sitework Estimating Services</a>
+          <a href="#">Thermal & Moisture Protection Estimating Services</a>
+          <a href="#">Lumber Takeoff</a>
+        </div>
+          <div class="price-contact-box my-4 ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+      
+      </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+        <div class="row">
+            
+            <!-- World Estimating -->
+            <div class="col-md-3 mb-4">
+                <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+             <ul class="list-unstyled footer-links">
+          <li class="mt-2"><a href="../ourtrader.html">Our Trades</a></li>
+          <li class="mt-2"><a href="../services.html">Services</a></li>
+          <li class="mt-2"><a href="#">Portfolio</a></li>
+          <li class="mt-2"><a href="../about.html">About Us</a></li>
+          <li class="mt-2"><a href="../contact.html">Contact</a></li>
+          <li class="mt-2"><a href="../aboutu/faqs.html">FAQs</a></li>
+          <li class="mt-2"><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="../js.js/script.js"></script>
+</body>
+</html>

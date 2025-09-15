@@ -571,6 +571,55 @@
   font-size: 13px;
 }
 
+
+.timeline-item {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.timeline-icon {
+
+  
+  width: 60px;
+  height: 60px;
+  background: #f1f1f1;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c757d;
+  font-size: 18px;
+}
+.timeline-content{
+  width: 70%;
+}
+
+.timeline-content h5 {
+  color: #002c77;
+}
+
+
+.promo-box {
+  background: #f2f3f5;
+  border: 1px solid #ddd;
+}
+
+.promo-box p {
+  font-size: 18px;
+  width: 65%;
+  color: #002244;
+}
+
+.promo-box .btn {
+  font-size: 13px;
+  color: #002244;
+  padding: 8px 15px;
+  background-color: rgb(250, 250, 108);
+
+}
+
 @media screen and (max-width: 768px){
   .hero-section {
   background: url("../image/estimating-banner.webp") center center/cover no-repeat;
@@ -654,3 +703,4 @@
   margin-bottom: 40px;
 }
 }
+

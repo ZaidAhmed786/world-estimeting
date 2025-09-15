@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+       p{
+    font-size: 18px;
+  }
+  li{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  h1{
+    color: #0a2e57;
+  }
+  h2{
+    color: #0a2e57;
+  }
+ 
+  h4{
+    color: #0a2e57;
+  }
+ h3{
+    color: #0a2e57;
+ }
+ h5{
+    color: #0a2e57;
+ }
+ 
+</style>
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+        <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/construction-estimating.html">Construction Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/residential-estimating.html">Residential Estimating</a></li>
+          </ul>
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block active" href="../ourtrader.html">OUR TRADES</a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+         <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/concrete-estimating.html">Concrete Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/electrical-estimator.html">Electrical Estimator</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/interior-exterior-finishes.html">Interior & Exterior <br>
+                Finishes
+            </a></li>
+            <li class="mt-2"><a class="dropdown-item"  href="../ourtrader/masonry-estimating.html">Masonry Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/openings-estimating.html">Openings Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/thermal-moisture.html">Thermal Moisture <br> Protection Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/sitework-estimating.html">Sitework Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item active"  href="../ourtrader/lumber-takeoff.html">Lumber-takeoff</a></li>
+
+          </ul>
+          
+
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+           <a class="nav-link d-none d-lg-inline-block " href="../about.html">ABOUT US </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li class="mt-2"><a class="dropdown-item " href="../aboutu/review.html">Reviews</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+  
+
+
+
+
+<div class="container my-5">
+ <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+          <div class="">
+  <main role="main" class="content">
+    <div class="row">
+      <div class="col-12 ">
+        <h1 class="mb-4">Thermal & Moisture Protection Estimating Services</h1>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row align-items-start mt-4">
+      <!-- Image -->
+      
+
+      <!-- Text -->
+      <div class="col-md-7">
+        <p>
+   Our residential and commercial building cost estimator are very much hands-on with <strong> thermal and moisture protection </strong> trade of work. Waterproofing, roofing, firestopping, caulking, siding, sealants, roof consultants, sheet metal flashing and trim contractors have been served by World Estimating for number of years with estimates ranging from sealants and vapor barriers to insulation.
+        </p>
+        
+      
+      </div>
+      <div class="col-md-5 text-center">
+        <img 
+          src="https://worldestimating.com/wp-content/uploads/2019/12/door-opening.jpg" 
+          alt="Concrete Estimating Services" 
+          class="img-fluid rounded shadow" width="386" height="337">
+      </div>
+      <p>These estimates prepared by our estimators can further be used as demanded either for procurement, ordering materials from the market, estimating the labor and for bid proposal purposes. Our <strong> freelance construction estimators </strong> prepare cost estimates  as per the trade you specialize in.</p>
+    
+    </div>
+  </main>
+</div>
+  <div class="entry-content-wrapper clearfix">
+
+<div class="flex_column av-e8qel3-966a4c3b689bf92c348f4fad3aac21e3 av_one_full  avia-builder-el-7  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	 <div class="text-center my-5"><button class="price-upload-btn  "> View Our Thermal & Moisture Protection Estimate Sample</button></div>
+</center></div></section></div>
+<p><strong>Commercial Flooring estimator</strong> hired at world estimating covers each aspect of floor division whether it would be interior finishes, exterior finishes, tiles or any marble stone work, we are adept in each and every aspect of the flooring.&nbsp;Similarly,&nbsp;<strong>commercial roofing estimators</strong>&nbsp;have expertise from EIFS to applied fireproofing.</p>
+
+<div class="row align-items-start mt-5">
+      <!-- Image -->
+      
+<div class="col-md-5 text-center">
+        <img 
+          src="https://worldestimating.com/wp-content/uploads/2019/12/2-5.jpg" 
+          alt="Concrete Estimating Services" 
+          class="img-fluid rounded shadow" width="386" height="337">
+      </div>
+      <!-- Text -->
+      <div class="col-md-7">
+        <h2>Thermal Insulation Estimating</h2>
+        <p>
+ Each division is described and takeoff in detail by our project estimators. Each roofing trade of work from the online roof repair estimate, tin roof, steel roof, garage roof, metal roof, slate roof, shingle roof, and flat roof estimates are accurately and precisely digitized by takeoff software and quantified in an EXCEL sheet.
+        </p>
+        
+      
+      </div>
+      
+      
+    
+    </div>
+
+
+<p class="mt-5">A large majority of homeowners reach out to us for their house roof, for which drawings or specifications make up the work for us and with our experience and past recent portfolio of projects, handle each project with a handful of expertise and deliver the projected cost to build a house roof in an hours’ timep>
+
+
+
+<p class="mt-3">Roofing contractors regard us as the best roofing estimates company. The details are forwarded to our relevant department, necessary details are kept into consideration and comprehensive, easy to comprehend and meaningful roof estimate is delivered to the client in 24/7 Support on call. Please visit our profile on The Blue Book.</p>
+
+
+
+   <p class="text-danger fw-bold text-center mt-5">
+         Just upload plans in the below link, we will review and send a quote in the next 5 minutes:
+        </p>
+     <div class="my-5 text-center"><button class="price-upload-btn  ">Upload Plans</button></div>
+
+  
+      <!-- Question -->
+          <h2 class="mt-5">Waterproofing & Damp proofing Estimating – Material Takeoff</h2>
+        <p class="pt-3">
+            Waterproofing Contractors are our clients that require the minor details in the material takeoff that not only they make up the bid to the General contractor but also procure or buy material on the basis of our takeoff.
+        </p>
+        <p>Our estimate also guides the details about how and where the necessary material is going to be applied on foundation and footings or below grade slab. Air Vapor barriers & Sealants contractors are our imminent clients that require our services for preparing up the bid and get to know how much material is required.</p>
+     <div class="my-5 text-center"><button class="price-upload-btn  ">Click Our Samples Of Damp Proofing & Waterproofing</button></div>
+
+       <h2 class="mt-5">Fire Proofing & Fire Stopping Estimating – Material Takeoff</h2>
+        <p class="pt-3">
+           All Fireproofing and firestopping contractors need an estimation company or an estimator who will do a detailed description takeoff of the plans where rating of fireproofing is mentioned along with the structural assemblies like beams, columns, walls and structures or framing assemblies. The detailed description that include the thickness of insulation, material of insulation and structural details of the assembly must be mentioned for which our expert estimators will provide all the necessary details that would make up the work for contractors in bidding and procuring as well.
+        </p>
+        <p>Our portfolios of projects include Schools, Public facilities, Hospitals, Commercial zones, Retail and Restaurants.</p>
+     <div class="my-5 text-center"><button class="price-upload-btn  ">Click Our Samples Of Fire Proofing & Stopping Estimate</button></div>
+
+
+     <section>
+        <h2>FAQ:</h2>
+        <h4 class="mt-3">Who has outsourced their estimation to World Estimating?</h4>
+        <p>Ans. Waterproofing, damp roofing, fire-stopping, caulking, siding, sealants, roofing, and sheet metal flashing contractors have outsourced their estimation to us for thermal and moisture protection trade work. All type sealants, pavers, gutters, spray insulation and intumescent fireproofing work is handled by professional construction estimators. Siding Panels, shingles, and membrane roofing bill of quantities are generated with details and description and we do ensure accuracy and quality is maintained.</p>
+
+            <h4 class="mt-4">What we do when there are mistakes and drawbacks in the drawing’s plans?</h4>
+        <p>We not only mark the mistakes with color schemes but also prepare accurate takeoffs with the assumptions made against the specifications made thereof. Therefore, once you come up with any drawbacks and any sort of the draft and provisional drawing and want an estimate of it. Then we will manage to meet up with all the shortcomings and will take off the required quantities for you.</p>
+
+            <h4 class="mt-4">Do we provide marked-up plans for thermal and moisture protection?</h4>
+        <p>Ans. All takeoffs and estimates are accompanied by a marked up plan that helps you judge where we have quantified the items with descriptions.</p>
+
+            <h4 class="mt-4">What about our experience doing thermal and moisture protection takeoffs?</h4>
+        <p>our experience in firestopping waterproofing firestopping and air proofing is due to hundred of projects on a monthly basis that we do and deliver to our clients and their long-term satisfactory relationship with us.</p>
+     </section>
+
+          <section>
+        <h2 class="my-4 pt-5">Fireproofing Contractor Case Study:</h2>
+        <p>Fireproofing contractors have enormous and gigantic work to be done in commercial facilities and industrial units, therefore, making structural takeoffs for beams, columns assemblies and drywall fire rated insulation, contractors opt for specialized estimating services. The estimation expenditure sometimes exceeds the financial ability of the subcontractor.</p>
+
+            <h4 class="mt-4">Problem:</h4>
+        <p>Fireproofing contractors have enormous and gigantic work to be done in commercial facilities and industrial units therefore making structural takeoffs for beams, columns assemblies and drywall fire rated insulation, contractors opt for specialized estimating services. The estimation expenditure sometimes exceeds the financial ability of the subcontractor.</p>
+
+            <h4 class="mt-4">Solution:</h4>
+        <p>World Estimating services came up with a plan that would deal with the expenses and bid deadlines of the subcontractor and would bear the expense that would be 50% less. in case that that fireproofing subcontractor hires a professional construction estimator.</p>
+
+            <h4 class="mt-4">Outcomes:</h4>
+        <p>As always, the shining bright results ensured by the World Estimating of accuracy, less expense and quality. The subcontractor not only saved his expense and time but also get provided with quality takeoffs and specialized estimates.</p>
+     </section>
+      
+      <!-- Answer -->
+      
+        <div class="row mt-5">
+        
+            <h4 class=" fw-bold  mb-5">Thermal & Moisture Protection Takeoffs</h4>
+          <!-- Col 3 -->
+          <div class="col-md-3">
+          <ul>
+                <li>fire retardant cable sprays takeoffs</li>
+                <li>damproofing takeoffs</li>
+                <li>waterproofing takeoffs</li>
+                <li>chemical grouting takeoffs</li>
+                <li>traffic coatings takeoffs</li>
+                <li>fiber insulation takeoffs</li>
+                <li>plastic insulation takeoffs</li>
+                <li>cellulose insulation takeoffs</li>
+                <li>reflective insulation takeoffs</li>
+                <li>cladding takeoffs</li>
+                <li>roof and deck installation takeoffs</li>
+                </ul>
+          </div>
+            <div class="col-md-3">
+           <ul>
+                <li>EIFS( Exterior Insulation and Finish Systems) takeoffs</li>
+                <li>Weather Barriers takeoffs</li>
+                <li>Vapor Resistive Barriers takeoffs</li>
+                <li>Vapor Permeable Barriers takeoffs</li>
+                <li>Steep Slope Roofing takeoffs</li>
+                <li>Shingles (Asphalt, Metal, Slate) takeoffs</li>
+                <li>Siding Panels takeoffs</li>
+                <li>Metal Siding takeoffs</li>
+                <li>Vinyl Siding takeoffs</li>
+                </ul>
+          </div>
+            <div class="col-md-3">
+          <ul>
+            <li>membrane roofing takeoffs</li>
+            <li>bituminuous roofing takeoffs</li>
+            <li>flashings takeoffs</li>
+            <li>coping takeoffs</li>
+            <li>fascias takeoffs</li>
+            <li>gutters and downspouts takeoffs</li>
+            <li>roof expansion joints takeoffs</li>
+            <li>roof curbs takeoffs</li>
+            <li>ridge vents takeoffs</li>
+            <li>pipe flashing system takeoffs</li>
+            <li>Wood Siding and Shingles takeoffs</li>
+            </ul>
+          </div>
+            <div class="col-md-3">
+           <ul>
+                <li>roof walkway takeoffs</li>
+                <li>spray fireproofing takeoffs</li>
+                <li>intumescent fireproofing takeoffs</li>
+                <li>fire stopping takeoffs</li>
+                <li>smoke barriers takeoffs</li>
+                <li>joint sealants takeoffs</li>
+                <li>joint seals takeoffs</li>
+                <li>snow guards takeoffs</li>
+                <li>roof pavers takeoffs</li>
+                <li>Penetration firestopping takeoffs</li>
+                <li>Fiber-reinforced cement siding takeoffs</li>
+                </ul>
+          </div>
+        
+     
+      
+    </div>
+
+
+       <div class="row mt-5">
+        
+            <h2 class=" fw-boldn text-danger  mb-5">Providing Thermal & Moisture Protection Estimating Services throughout United States, United Kingdom, Australia, Canada and other countries</h5>
+          <!-- Col 3 -->
+          <div class="col-md-3">
+            <h4>Colorado</h4>
+                    <ul>
+            <li>Denver</li>
+            <li>Colorado Springs</li>
+            <li>Aurora</li>
+            <li>Fort Collins</li>
+            <li>Lakewood</li>
+            <li>Thornton</li>
+            <li>Arvada</li>
+            <li>Westminster</li>
+            <li>Pueblo</li>
+            <li>Centennial</li>
+            <li>Boulder</li>
+            <li>Greeley</li>
+            <li>Highlands Ranch</li>
+            <li>Longmont</li>
+            <li>Loveland</li>
+            <li>Broomfield</li>
+            <li>Castle Rock</li>
+            <li>Grand Junction</li>
+            <li>Commerce City</li>
+            <li>Parker</li>
+            <li>Littleton</li>
+            <li>Brighton</li>
+            <li>Northglenn</li>
+            <li>Security-Widefield</li>
+            <li>Englewood</li>
+            <li>Dakota Ridge</li>
+            <li>Ken Caryl</li>
+            <li>Wheat Ridge</li>
+            <li>Pueblo West</li>
+            <li>Fountain</li>
+            <li>Windsor</li>
+            <li>Lafayette</li>
+            <li>Erie</li>
+            <li>Columbine</li>
+            <li>Golden</li>
+            <li>Evans</li>
+            <li>Louisville</li>
+            <li>Clifton</li>
+            <li>Montrose</li>
+            <li>Durango</li>
+            <li>Sherrelwood</li>
+            <li>Cimarron Hills</li>
+            <li>Cañon City</li>
+            <li>Welby</li>
+            <li>Greenwood Village</li>
+            <li>Fort Carson</li>
+            <li>Firestone</li>
+            <li>Johnstown</li>
+            <li>Lone Tree</li>
+            <li>Black Forest</li>
+            <li>Sterling</li>
+            <li>Frederick</li>
+            <li>Fruita</li>
+            <li>Steamboat Springs</li>
+            <li>Superior</li>
+            <li>Federal Heights</li>
+            <li>Cherry Creek</li>
+            <li>Berkley</li>
+            <li>The Pinery</li>
+            <li>Fort Morgan</li>
+            <li>Castle Pines</li>
+            <li>Alamosa</li>
+            <li>Wellington</li>
+            <li>Glenwood Springs</li>
+            <li>Rifle</li>
+            <li>Roxborough Park</li>
+            <li>Stonegate</li>
+            <li>Redlands</li>
+            <li>Derby</li>
+            <li>Gunbarrel</li>
+            <li>Woodmoor</li>
+            <li>Edwards</li>
+            <li>Craig</li>
+            <li>Delta</li>
+            <li>Cortez</li>
+            <li>Evergreen</li>
+            <li>Fairmount</li>
+            <li>Fort Lupton</li>
+            <li>Trinidad</li>
+            <li>Applewood</li>
+            <li>Monument</li>
+            <li>Berthoud</li>
+            <li>Fruitvale&nbsp;and&nbsp;Woodland Park</li>
+            <li>Milliken</li>
+            <li>Lamar</li>
+            <li>Aspen</li>
+            <li>Gypsum</li>
+            <li>La Junta</li>
+            <li>Eagle</li>
+            <li>Lochbuie</li>
+            <li>Carbondale</li>
+            <li>Twin Lakes</li>
+            <li>Gleneagle</li>
+            <li>Cherry Hills Village</li>
+            <li>Gunnison</li>
+            <li>Avon</li>
+            <li>Orchard Mesa</li>
+            <li>Estes Park</li>
+            <li>Sheridan</li>
+            <li>Air Force Academy</li>
+            </ul>
+          </div>
+            <div class="col-md-3">
+            <h4>Colorado</h4>
+                <ul>
+                <li>Denver</li>
+                <li>Colorado Springs</li>
+                <li>Aurora</li>
+                <li>Fort Collins</li>
+                <li>Lakewood</li>
+                <li>Thornton</li>
+                <li>Arvada</li>
+                <li>Westminster</li>
+                <li>Pueblo</li>
+                <li>Centennial</li>
+                <li>Boulder</li>
+                <li>Greeley</li>
+                <li>Highlands Ranch</li>
+                <li>Longmont</li>
+                <li>Loveland</li>
+                <li>Broomfield</li>
+                <li>Castle Rock</li>
+                <li>Grand Junction</li>
+                <li>Commerce City</li>
+                <li>Parker</li>
+                <li>Littleton</li>
+                <li>Brighton</li>
+                <li>Northglenn</li>
+                <li>Security-Widefield</li>
+                <li>Englewood</li>
+                <li>Dakota Ridge</li>
+                <li>Ken Caryl</li>
+                <li>Wheat Ridge</li>
+                <li>Pueblo West</li>
+                <li>Fountain</li>
+                <li>Windsor</li>
+                <li>Lafayette</li>
+                <li>Erie</li>
+                <li>Columbine</li>
+                <li>Golden</li>
+                <li>Evans</li>
+                <li>Louisville</li>
+                <li>Clifton</li>
+                <li>Montrose</li>
+                <li>Durango</li>
+                <li>Sherrelwood</li>
+                <li>Cimarron Hills</li>
+                <li>Cañon City</li>
+                <li>Welby</li>
+                <li>Greenwood Village</li>
+                <li>Fort Carson</li>
+                <li>Firestone</li>
+                <li>Johnstown</li>
+                <li>Lone Tree</li>
+                <li>Black Forest</li>
+                <li>Sterling</li>
+                <li>Frederick</li>
+                <li>Fruita</li>
+                <li>Steamboat Springs</li>
+                <li>Superior</li>
+                <li>Federal Heights</li>
+                <li>Cherry Creek</li>
+                <li>Berkley</li>
+                <li>The Pinery</li>
+                <li>Fort Morgan</li>
+                <li>Castle Pines</li>
+                <li>Alamosa</li>
+                <li>Wellington</li>
+                <li>Glenwood Springs</li>
+                <li>Rifle</li>
+                <li>Roxborough Park</li>
+                <li>Stonegate</li>
+                <li>Redlands</li>
+                <li>Derby</li>
+                <li>Gunbarrel</li>
+                <li>Woodmoor</li>
+                <li>Edwards</li>
+                <li>Craig</li>
+                <li>Delta</li>
+                <li>Cortez</li>
+                <li>Evergreen</li>
+                <li>Fairmount</li>
+                <li>Fort Lupton</li>
+                <li>Trinidad</li>
+                <li>Applewood</li>
+                <li>Monument</li>
+                <li>Berthoud</li>
+                <li>Fruitvale&nbsp;and&nbsp;Woodland Park</li>
+                <li>Milliken</li>
+                <li>Lamar</li>
+                <li>Aspen</li>
+                <li>Gypsum</li>
+                <li>La Junta</li>
+                <li>Eagle</li>
+                <li>Lochbuie</li>
+                <li>Carbondale</li>
+                <li>Twin Lakes</li>
+                <li>Gleneagle</li>
+                <li>Cherry Hills Village</li>
+                <li>Gunnison</li>
+                <li>Avon</li>
+                <li>Orchard Mesa</li>
+                <li>Estes Park</li>
+                <li>Sheridan</li>
+                <li>Air Force Academy</li>
+                </ul>
+          </div>
+            <div class="col-md-3">
+            <h4>Colorado</h4>
+                <ul>
+                <li>Salida</li>
+                <li>Dacono</li>
+                <li>Stratmoor</li>
+                <li>Shaw Heights</li>
+                <li>Eaton</li>
+                <li>Vail</li>
+                <li>Dove Valley</li>
+                <li>Brush</li>
+                <li>Manitou Springs</li>
+                <li>Edgewater</li>
+                <li>Glendale</li>
+                <li>Battlement Mesa</li>
+                <li>Severance</li>
+                <li>New Castle</li>
+                <li>Breckenridge</li>
+                <li>Silverthorne</li>
+                <li>Mead</li>
+                <li>Niwot</li>
+                <li>Castle Pines Village</li>
+                <li>West Pleasant View</li>
+                <li>Basalt</li>
+                <li>Monte Vista</li>
+                <li>El Jebel</li>
+                <li>Todd Creek</li>
+                <li>Timnath</li>
+                <li>Florence</li>
+                <li>Rocky Ford</li>
+                <li>Genesee</li>
+                <li>Yuma</li>
+                <li>Ponderosa Park</li>
+                <li>Meridian</li>
+                <li>Silt</li>
+                <li>Burlington</li>
+                <li>Penrose</li>
+                <li>Orchard City</li>
+                <li>Frisco</li>
+                <li>Walsenburg</li>
+                <li>Lincoln Park</li>
+                <li>Strasburg</li>
+                <li>Acres Green</li>
+                <li>Buena Vista</li>
+                <li>Holly Hills</li>
+                <li>Snowmass Village</li>
+                <li>Palmer Lake</li>
+                <li>Platteville</li>
+                <li>Leadville</li>
+                <li>Palisade</li>
+                <li>Bayfield</li>
+                <li>Bennett</li>
+                <li>Telluride</li>
+                <li>Laporte</li>
+                <li>La Salle</li>
+                <li>Wray</li>
+                <li>Colorado City</li>
+                <li>Center</li>
+                <li>Rangely</li>
+                <li>Cedaredge</li>
+                <li>Meeker</li>
+                <li>Holyoke</li>
+                <li>Las Animas</li>
+                <li>Lyons</li>
+                <li>Granby</li>
+                <li>Pagosa Springs</li>
+                <li>Hayden</li>
+                <li>Coal Creek</li>
+                <li>Limon</li>
+                <li>Perry Park</li>
+                <li>Ault</li>
+                <li>Hudson</li>
+                <li>Olathe</li>
+                <li>Inverness</li>
+                <li>Idaho Springs</li>
+                <li>Leadville North</li>
+                <li>Akron</li>
+                <li>Crested Butte</li>
+                <li>Kersey</li>
+                <li>Alamosa East</li>
+                <li>Del Norte</li>
+                <li>Nederland</li>
+                <li>Kremmling</li>
+                <li>Columbine Valley</li>
+                <li>Paonia</li>
+                <li>Mountain Village</li>
+                <li>Mancos</li>
+                <li>Elizabeth</li>
+                <li>Indian Hills</li>
+                <li>Springfield</li>
+                <li>Aetna Estates</li>
+                <li>Cascade-Chipita Park</li>
+                <li>Fraser</li>
+                <li>Cripple Creek</li>
+                <li>Keenesburg</li>
+                <li>Byers</li>
+                <li>Keystone</li>
+                <li>Loma</li>
+                <li>Julesburg</li>
+                <li>Aristocrat Ranchettes</li>
+                <li>Fowler</li>
+                <li>Floyd Hill</li>
+                <li>Pierce</li>
+                </ul>
+          </div>
+            <div class="col-md-3">
+            <h4>Colorado</h4>
+            <ul>
+            <li>Boone</li>
+            <li>Sugarloaf</li>
+            <li>South Fork</li>
+            <li>Coal Creek town</li>
+            <li>Crisman</li>
+            <li>Morgan Heights</li>
+            <li>North La Junta</li>
+            <li>Olney Springs, Red Feather Lakes, and Dinosaur</li>
+            <li>St. Ann Highlands and City of Creede</li>
+            <li>Alma</li>
+            <li>Ovid</li>
+            <li>Empire</li>
+            <li>Arboles</li>
+            <li>Merino, Louviers, and Red Cliff</li>
+            <li>East Pleasant View</li>
+            <li>Comanche Creek</li>
+            <li>Catherine</li>
+            <li>Jamestown and El Moro</li>
+            <li>Garden City</li>
+            <li>Iliff</li>
+            <li>Brookside</li>
+            <li>Eckley and Redvale</li>
+            <li>Peyton and Hillrose</li>
+            <li>Cheraw</li>
+            <li>Sugar City</li>
+            <li>Alpine</li>
+            <li>Kit Carson</li>
+            <li>Bethune</li>
+            <li>Peoria</li>
+            <li>Peetz</li>
+            <li>Franktown and Jackson Lake</li>
+            <li>Rico</li>
+            <li>Phippsburg and Vineland</li>
+            <li>Amherst</li>
+            <li>Woody Creek</li>
+            <li>Seibert</li>
+            <li>Sunshine</li>
+            <li>Larkspur</li>
+            <li>Arriba</li>
+            <li>Midland</li>
+            <li>Bonanza Mountain Estates</li>
+            <li>Atwood</li>
+            <li>Bark Ranch</li>
+            <li>Ophir</li>
+            <li>Silver Plume</li>
+            <li>Tall Timber</li>
+            <li>Crowley</li>
+            <li>Ward and Southern Ute</li>
+            <li>Rye</li>
+            <li>Sedalia</li>
+            <li>Elbert</li>
+            <li>Gold Hill and Grover</li>
+            <li>Rollinsville</li>
+            <li>Hasty</li>
+            <li>Twin Lakes CDP</li>
+            <li>Crestone</li>
+            <li>Genoa</li>
+            <li>Marble</li>
+            <li>Lewis and Sedgwick</li>
+            <li>Glendale CDP and Pritchett</li>
+            <li>Brick Center</li>
+            <li>Weldona</li>
+            <li>Ramah and Westcreek</li>
+            <li>Segundo and Black Hawk</li>
+            <li>Maysville and Cokedale</li>
+            <li>Moffat</li>
+            <li>Mountain Meadows</li>
+            <li>Snyder</li>
+            <li>Capulin</li>
+            <li>Raymer (New Raymer)</li>
+            <li>Orchard</li>
+            <li>Crook</li>
+            <li>Vilas</li>
+            <li>Jansen and Gerrard</li>
+            <li>Vona</li>
+            <li>Campo</li>
+            <li>Hooper</li>
+            <li>No Name and Smeltertown</li>
+            <li>Saddle Ridge</li>
+            <li>Portland</li>
+            <li>Rock Creek Park</li>
+            <li>Trail Side</li>
+            <li>Padroni</li>
+            <li>Hoehne</li>
+            <li>Sheridan Lake</li>
+            <li>Seven Hills and Florissant</li>
+            <li>Hartman</li>
+            <li>Kirk</li>
+            <li>Pitkin</li>
+            <li>Branson and Kim</li>
+            <li>Montezuma</li>
+            <li>Haswell</li>
+            <li>Weston</li>
+            <li>Lynn</li>
+            <li>La Junta Gardens</li>
+            <li>Joes, Divide, and San Acacio</li>
+            <li>Starkville</li>
+            <li>Laird</li>
+            <li>Conejos</li>
+            <li>Eldora</li>
+            </ul>
+          </div>
+        
+     
+      
+    </div>
+
+</div></section>
+
+
+
+ <div class=" promo-box mt-5 d-flex justify-content-between align-items-center p-4">
+    <p class="mb-0 fw-bold ">
+      What Are You Waiting For? If You Are Planning To Hire A Construction Project Estimator, 
+      Then World Estimating Is The Right Option For You To Choose!
+    </p>
+    <a href="#" class="btn fw-bold px-4 py-2">
+      Contact Us GET 30% OFF
+    </a>
+  </div>
+
+
+
+</div>
+
+      
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+        <h3 class="py-3 " style="border-top: 2px solid rgb(174, 174, 174); border-bottom: 2px solid rgb(174, 174, 174);">Our Trades</h3>
+      <h3 class="py-3 " style="border-top: 2px solid rgb(174, 174, 174); border-bottom: 2px solid rgb(174, 174, 174);">Our Trades</h3>
+        <div class="price-sidebar">
+          <a href="#">Concrete Estimating</a>
+          <a href="#">Electrical Estimating Services</a>
+          <a href="#">Interior & Exterior Finishes</a>
+          <a href="#">Masonry Estimating</a>
+          <a href="#">MEP Estimating Services</a>
+          <a href="#">Metals Estimating Services</a>
+          <a href="#">Openings Estimating Services</a>
+          <a href="#">Sitework Estimating Services</a>
+          <a href="#">Thermal & Moisture Protection Estimating Services</a>
+          <a href="#">Lumber Takeoff</a>
+        </div>
+          <div class="price-contact-box my-4 ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+      
+      </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+        <div class="row">
+            
+            <!-- World Estimating -->
+            <div class="col-md-3 mb-4">
+                <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+             <ul class="list-unstyled footer-links">
+          <li class="mt-2"><a href="../ourtrader.html">Our Trades</a></li>
+          <li class="mt-2"><a href="../services.html">Services</a></li>
+          <li class="mt-2"><a href="#">Portfolio</a></li>
+          <li class="mt-2"><a href="../about.html">About Us</a></li>
+          <li class="mt-2"><a href="../contact.html">Contact</a></li>
+          <li class="mt-2"><a href="../aboutu/faqs.html">FAQs</a></li>
+          <li class="mt-2"><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="../js.js/script.js"></script>
+</body>
+</html>

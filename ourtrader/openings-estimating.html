@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+       p{
+    font-size: 18px;
+  }
+  li{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  h1{
+    color: #0a2e57;
+  }
+  h2{
+    color: #0a2e57;
+  }
+ 
+  h4{
+    color: #0a2e57;
+  }
+ h3{
+    color: #0a2e57;
+ }
+ h5{
+    color: #0a2e57;
+ }
+ 
+</style>
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+        <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/construction-estimating.html">Construction Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/residential-estimating.html">Residential Estimating</a></li>
+          </ul>
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block active" href="../ourtrader.html">OUR TRADES</a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+         <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/concrete-estimating.html">Concrete Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/electrical-estimator.html">Electrical Estimator</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/interior-exterior-finishes.html">Interior & Exterior <br>
+                Finishes
+            </a></li>
+            <li class="mt-2"><a class="dropdown-item"  href="../ourtrader/masonry-estimating.html">Masonry Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item active"  href="../ourtrader/openings-estimating.html">Openings Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/thermal-moisture.html">Thermal Moisture <br> Protection Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/sitework-estimating.html">Sitework Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/lumber-takeoff.html">Lumber-takeoff</a></li>
+
+          </ul>
+          
+
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+           <a class="nav-link d-none d-lg-inline-block " href="../about.html">ABOUT US </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li class="mt-2"><a class="dropdown-item " href="../aboutu/review.html">Reviews</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+  
+
+
+
+
+<div class="container my-5">
+ <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+          <div class="">
+  <main role="main" class="content">
+    <div class="row">
+      <div class="col-12 ">
+        <h1 class="mb-4">Openings Estimating Services</h1>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row align-items-start mt-4">
+      <!-- Image -->
+      
+
+      <!-- Text -->
+      <div class="col-md-7">
+        <p>
+    Openings estimating services are required for all opening frames, door and windows. Espert cost estimators provide installation and material cost after calculation and briefly described to the door and frame contractors, intended for marking their labor markups in a bid. Aluminum, Bronze, Vinyl, Fiberglass and metal door contractors.
+        </p>
+        <p>
+        Labor costs for special material and function door and windows are calculated by taking off the material and respective labor to install the openings in commercial and residential facilities.
+        </p>
+      
+      </div>
+      <div class="col-md-5 text-center">
+        <img 
+          src="https://worldestimating.com/wp-content/uploads/2019/12/door-opening.jpg" 
+          alt="Concrete Estimating Services" 
+          class="img-fluid rounded shadow" width="386" height="337">
+      </div>
+    
+    </div>
+  </main>
+</div>
+  <div class="entry-content-wrapper clearfix">
+
+<div class="flex_column av-e8qel3-966a4c3b689bf92c348f4fad3aac21e3 av_one_full  avia-builder-el-7  el_after_av_one_full  el_before_av_one_full  first flex_column_div column-top-margin"><section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	 <div class="text-center my-5"><button class="price-upload-btn  "> View Our Openings Estimate Sample</button></div>
+</center></div></section></div>
+<p>Definitely, being an umbrella Estimation giant of certified professionals and estimator, we takeoff we also deal with industrial facilities labor and materials. Please visit our profile on The Blue Book.</p>
+<p>Thermal and glazed openings are for function-specific purposes and their estimation is done through our certified and professional estimators.</p>
+
+<h4 class="mt-5">How does world estimating quantify a certain trade and make it meaningful to the contractor?</h5>
+
+<p class="mt-3">Ans. Our professional commercial construction cost estimator quantifies the quantities from the plans and mark up the drawings with color code schemes just to show from where we have taken the quantities for Openings Estimating.</p>
+
+<h4 class="mt-5">How to save money with World Estimating?</h5>
+
+<p class="mt-3">Ans. You can take our monthly takeoff and openings estimating packages or hire a dedicated construction estimator within $1000-1500$ for as many plans as you could bid.</p>
+
+
+<h4 class="mt-5">How can we grow our business and win more work?</h5>
+
+<p class="mt-3">Just concentrate on your installation and fabrication work and hand over the rest to World Estimating, where you will be helped with estimates, consultancy and will save your time. Thus, filing more bids and earning more is only possible when you have more time to file rather than to estimate. Many contractors have increased their income bracket after rendering World Estimating services.</p>
+
+
+   <p class="text-danger fw-bold text-center mt-5">
+         Just upload plans in the below link, we will review and send a quote in the next 5 minutes:
+        </p>
+     <div class="my-2 text-center"><button class="price-upload-btn  ">Upload Plans</button></div>
+
+  
+      <!-- Question -->
+      
+      <!-- Answer -->
+      
+        <div class="row mt-5">
+        
+            <h5 class="text-danger fw-boldn text-center mb-5">We are Offering Takeoff and Opening Estimating Services throughout United States, United Kingdom, Australia, Canada, and other countries</h5>
+          <!-- Col 3 -->
+          <div class="col-md-3">
+          <ul>
+                <li>Metal door frame takeoffs</li>
+                <li>Steel door takeoffs</li>
+                <li>Aluminium door takeoffs</li>
+                <li>Bronze door takeoffs</li>
+                <li>Bronze door takeoffs</li>
+                <li>Wood door takeoffs</li>
+                <li>Plastic door takeoffs</li>
+                <li>Residential door takeoffs</li>
+                <li>Vinyl door takeoffs</li>
+                <li>Fiberglass PVC door takeoffs</li>
+                <li>Access door takeoffs</li>
+                <li>Panels takeoffs</li>
+                <li>Sliding door takeoffs</li>
+                <li>Swing door takeoffs</li>
+                <li>Louvers and vents takeoffs</li>
+                </ul>
+          </div>
+            <div class="col-md-3">
+           <ul>
+            <li>Hangar door takeoffs</li>
+            <li>Coiling door takeoffs</li>
+            <li>Grilles takeoffs</li>
+            <li>Thermal shielding door takeoffs</li>
+            <li>Smoke containment takeoffs</li>
+            <li>Folding door takeoffs</li>
+            <li>Commercial overhead door takeoffs</li>
+            <li>Pressure resistant door takeoffs</li>
+            <li>Storefronts takeoffs</li>
+            <li>Entrances takeoffs</li>
+            <li>Curtain wall takeoffs</li>
+            <li>Glazed assembly takeoffs</li>
+            <li>Roof windows takeoffs</li>
+            <li>Skylights takeoffs</li>
+            </ul>
+          </div>
+            <div class="col-md-3">
+          <ul>
+                <li>Metal door frame estimating services</li>
+                <li>steel door openings estimating</li>
+                <li>aluminium door estimating services</li>
+                <li>bronze door estimating services</li>
+                <li>bronze door estimating services</li>
+                <li>wood door estimating services</li>
+                <li>plastic door estimating services</li>
+                <li>residential door estimating services</li>
+                <li>vinyl door estimating services</li>
+                <li>fiberglass PVC door estimating services</li>
+                <li>access door estimating services</li>
+                <li>panels estimating services</li>
+                <li>sliding door estimating services</li>
+                <li>swing door estimating services</li>
+                <li>hangar door estimating services</li>
+                <li>coiling door estimating services</li>
+                </ul>
+          </div>
+            <div class="col-md-3">
+           <ul>
+            <li>grilles estimating services</li>
+            <li>thermal shielding door estimating services</li>
+            <li>smoke containment estimating services</li>
+            <li>folding door estimating services</li>
+            <li>commercial overhead door estimating services</li>
+            <li>pressure resistant door estimating services</li>
+            <li>storefronts estimating services</li>
+            <li>entrances estimating services</li>
+            <li>curtain wall estimating services</li>
+            <li>glazed assembly estimating services</li>
+            <li>roof windows estimating services</li>
+            <li>skylights estimating services</li>
+            </ul>
+          </div>
+        
+     
+      
+    </div>
+
+
+       <div class="row mt-5">
+        
+            <h2 class=" fw-boldn  mb-5">Our Locations</h5>
+          <!-- Col 3 -->
+          <div class="col-md-3">
+            <h4>Georgia</h4>
+          <ul>
+            <li>Marshallville</li>
+            <li>Martin</li>
+            <li>Maxeys</li>
+            <li>Maysville</li>
+            <li>Meansville</li>
+            <li>Meigs</li>
+            <li>Menlo</li>
+            <li>Metter</li>
+            <li>Midville</li>
+            <li>Midway</li>
+            <li>Milan</li>
+            <li>Milledgeville</li>
+            <li>Millen</li>
+            <li>Milner</li>
+            <li>Milton</li>
+            <li>Mitchell</li>
+            <li>Molena</li>
+            <li>Monroe</li>
+            <li>Montezuma</li>
+            <li>Monticello</li>
+            <li>Montrose</li>
+            <li>Moreland</li>
+            <li>Morgan</li>
+            <li>Morganton</li>
+            <li>Morrow</li>
+            <li>Morven</li>
+            <li>Moultrie</li>
+            <li>Mountain City</li>
+            <li>Mountain Park</li>
+            <li>Mount Airy</li>
+            <li>Mount Vernon</li>
+            <li>Mount Zion</li>
+            <li>Nahunta</li>
+            <li>Nashville</li>
+            <li>Nelson</li>
+            <li>Newborn</li>
+            <li>Newington</li>
+            <li>Newnan</li>
+            <li>Newton</li>
+            <li>Nicholls</li>
+            <li>Nicholson</li>
+            <li>Norcross</li>
+            <li>Norman Park</li>
+            <li>North High Shoals</li>
+            <li>Norwood</li>
+            <li>Nunez</li>
+            <li>Oak Park</li>
+            <li>Oakwood</li>
+            <li>Ochlocknee</li>
+            <li>Ocilla</li>
+            <li>Oconee</li>
+            <li>Odum</li>
+            <li>Offerman</li>
+            <li>Oglethorpe</li>
+            <li>Oliver</li>
+            <li>Omega</li>
+            <li>Orchard Hill</li>
+            <li>Oxford</li>
+            <li>Palmetto</li>
+            <li>Parrott</li>
+            <li>Patterson</li>
+            <li>Pavo</li>
+            <li>Peachtree City</li>
+            <li>Peachtree Corners[k]</li>
+            <li>Pearson</li>
+            <li>Pelham</li>
+            <li>Pembroke</li>
+            <li>Pendergrass</li>
+            <li>Perry</li>
+            <li>Pinehurst</li>
+            <li>Pine Lake</li>
+            <li>Pine Mountain</li>
+            <li>Pineview</li>
+            <li>Pitts</li>
+            <li>Plains</li>
+            <li>Plainville</li>
+            <li>Pooler</li>
+            </ul>
+          </div>
+            <div class="col-md-3">
+            <h4>Georgia</h4>
+                <ul>
+                <li>Portal</li>
+                <li>Porterdale</li>
+                <li>Port Wentworth</li>
+                <li>Poulan</li>
+                <li>Powder Springs</li>
+                <li>Pulaski</li>
+                <li>Quitman</li>
+                <li>Ranger</li>
+                <li>Ray City</li>
+                <li>Rayle</li>
+                <li>Rebecca</li>
+                <li>Register</li>
+                <li>Reidsville</li>
+                <li>Remerton</li>
+                <li>Rentz</li>
+                <li>Resaca</li>
+                <li>Rest Haven</li>
+                <li>Reynolds</li>
+                <li>Rhine</li>
+                <li>Riceboro</li>
+                <li>Richland</li>
+                <li>Richmond Hill</li>
+                <li>Riddleville</li>
+                <li>Rincon</li>
+                <li>Ringgold</li>
+                <li>Riverdale</li>
+                <li>Riverside</li>
+                <li>Roberta</li>
+                <li>Rochelle</li>
+                <li>Rockmart</li>
+                <li>Rocky Ford</li>
+                <li>Rome</li>
+                <li>Roopville</li>
+                <li>Roswell</li>
+                <li>Royston</li>
+                <li>Rutledge</li>
+                <li>St. Marys</li>
+                <li>Sale City</li>
+                <li>Sandersville</li>
+                <li>Sandy Springs</li>
+                <li>Santa Claus</li>
+                <li>Sardis</li>
+                <li>Sasser</li>
+                <li>Savannah</li>
+                <li>Scotland</li>
+                <li>Screven</li>
+                <li>Senoia</li>
+                <li>Shady Dale</li>
+                <li>Sharon</li>
+                <li>Sharpsburg</li>
+                <li>Shellman</li>
+                <li>Shiloh</li>
+                <li>Siloam</li>
+                <li>Sky Valley</li>
+                <li>Smithville</li>
+                <li>Smyrna</li>
+                <li>Snellville</li>
+                <li>Social Circle</li>
+                <li>Soperton</li>
+                <li>South Fulton</li>
+                <li>Sparks</li>
+                <li>Sparta</li>
+                <li>Springfield</li>
+                <li>Stapleton</li>
+                <li>Statesboro</li>
+                <li>Statham</li>
+                <li>Stillmore</li>
+                <li>Stockbridge</li>
+                <li>Stone Mountain</li>
+                <li>Stonecrest</li>
+                <li>Sugar Hill</li>
+                <li>Summertown</li>
+                <li>Summerville</li>
+                <li>Sumner</li>
+                <li>Sunny Side</li>
+                <li>Surrency</li>
+                </ul>
+          </div>
+            <div class="col-md-3">
+            <h4>Hawali</h4>
+
+          <ul>
+                <li>Honolulu ††</li>
+                <li>East Honolulu</li>
+                <li>Pearl City</li>
+                <li>Hilo †</li>
+                <li>Kailua</li>
+                <li>Waipahu</li>
+                <li>Kaneohe</li>
+                <li>Mililani Town</li>
+                <li>Kahului</li>
+                <li>Ewa Gentry</li>
+                <li>Mililani Mauka</li>
+                <li>Kihei</li>
+                <li>Makakilo</li>
+                <li>Wahiawa</li>
+                <li>Schofield Barracks</li>
+                <li>Wailuku †</li>
+                <li>Kapolei</li>
+                <li>Ewa Beach</li>
+                <li>Royal Kunia</li>
+                <li>Halawa</li>
+                <li>Waimalu</li>
+                <li>Waianae</li>
+                <li>Nanakuli</li>
+                <li>Kailua</li>
+                <li>Lahaina</li>
+                <li>Waipio</li>
+                <li>Hawaiian Paradise Park</li>
+                <li>Kapaa</li>
+                <li>Kalaoa</li>
+                <li>Kaneohe Station</li>
+                <li>Maili</li>
+                <li>Aiea</li>
+                <li>Waimea</li>
+                <li>Waihee-Waiehu</li>
+                <li>Ahuimanu</li>
+                <li>Holualoa</li>
+                <li>Ocean Pointe</li>
+                <li>Makaha</li>
+                <li>Haiku-Pauwela</li>
+                <li>Pukalani</li>
+                <li>Waikele</li>
+                <li>Napili-Honokowai</li>
+                <li>Makawao</li>
+                <li>Hickam Housing</li>
+                <li>Lihue †</li>
+                <li>Kula</li>
+                <li>Waikoloa Village</li>
+                <li>Laie</li>
+                <li>Ewa Villages</li>
+                <li>Wailea</li>
+                <li>West Loch Estate</li>
+                <li>Waimanalo</li>
+                <li>Waipio Acres</li>
+                <li>Wailua Homesteads</li>
+                <li>Heeia</li>
+                <li>Kahaluu</li>
+                <li>Kalaheo</li>
+                <li>Pupukea</li>
+                <li>Whitmore Village</li>
+                <li>Waimanalo Beach</li>
+                <li>Hawaiian Ocean View</li>
+                <li>Hawaiian Beaches</li>
+                <li>Hauula</li>
+                <li>Haleiwa</li>
+                <li>Mountain View</li>
+                <li>Waialua</li>
+                <li>Hanamaulu</li>
+                <li>Kahaluu-Keauhou</li>
+                <li>Kekaha</li>
+                <li>Captain Cook</li>
+                <li>Kaunakakai</li>
+                <li>Iroquois Point</li>
+                <li>Lanai City</li>
+                <li>Ainaloa</li>
+                <li>Waikapu</li>
+                <li>Puhi</li>
+                <li>Orchidlands Estates</li>
+                </ul>
+          </div>
+            <div class="col-md-3">
+                <h4>Hawali</h4>
+          <ul>
+            <li>Kilauea</li>
+            <li>Hawaiian Acres</li>
+            <li>Paia</li>
+            <li>Hanapepe</li>
+            <li>Kahuku</li>
+            <li>Volcano</li>
+            <li>Honaunau-Napoopoo</li>
+            <li>Honalo</li>
+            <li>Eleele</li>
+            <li>Lawai</li>
+            <li>Honokaa</li>
+            <li>Wailua</li>
+            <li>Keaau</li>
+            <li>Anahola</li>
+            <li>Princeville</li>
+            <li>Koloa</li>
+            <li>Maunawili</li>
+            <li>Kualapuu</li>
+            <li>Kealakekua</li>
+            <li>Waimea</li>
+            <li>Mokuleia</li>
+            <li>Ko Olina</li>
+            <li>Pepeekeo</li>
+            <li>Kapaau</li>
+            <li>Wheeler AFB</li>
+            <li>Keokea</li>
+            <li>Leilani Estates</li>
+            <li>Fern Acres</li>
+            <li>Nanawale Estates</li>
+            <li>Kaaawa</li>
+            <li>Pahala</li>
+            <li>Makaha Valley</li>
+            <li>Papaikou</li>
+            <li>Omao</li>
+            <li>Kurtistown</li>
+            <li>Hana</li>
+            <li>Wainaku</li>
+            <li>Punaluu</li>
+            <li>Olinda</li>
+            <li>Hawi</li>
+            <li>Kaanapali</li>
+            <li>Poipu</li>
+            <li>Haliimaile</li>
+            <li>Discovery Harbour</li>
+            <li>Pahoa</li>
+            <li>Eden Roc</li>
+            <li>Fern Forest</li>
+            <li>Mahinahina</li>
+            <li>Naalehu</li>
+            <li>Waikane</li>
+            <li>Puako</li>
+            <li>Kaumakani</li>
+            <li>Paauilo</li>
+            <li>Launiupoko</li>
+            <li>Laupahoehoe</li>
+            <li>Honomu</li>
+            <li>Halaula</li>
+            <li>Hanalei</li>
+            <li>Haena</li>
+            <li>Kalihiwai</li>
+            <li>Paukaa</li>
+            <li>Ualapu’e</li>
+            <li>Maunaloa</li>
+            <li>Kapalua</li>
+            <li>Maalaea</li>
+            <li>Kukuihaele</li>
+            <li>Kawela Bay</li>
+            <li>Wainiha</li>
+            <li>Pakala Village</li>
+            <li>Waiohinu</li>
+            <li>Makena</li>
+            <li>Olowalu</li>
+            <li>Kalaeloa</li>
+            <li>Manele</li>
+            </ul>
+          </div>
+        
+     
+      
+    </div>
+
+</div></section>
+
+
+
+ <div class=" promo-box mt-5 d-flex justify-content-between align-items-center p-4">
+    <p class="mb-0 fw-bold ">
+      What Are You Waiting For? If You Are Planning To Hire A Construction Project Estimator, 
+      Then World Estimating Is The Right Option For You To Choose!
+    </p>
+    <a href="#" class="btn fw-bold px-4 py-2">
+      Contact Us GET 30% OFF
+    </a>
+  </div>
+
+
+
+</div>
+
+      
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+
+      <h3 class="py-3 " style="border-top: 2px solid rgb(174, 174, 174); border-bottom: 2px solid rgb(174, 174, 174);">Our Trades</h3>
+        <div class="price-sidebar">
+          <a href="#">Concrete Estimating</a>
+          <a href="#">Electrical Estimating Services</a>
+          <a href="#">Interior & Exterior Finishes</a>
+          <a href="#">Masonry Estimating</a>
+          <a href="#">MEP Estimating Services</a>
+          <a href="#">Metals Estimating Services</a>
+          <a href="#">Openings Estimating Services</a>
+          <a href="#">Sitework Estimating Services</a>
+          <a href="#">Thermal & Moisture Protection Estimating Services</a>
+          <a href="#">Lumber Takeoff</a>
+        </div>
+          <div class="price-contact-box my-4 ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+      
+      </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+        <div class="row">
+            
+            <!-- World Estimating -->
+            <div class="col-md-3 mb-4">
+                <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+             <ul class="list-unstyled footer-links">
+          <li class="mt-2"><a href="../ourtrader.html">Our Trades</a></li>
+          <li class="mt-2"><a href="../services.html">Services</a></li>
+          <li class="mt-2"><a href="#">Portfolio</a></li>
+          <li class="mt-2"><a href="../about.html">About Us</a></li>
+          <li class="mt-2"><a href="../contact.html">Contact</a></li>
+          <li class="mt-2"><a href="../aboutu/faqs.html">FAQs</a></li>
+          <li class="mt-2"><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="../js.js/script.js"></script>
+</body>
+</html>

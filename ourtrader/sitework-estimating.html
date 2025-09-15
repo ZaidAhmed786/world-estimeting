@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating Header</title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+       p{
+    font-size: 18px;
+  }
+  li{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  h1{
+    color: #0a2e57;
+  }
+  h2{
+    color: #0a2e57;
+  }
+ 
+  h4{
+    color: #0a2e57;
+  }
+ h3{
+    color: #0a2e57;
+ }
+ h5{
+    color: #0a2e57;
+ }
+ 
+</style>
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+        <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/construction-estimating.html">Construction Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/residential-estimating.html">Residential Estimating</a></li>
+          </ul>
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+        <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block active" href="../ourtrader.html">OUR TRADES</a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+         <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/concrete-estimating.html">Concrete Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/electrical-estimator.html">Electrical Estimator</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/interior-exterior-finishes.html">Interior & Exterior <br>
+                Finishes
+            </a></li>
+            <li class="mt-2"><a class="dropdown-item"  href="../ourtrader/masonry-estimating.html">Masonry Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/openings-estimating.html">Openings Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/thermal-moisture.html">Thermal Moisture <br> Protection Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item active"  href="../ourtrader/sitework-estimating.html">Sitework Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/lumber-takeoff.html">Lumber-takeoff</a></li>
+
+          </ul>
+          
+
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+           <a class="nav-link d-none d-lg-inline-block " href="../about.html">ABOUT US </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li class="mt-2"><a class="dropdown-item " href="../aboutu/review.html">Reviews</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+  
+
+
+
+
+<div class="container my-5">
+ <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-8">
+          <div class="">
+  <main role="main" class="content">
+    <div class="row">
+      <div class="col-12 ">
+        <h1 class="mb-4">Sitework Estimating Services</h1>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row align-items-start mt-4">
+      <!-- Image -->
+      
+
+      <!-- Text -->
+      <div class="col-md-6">
+        <p>
+ Site work contractors, landscaping contractors, land developers, general contractors, and site contractors rely on our site work estimating services for accurate and detailed site work estimate, cut and fill takeoff, and 3D maps delivered to them within 24 to 48 hours. With accurate figures, they win more bids and cut their overhead costs.
+        </p>
+        
+      
+      </div>
+      <div class="col-md-6 text-center">
+        <img 
+          src="https://worldestimating.com/wp-content/uploads/2020/06/sitework-estimating-services.jpg" 
+          alt="Concrete Estimating Services" 
+          class="img-fluid rounded shadow" width="386" height="337">
+      </div>
+      <p>At World Estimating, a large number of clients are excavation contractors whose busy and hectic schedules at the site compel them to outsource their excavation estimating services to a reliable and cost-effective estimation company. The estimators employed by such corporations are themselves most of the time busy filing bidding proposals and have less time to takeoff plans and calculate markup of their jobs. We have specialized site work estimators for civil works dedicated to division 2 estimating services who have the past experience of working with sitework contractors and are well versed with the public, commercial, and residential scope of projects. Please visit our profile on The Blue Book for site work estimating services.</p>
+      <p>Our deliverables for site work estimating services include:</p>
+      <ul class="ps-5">
+        <li>Cut &amp; Fill Takeoff list with takeoff summary</li>
+        <li>Earth Volumes, quantities, and section</li>
+        <li>Surface Grading</li>
+        <li>Cut &amp; fill visual 3D reports</li>
+        <li>3D mapping reports and reviewed bid documents</li>
+        <li>Landscaping estimate with soil volumes (Hardscape, Softscape &amp; Irrigation)</li>
+        </ul>
+    
+    </div>
+  </main>
+</div>
+  <div class="entry-content-wrapper clearfix">
+
+	 <div class="text-center my-5"><button class="price-upload-btn  "> Site Work Cut & Fill Grading Sample</button></div>
+
+      <div class="text-center my-5"><button class="price-upload-btn  ">VIEW OUR SITEWORK 1 SAMPLE</button></div>
+
+       <div class="text-center my-5"><button class="price-upload-btn  "> VIEW OUR SITEWORK 2 SAMPLE</button></div>
+       
+        <div class="text-center my-5"><button class="price-upload-btn  ">VIEW OUR LANDSCAPING SAMPLE</button></div>
+
+
+        <h3 class="mt-5 mb-4"> We can produce this for you:</h3>
+        <ul>
+        <li >Estimate/Takeoff Cut/Fill quantities for your Site development and construction jobs.</li>
+        <li >3D graphical representation of Cut &amp; fill Areas and Elevations with cross-sections</span></li>
+        <li >Mass Haul Diagrams to lessen and mitigate the earth and soil movement.</span></li>
+        <li >Convert your topological data into Civil 3D</span></li>
+        <li>Provide 3D Surface From Surveying And GPS Data Points in our site work estimating services</li>
+        </ul>
+
+        
+        <h3 class="mt-5 mb-4"> Excavation Estimating Services</h3>
+        <ol>
+            <li>Existing Surface</li>
+            <li>Terrain Model with Contours/Depth Contours</li>
+            <li>Cross-sections with longitudinal profiles</li>
+            <li>Volume and Area for Land Development, Cut Fill and Earthworks</li>
+            <li>Primordial Method and end area method.</li>
+            </ol>
+
+            
+        <h3 class="mt-5 mb-4"> Our site work estimating services Portfolio</h3>
+        <ul>
+            <li>Residential Site work</li>
+            <li>Commercial Site work</li>
+            <li>Industrial Site work</li>
+            </ul>
+             
+            <p>We understand every sitework project is different and requires a unique approach. With the use of the latest software technologies in sitework estimation, our expert estimators carefully go through the drawing and plans and prepare accurate sitework takeoffs of material and labor along with manhours. All other factors like construction equipment, insurance, logistics, safety, permits, contingencies, etc. are also taken into account during our site work estimating services.</p>
+            <p>If you can’t afford the expense of a full-time estimator and expensive software or need an estimator to supplement your existing estimating department, we are at your service!</p>
+
+        
+        <p class=" mb-4"> Offering you:</p>
+        <ul>
+        <li>Cost-effective Solutions (check prices)</li>
+        <li>Efficiency &amp; Accuracy</li>
+        <li>Fast Turnaround Times</li>
+        <li>Confidentiality</li>
+        <li>Certified Estimators</li>
+        <li>24/7 Support on Chat &amp; Email</li>
+        </ul>
+
+        <section class="mt-5 pt-4">
+            <h2 >OUR RANGE OF SITEWORK ESTIMATING SERVICES</h2>
+            <ul>
+                <li><strong>Quantity takeoffs &amp; Cost Estimates:</strong> Quick, efficient and accurate Preliminary Estimates, Comparison Estimates, Conceptual Estimates, Budget Estimates, and Bid Estimates</li>
+                <li><strong>Sitework Feasibility Analysis</strong>: Earthwork analysis, cut/fill volumes and feasibility cost estimates</li>
+                <li><strong>Land Development Consultation</strong>: Assistance on budgeting and controlling costs in excavation estimating services</li>
+                <li><strong>Bidding Assistance:</strong> Bid comparisons, reviews, and consultation on smartly filing bids</li>
+                <li><strong>Design phase Estimating Assistance</strong></li>
+                <li><strong>Legal Claims Assistance</strong></li>
+                <li><strong>Change Order Management</strong></li>
+                <li><strong>Value Engineering</strong></li>
+                </ul>
+
+                <h5 class="mt-5 pt-5">If you are interested in our sitework estimating services, contact us today so we can get started on your project!</h5>
+                <h5 class="mt-4 text-danger fw-bold">For Quick Quote on your project:</h5>
+                <h5 class="mt-4 text-danger fw-bold">Call us at 347 480-1903</h5>
+                <h5 class="mt-4 text-danger fw-bold">Or upload your plans in the link below and get a quote in the next 5 minutes.</h5>
+                <div class="text-center my-5"><button class="price-upload-btn  ">Upload Plans</button></div>
+
+        </section>
+
+                <h5 class="mt-4 text-danger fw-bold">We usually charge $200 on average but it depends upon the size and scope of the project for Site work Estimate and 3D Map.</h5>
+
+
+                <section class="mt-5">
+                    
+                    <div class="row mt-5">
+            <h2>SCOPE OF WORK IN OUR SITE WORK ESTIMATING SERVICES</h2>
+          <!-- Col 3 -->
+          <div class="col-md-6">
+          <ul>
+            <li>Erosion Control</li>
+            <li>Clearing &amp; Demolition</li>
+            <li>Earthwork</li>
+            <li>Grading</li>
+            <li>Drainage</li>
+            <li>Utility Spoils</li>
+            <li>Storm Sewer</li>
+            <li>Water distribution</li>
+            <li>Roadways</li>
+            <li>Sidewalk</li>
+            <li>Driveways</li>
+            <li>Pavements</li>
+            </ul>
+          </div>
+            <div class="col-md-6">
+           <ul>
+            <li>Site Furnishing</li>
+            <li>Concrete Flatwork</li>
+            <li>Retaining Walls</li>
+            <li>Climbing Walls</li>
+            <li>Fences &amp; Gates</li>
+            <li>Landscaping</li>
+            <li>Irrigation</li>
+            <li>Fountains</li>
+            <li>Patio</li>
+            <li>Gabions</li>
+            <li>Docks</li>
+            </ul>
+          </div>
+          </div>
+                </section>
+
+                      <div class="row mt-5">
+            <h2>OUR SITE WORK ESTIMATING SERVICES PORTFOLIO OF PROJECTS</h2>
+          <!-- Col 3 -->
+          <div class="col-md-6">
+          <ul>
+            <li>Public Projects</li>
+            <li>Single-family &amp; Multi-family Residential Sitework</li>
+            <li>Commercial buildings Sitework</li>
+            <li>industrial Sitework</li>
+            <li>Water Treatment sites</li>
+            <li>Planned Communities</li>
+            <li>Parks and Tracks</li>
+            <li>Schools</li>
+            </ul>
+          </div>
+            <div class="col-md-6">
+          <ul>
+            <li>Golf Courses</li>
+            <li>Sports complexes</li>
+            <li>Swimming Pools</li>
+            <li>Highways</li>
+            <li>Skateboards &amp; Playgrounds</li>
+            <li>Bicycle Racks</li>
+            <li>Underground Structures</li>
+            </ul>
+          </div>
+          </div>
+
+                  <div class="row mt-5">
+            <h2>EARTHWORK ESTIMATING SERVICES</h2>
+          <!-- Col 3 -->
+          <div class="col-md-12">
+            <p>Excavators and site engineers along with specialized contractors need earthwork estimating services to get an idea about the total cost to make up the land before starting construction. We provide quick and reliable earthwork volumes and materials takeoffs for bid preparation to help them meet their critical deadlines. Our team of site work estimating services ensures that the quantity takeoffs account for every high and low elevation point, ridge, swale, breakline, hook, top/bottom of the wall, and pad elevation. Our earthwork estimate comprises of:</p>
+          <ul>
+            <li>Site excavation report</li>
+            <li>Cut/Fill Quantities</li>
+            <li>Export or Import Quantities</li>
+            <li>Volume Reports</li>
+            <li>Top Soil Spreads</li>
+            </ul>
+          </div>
+            
+          </div>
+
+                <div class="row mt-5">
+            
+          <!-- Col 3 -->
+          <div class="col-md-6">
+            <h3>EARTHWORK <br> VOLUMES</h3>
+            <p class="mt-3">An accurate estimate for earthwork volumes helps the contractor in bidding for the project, setting profit margins, budgeting, and managing costs. By the careful comparison of current and expected conditions, our team accurately estimates earthwork volumes using the latest software to determine the exact cut and fill quantities to attain the required topography. We also provide visual reports showing cut and fill areas.</p>
+            <p>We generally account for the following items in our Earthwork Volumes:</p>
+          <ul>
+            <li>Clearing</li>
+            <li>Demolition</li>
+            <li>Soil Strata &amp; Groundwater Elevations</li>
+            <li>Excavation and Backfill</li>
+            <li>Pre-Load</li>
+            <li>Structural Fill</li>
+            <li>Phasing &amp; Staging</li>
+            <li>Sub-Grades</li>
+            <li>Embankment</li>
+            <li>Distribution Analysis</li>
+            </ul>
+          </div>
+            <div class="col-md-6">
+                 <h3>BID PREPARATION</h3>
+            <p class="mt-3">Our estimators help site contractors with the timely preparation of bids by providing a detailed cost estimate for your sitework scope of work.</p>
+            <p>Bid preparation starts with a thorough analysis of bid documents followed by the identification of the scope of work and digital takeoff.</p>
+            <p>Pricing of each line item for material, labor, and equipment is done using RSMeans and our developed database based on location.</p>
+            <p>We provide sitework bid estimates with marked-up plans that are comprehensive and easy to review and edit in the EXCEL spreadsheet format.</p>
+            <p>Our detailed bidding proposals contain bid reviews, notes, clarifications, omissions, additions, and other related information to help you with your scope of work.</p>
+          </div>
+          </div>    
+
+          
+
+          <div class="row mt-5">
+            <h2>MATERIAL TAKEOFF LIST</h2>
+            <p class="mt-3">We use the latest software i.e <strong>Civil 3D, cut &amp; fill</strong>, , AGTEK 4D, InSite, <strong>Planswift, </strong>AutoCad&nbsp;to digitally takeoff the material quantities which are delivered in EXCEL spreadsheets categorized with respect to MasterFormat or the client’s customized format.</p>
+            <p class="mb-5"> sheets comprise the following quantities:</p>
+          <!-- Col 3 -->
+          <div class="col-md-6">
+          <ul>
+        <li>Clearing &amp; Site Preparation</li>
+        <li>Soil Erosion &amp; Sediment Control</li>
+        <li>Asphalt Paving</li>
+        <li>Earthwork</li>
+        <li>Sanitary Sewer</li>
+        <li>Storm Sewer</li>
+        <li>Water Distribution</li>
+        <li>Curbs and Pavement</li>
+        </ul>
+          </div>
+            <div class="col-md-6">
+          <ul>
+                <li>Fence and Gates</li>
+                <li>Site Furnishings</li>
+                <li>Retaining Walls</li>
+                <li>Landscaping</li>
+                <li>Trenching for Electric, Gas and Site Lighting</li>
+                <li>Excavation and Backfill</li>
+                <li>Parking Appurtenances</li>
+                <li>Striping &amp; Signs</li>
+                </ul>
+          </div>
+          </div>
+
+              <div class="row mt-5">
+                <h2>LANDSCAPING & IRRIGATION ESTIMATING SERVICES</h2>
+          <!-- Col 3 -->
+          <div class="col-md-6">
+          
+            <p class="mt-3">Our landscaping estimating services are designed to cater to the needs of landscaping professionals by providing them with a real-time cost analysis to set the profit margins and boost their business.</p>
+            <p>We employ Planswift to perform on-screen landscape and irrigation takeoffs for material, labor, and equipment. The detailed material takeoff lists are easy to read and send to your local vendors for pricing.</p>
+            <p>Golf Course construction is among the portfolio of our estimating Services along with landscaping grading work. Many Sports complex projects have been provided consultancy, cost control, and future projections regarding the scheduling of the project.</p>
+            <p>The projected time limits and deadlines are always met when there is already scheduling work done to carry out the critical activities at first priority.</p>
+            <p>Architects and construction developers reach out to us with their conceptual and preliminary designs and drawings for sitework initial estimate for lending, bid winning, and equipment rental purposes</p>
+          </div>
+            <div class="col-md-6">
+                
+            <p class="mt-3">Depending on the scope of work and the requirements set by the clients, we generally quantify the following items in our landscaping and irrigation takeoffs:</p>
+            <ul>
+            <li>Soil</li>
+            <li>Grass Seeds</li>
+            <li>Pavers</li>
+            <li>Sod</li>
+            <li>Mulch</li>
+            <li>Gravel</li>
+            <li>Plants &amp; Trees</li>
+            <li>Irrigation Pipings</li>
+            <li>Sprinkler System</li>
+            <li>Fence</li>
+            <li>Fertilization</li>
+            <li>Trimming</li>
+            <li>Aeration</li>
+            <li>Thatching</li>
+            <li>Spraying</li>
+            </ul>
+          </div>
+          </div>  
+
+             <div class="row mt-5">
+                <h2>SITE IMPROVEMENT ESTIMATING SERVICES</h2>
+          <!-- Col 3 -->
+          <div class="col-md-6">
+          
+            <p class="mt-3">The sitework improvements and exterior improvements contractors have to present accurate bid estimates to land on the jobs. Our construction cost consultants provide excavation estimating services and thorough consultancy in a specific trade that is fences, gates, retaining walls, fabricated bridges, sports surfacing, tennis courts, traffic signs and signals, and playground surfaces.</p>
+            <p>As a matter of fact, irrigation, planters, vegetated roofing, edging, tree staking, and other site improvements are estimated and contractors use the figures in bidding proposals and ordering of materials, project budgeting, and checking the feasibility of the project.</p>
+            <p>The mark up of the contractor is calculated against each line item and profit is accurately established.</p>
+            
+          </div>
+            <div class="col-md-6">
+                
+            <p class="mt-3">Site improvement takeoffs include:</p>
+            <ul>
+            <li>Fences and Gates Hardware</li>
+            <li>Fabricated Bridges</li>
+            <li>Vegetated Roofing</li>
+            <li>Edging</li>
+            <li>Grates and Guards</li>
+            <li>Roof Barriers</li>
+            <li>Tree Staking</li>
+            <li>Docks and Marine</li>
+            <li>Turf and Grasses</li>
+            <li>Gabions</li>
+            <li>Retaining Walls</li>
+            </ul>
+          </div>
+          </div>  
+
+           <div class="row mt-5">
+                <h2 class="mb-4">Are you ready to get started with us!</h2>
+          <!-- Col 3 -->
+          <div class="col-md-4">
+            <h4>1- Upload you Plans</h4>
+            <p class="mt-4">Click here to upload your plans. we accept PDF format and your plans can be Bid set, Schematic, Design Development, Construction document, or conceptual drawings.</p>
+           
+          </div>
+
+            <div class="col-md-4">
+            <h4>2- Get a Quote</h4>
+            <p class="mt-4">Quotes will be based on invoice, delivery date, and turnaround time. You can pay via Credit Card or Debit Card or PayPal.</p>
+           
+          </div>
+
+            <div class="col-md-4">
+            <h4>3- Receive Estimate</h4>
+            <p class="mt-4">Estimates will be delivered to you in EXCEL sheets comprising all the material and labor pricing with cut & fill 3D visual reports either in MasterFormat or your customized format.</p>
+           
+          </div>
+
+          <p class="mt-4">World Estimating is a one-stop solution for all your estimation requirements through site work estimating services, working with clients throughout North American, Caribbean, and Australian regions. In the US, we serve the following markets: Newyork, Florida, North Carolina, Massachusetts, Oklahoma, Tennessee, Minnesota, Illinois, Texas, Georgia, Arizona, Michigan, Missouri, Colorado, Kentucky, Indiana, Louisiana, Alabama, Maryland, Connecticut, Pennsylvania, Washington, California, South Carolina, New Jersey, Oregon, Virginia.</p>
+           
+          </div> 
+
+      <!-- Question -->
+      
+
+
+
+      
+      <!-- Answer -->
+      
+       
+
+
+</div></section>
+
+
+
+ <div class=" promo-box mt-5  d-flex justify-content-between align-items-center p-4">
+    <p class="mb-0 fw-bold ">
+      What Are You Waiting For? If You Are Planning To Hire A Construction Project Estimator, 
+      Then World Estimating Is The Right Option For You To Choose!
+    </p>
+    <a href="#" class="btn fw-bold px-4 py-2">
+      Contact Us GET 30% OFF
+    </a>
+  </div>
+
+
+
+</div>
+
+      
+
+      <!-- Right Sidebar -->
+      <div class="col-md-4 d-md-block d-none">
+        <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
+        <h3 class="py-3 " style="border-top: 2px solid rgb(174, 174, 174); border-bottom: 2px solid rgb(174, 174, 174);">Our Trades</h3>
+        <div class="price-sidebar">
+          <a href="#">Concrete Estimating</a>
+          <a href="#">Electrical Estimating Services</a>
+          <a href="#">Interior & Exterior Finishes</a>
+          <a href="#">Masonry Estimating</a>
+          <a href="#">MEP Estimating Services</a>
+          <a href="#">Metals Estimating Services</a>
+          <a href="#">Openings Estimating Services</a>
+          <a href="#">Sitework Estimating Services</a>
+          <a href="#">Thermal & Moisture Protection Estimating Services</a>
+          <a href="#">Lumber Takeoff</a>
+        </div>
+          <div class="price-contact-box my-4 ">
+            <div class="text-h py-2 text-center"><h5>Call Us Today</h5></div>
+          <div class="price-call-box">
+             <h4>World Estimating</h4>
+            <p><a href="tel:+13474801903">+1 (347) 480-1903</a></p>
+            <p><a href="mailto:info@worldestimating.com">info@worldestimating.com</a></p>
+          </div>
+        </div>
+        <section class=" py-4">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+      
+      <div class="faq-container">
+       
+        
+        <div class="faq-item">
+          <button class="faq-question">Our Services<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Word Estimating is a company which provides construction estimating services for multiple CSI divisions or trades. We are providing accurate and detailed construction cost estimates and material takeoffs services for commercial, residential and industrial projects and our turnaround time is 24 to 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Clients<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">Our aim is to provide the fast and accurate construction estimating services and material takeoffs for contractors, general contractors, sub-contractors and business owners. Our expert construction cost estimators are providing data-driven guidance to our clients throughout the USA. We also work in all other states of different countries such as the United Kingdom, Canada, Australia, Africa etc</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Our Turnaround Time<i class="fas fa-plus"></i></button>
+          <div class="faq-answer">You can get an accurate construction estimate from one of our best freelance construction estimator within 24 hrs.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How to begin with us <i class="fas fa-plus"></i></button>
+           <div class="faq-answer">
+            <p>Feel free to call us:+1347 480-1903 or contact us by filling this form.</p>
+          </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+      </div>
+    </div>
+  </section>
+
+        <!-- Sticky Contact Box -->
+      
+      </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+    <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+        <div class="row">
+            
+            <!-- World Estimating -->
+            <div class="col-md-3 mb-4">
+                <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+             <ul class="list-unstyled footer-links">
+          <li class="mt-2"><a href="../ourtrader.html">Our Trades</a></li>
+          <li class="mt-2"><a href="../services.html">Services</a></li>
+          <li class="mt-2"><a href="#">Portfolio</a></li>
+          <li class="mt-2"><a href="../about.html">About Us</a></li>
+          <li class="mt-2"><a href="../contact.html">Contact</a></li>
+          <li class="mt-2"><a href="../aboutu/faqs.html">FAQs</a></li>
+          <li class="mt-2"><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="../js.js/script.js"></script>
+</body>
+</html>
