@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Estimating </title>
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
+  <!-- Font Awesome -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+        p{
+    font-size: 18px;
+  }
+  li{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  h1{
+    color: #0a2e57;
+  }
+  h2{
+    color: #0a2e57;
+  }
+ 
+  h4{
+    color: #0a2e57;
+  }
+ h3{
+    color: #0a2e57;
+ }
+ h5{
+    color: #0a2e57;
+ }
+  li{
+    font-size: 18px;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="container-fluid top-bar">
+    <div class="container-lg container-fluid d-flex justify-content-end align-items-center">
+      <div>
+        <i class="fas fa-phone-alt" style="color: yellow;"></i> +1 (347) 480-1903
+        <i class="fas fa-envelope ms-3" style="color: yellow;"></i> info@worldestimating.com
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Logo & Mid Section -->
+  <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      
+    </div>
+    <div class="text-center mt-md-0 mt-3">
+      <h5 class="fw-bold text-uppercase">TURNAROUND TIME 24-48 HOURS!</h5>
+      <span class="highlight-btn">Affordable Estimates (30% Off)</span>
+    </div>
+     <div class="social-icons d-lg-block d-none">
+        <a href="#"><i class="fab fa-facebook-f" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-youtube" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p" style="color:#0a2e57;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color:#0a2e57;"></i></a>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg">
+    <div class="container-lg container-fluid  ">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">
+          <div >
+            <div style="background-color: white; width: 30px; height: 2px; "></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+            <div style="background-color: white; width: 30px; height: 2px; margin-top: 10px;"></div>
+          </div>
+        </span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-between">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+       <li class="nav-item dropdown">
+          <!-- Desktop link: visible only on large screens and up; clicking it will route -->
+          <a class="nav-link d-none d-lg-inline-block active" href="../services.html">SERVICES</a>
+
+          <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+
+          <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/construction-estimating.html">Construction Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/residential-estimating.html">Residential Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/commercial-estimating.html">Commercial Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/industrial-estimating.html">Industrial Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/preliminary-estimate.html">Preliminary Estimate</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/estimating-construction.html">Estimating Consultant</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../service/cpm-scheduling.html">CPM Scheduling</a></li>
+          </ul>
+        </li>
+
+        <!-- OUR TRADES: same pattern -->
+       <li class="nav-item dropdown">
+          <a class="nav-link d-none d-lg-inline-block " href="../ourtrader.html">OUR TRADES</a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/concrete-estimating.html">Concrete Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/electrical-estimator.html">Electrical Estimator</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/interior-exterior-finishes.html">Interior & Exterior <br>
+                Finishes
+            </a></li>
+            <li class="mt-2"><a class="dropdown-item"  href="../ourtrader/masonry-estimating.html">Masonry Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/openings-estimating.html">Openings Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/thermal-moisture.html">Thermal Moisture <br> Protection Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/sitework-estimating.html">Sitework Estimating</a></li>
+            <li class="mt-2"><a class="dropdown-item "  href="../ourtrader/lumber-takeoff.html">Lumber-takeoff</a></li>
+
+          </ul>
+          
+
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link " href="../pricing.html">PRICING</a></li>
+    
+           <li class="nav-item dropdown">
+           <a class="nav-link d-none d-lg-inline-block " href="../about.html">ABOUT US </a>
+
+          <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR TRADES
+          </a>
+
+          <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li class="mt-2"><a class="dropdown-item active"  href="../aboutu/portfolio.html">Portfolio</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/review.html">Reviews</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
+      </ul>
+
+      <div class="d-flex">
+        <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+ <div class="container-lg container-fluid px-lg-0 px-md-5 px-3 my-5">
+    <div class="row">
+      
+      <!-- Left Content -->
+      <div class="col-md-12">
+            <div class="entry-content-wrapper clearfix"><div class="av-special-heading av-e9x7ee-a96db1fad4138f7a7e85fe91462d545f av-special-heading-h1 blockquote modern-quote  avia-builder-el-0  el_before_av_hr  avia-builder-el-first  "><h1 class="av-special-heading-tag " itemprop="headline">OUR PORTFOLIO</h1><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+          
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text">
+          <div class="row mt-4">
+            <div class="col-md-6 mt-md-0 mt-3">
+
+              <p>World estimating is a well-established construction cost estimating consultancy with over 15 years of experience in the AEC industry while featuring expertise in comprehensive and accurate cost estimates for public and private, residential. Commercial, industrial and civil projects. Our team of quantity surveyors and engineers cooperate with our respective clients to help them estimate and manage their budget so that the project runs smoothly during the construction and avoids any undesired surprises.</p>
+              <p>We are well-reputed for accuracy and affordability under one roof with a huge clientage across North American, African, Caribbean, and Australian regions. From preliminary feasibility studies and design phase estimates to timely preparation of bid estimates, we have rendered construction estimating services tailored to the particular needs of our clients from project planning to closeout. With an in-house team of skilled estimators, we not only emphasize on providing high-quality cost estimating services but ensure that there is no extra burden on our client’s pocket.</p>
+            </div>
+            <div class="col-md-6 mt-md-0 mt-3">
+             <img src="https://worldestimating.com/wp-content/uploads/2019/12/portfolio.jpg" class="img-fluid" alt="">
+            </div>
+           <p>Critical path scheduling is a technique utilized to effectively manage construction projects by analyzing project scope, requirements, and risks with regard to time and resources. It helps in planning and scheduling the essential activities, determining the critical and high-risk activities, the time each of them takes, and their relation with other activities at the project site.</p>
+           <p>The right CPM schedule not only helps to set a budget and anticipate critically issues before happening but also contribute to achieving various milestones throughout the project lifecycle, It effectively plans and organizes the tasks, measure progress, quantify results and continuously updates to changes with maximum efficiency.</p>
+          </div>
+     
+        </div></section>
+  
+
+       
+      <div class="row mt-5">
+          <h5 class="mb-4">CPM SCHEDULING SERVICES</h5>
+      <div class="col-md-6 mt-md-0 mt-3">
+       <ul>
+        <li>General Contractors</li>
+        <li>Subcontractors</li>
+        <li>Architects</li>
+        <li>Designers</li>
+        </ul>
+   
+      </div>
+      <div class="col-md-6 mt-md-0 mt-3">
+       <ul>
+            <li><span style="color: #000000;">Developers</span></li>
+            <li><span style="color: #000000;">Investors</span></li>
+            <li><span style="color: #000000;">Vendors</span></li>
+            <li>Owners</li>
+            </ul>
+      </div>
+     
+    </div>
+    <p>No more delays, no more worries regarding the cost estimates, we always deliver on time. Check our profile on The Blue Book to know more about us.</p>
+    <p>From renovations, additions, mixed-used residential and commercial buildings to airports, highways, marine, and industrial projects, our portfolio is diversified. We have rendered cost estimating services in the public sector as well, helping contractors win bids and public tenders in such huge scale projects dealing with major public organizations of North America including Texas Department of Transportation (TxDOT), Lower Manhattan Development Corporation (LMDC), Metropolitan Transportation Authority (MTA), Long Island Power Authority (LIPA), Environmental Protection Agency (EPA), Texas Parks and Wildlife Department (TPWD), Florida Department of Transportation (DOT), Industrial Welfare Commission (IWC), Florida Department of Highway Safety and Motor Vehicles (DHSMV).</p>
+    <p>You can also reach out to us If you are a small subcontractor involved in a particular trade and need a bid estimate to tender on projects. By employing the trade specialist estimators skilled with the latest software and tools, we provide estimating services for all CSI divisions including sitework, earthwork, masonry, concrete, structural steel, finishes, drywall, painting, tiling, flooring, roofing, door/windows, lumber, millwork, cabinetry, insulation, fireproofing, dampproofing, stucco, mechanical, HVAC, ductwork, electrical, plumbing, etc.</p>
+
+          <div class="avia_textblock  my-4 " itemprop="text"><h5><span style="color: #ff0000;">Found something that matches your project needs?</h5>
+                </div> 
+       
+        <div class="avia_textblock  " itemprop="text"><h5><span style="color: #ff0000;">
+Call us at +1 (347) 480-1903 or email at info@worldestimating.com to discuss.</h5>
+                </div>    
+       
+          <div class="avia_textblock  my-4" itemprop="text"><h5><span style="color: #ff0000;">Or Upload plans to get a quote in the next 5 minutes.</h5>
+                </div>
+        <section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	 <div class="text-center my-5"><button class="price-upload-btn  ">Upload Plans</button></div>
+        </center></div></section>
+        <p>We urge you to have a look at our recent projects below to get an idea of our project exposure and how we have kept our customers satisfied with our services.</p>
+      
+     
+    </div>
+
+   
+  
+</div>
+
+</div>
+
+
+    
+ 
+       
+        
+
+
+      <!-- Right Sidebar -->
+      
+    </div>
+  </div>
+   <div class="border-2 border border-t border-b ">
+    <div class="container">
+        <div class="row py-4 px-0">
+            <div class="col-md-4 mt-md-0 mt-3 text-center border p-0"> 
+                <div >
+                    <img src="https://worldestimating.com/wp-content/uploads/2019/12/The-Shoppes-at-School-House-Crossing-1280x713-min-260x185.jpg" alt="" class="img-1">
+                </div>
+                <div><p class="my-3">The Shoppes at School House Crossing</p></div>
+
+            </div>
+            <div class="col-md-4 mt-md-0 mt-3 text-center border p-0"> 
+                <div >
+                    <img src="https://worldestimating.com/wp-content/uploads/2019/12/Lime-Spring-Square-min-260x171.jpg" alt="" class="img-1">
+                </div>
+                <div><p class="my-3">Lime Spring Square</p></div>
+
+            </div>
+
+              <div class="col-md-4 mt-md-0 mt-3 text-center border p-0"> 
+                <div >
+                    <img src="https://worldestimating.com/wp-content/uploads/2019/12/Central-Chester-County-YMCA-%E2%80%93-Kennett-Area-YMCA-min-260x178.jpg" alt="" class="img-1">
+                </div>
+                <div><p class="my-3">Central Chester County YMCA – Kennett Area YMCA</p></div>
+
+            </div>
+
+              <div class="col-md-4 mt-md-0 mt-3 text-center border p-0"> 
+                <div >
+                    <img src="https://worldestimating.com/wp-content/uploads/2019/12/Eastern-University-%E2%80%93-Fitness-Center-1280x656-min-260x185.jpg" alt="" class="img-1">
+                </div>
+                <div><p class="my-3">Eastern University – Fitness Center</p></div>
+
+            </div>
+
+
+              <div class="col-md-4 mt-md-0 mt-3 text-center border p-0"> 
+                <div >
+                    <img src="https://worldestimating.com/wp-content/uploads/2019/12/Lancaster-Country-Day-School-%E2%80%93-Athletic-Center-260x185.jpg" alt="" class="img-1">
+                </div>
+                <div><p class="my-3">Lancaster Country Day School – Athletic Center</p></div>
+
+            </div>
+
+
+              <div class="col-md-4 mt-md-0 mt-3 text-center border p-0"> 
+                <div >
+                    <img src="https://worldestimating.com/wp-content/uploads/2019/12/Wilbur-Redevelopment-1280x720-min-260x185.jpg" alt="" class="img-1">
+                </div>
+                <div><p class="my-3">Wilbur Redevelopment</p></div>
+
+            </div>
+
+              <div class="col-md-4 mt-md-0 mt-3 text-center border p-0"> 
+                <div >
+                    <img src="https://worldestimating.com/wp-content/uploads/2019/12/The-Hill-School-%E2%80%93-East-Faculty-Housing-min-260x185.jpg" alt="" class="img-1">
+                </div>
+                <div><p class="my-3">The Hill School – East Faculty Housing</p></div>
+
+            </div>
+
+              <div class="col-md-4 mt-md-0 mt-3 text-center border p-0"> 
+                <div >
+                    <img src="https://worldestimating.com/wp-content/uploads/2019/12/Penn-State-Health-Milton-S-Hershey-Medical-Center-Manor-East-Housing-1280x804-min-260x185.jpg" alt="" class="img-1">
+                </div>
+                <div><p class="my-3">Penn State Health Milton S. Hershey Medical Center – Manor East Housing</p></div>
+
+            </div>
+
+              <div class="col-md-4 mt-md-0 mt-3 text-center border p-0"> 
+                <div >
+                    <img src="https://worldestimating.com/wp-content/uploads/2019/12/Dana-Corporation-1-min-260x181.jpg" alt="" class="img-1">
+                </div>
+                <div><p class="my-3">Dana Corporation</p></div>
+
+            </div>
+
+          
+        </div>
+    </div>
+    </div>
+        
+  
+
+
+  <!-- Footer Section -->
+<footer class="footer-section text-light pt-5">
+  <div class="container-lg container-fluid px-lg-0 px-sm-5 px-3">
+    <div class="row">
+      
+      <!-- World Estimating -->
+      <div class="col-md-3 mt-md-0 mt-3 mb-4">
+        <h6 class="fw-bold">WORLD ESTIMATING</h6>
+        <p>
+          World Estimating ®, is a professional cost estimation consultancy 
+          specializing in providing detailed construction cost estimates. 
+          Our cost consultants provide our clients, both public and private 
+          institutions with different office locations throughout the United States 
+          with expert, data-driven guidance on their construction projects.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="col-md-3 mt-md-0 mt-3 mb-4">
+        <h6 class="fw-bold">NAVIGATION</h6>
+             <ul class="list-unstyled footer-links">
+          <li class="mt-2"><a href="../ourtrader.html">Our Trades</a></li>
+          <li class="mt-2"><a href="../services.html">Services</a></li>
+          <li class="mt-2"><a href="#">Portfolio</a></li>
+          <li class="mt-2"><a href="../about.html">About Us</a></li>
+          <li class="mt-2"><a href="../contact.html">Contact</a></li>
+          <li class="mt-2"><a href="../aboutu/faqs.html">FAQs</a></li>
+          <li class="mt-2"><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Reviews -->
+      <div class="col-md-3 mt-md-0 mt-3 mb-4">
+        <h6 class="fw-bold">REVIEWS</h6>
+        <img src="../image/Blue-Book.webp" 
+             alt="Blue Book Logo" class="img-fluid mt-2" width="100">
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mt-md-0 mt-3 mb-4">
+        <h6 class="fw-bold">CONTACT</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Head Office: 1512 Schorr Pl, Bronx, NY 10469</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Regional Office:</p>
+        <p><i class="fas fa-phone me-2"></i>+1 (347) 480-1903</p>
+        <p><i class="fas fa-envelope me-2"></i>info@worldestimating.com</p>
+        
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="footer-bottom text-center py-3 mt-3">
+    <p class="mb-0">Copyright © 2025 - All Rights Reserved by World Estimating -</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+
+  <script src="../js.js/script.js"></script>
+</body>
+</html>

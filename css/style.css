@@ -619,6 +619,9 @@
   background-color: rgb(250, 250, 108);
 
 }
+.img-1 {
+  width: 100%;
+}
 
 @media screen and (max-width: 768px){
   .hero-section {

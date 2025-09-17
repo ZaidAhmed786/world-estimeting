@@ -7,8 +7,8 @@
   <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/pricing.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
   <!-- Font Awesome -->
  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
@@ -36,6 +36,9 @@
  h5{
     color: #0a2e57;
  }
+  li{
+    font-size: 18px;
+  }
 </style>
 </head>
 <body>
@@ -54,7 +57,7 @@
   <!-- Logo & Mid Section -->
   <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
     <div class="d-flex align-items-center">
-      <img src="./image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
       
     </div>
     <div class="text-center mt-md-0 mt-3">
@@ -90,10 +93,10 @@
           <a class="nav-link" href="/">HOME</a>
         </li>
 
-             <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
-          <li class="nav-item dropdown">
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+       <li class="nav-item dropdown">
           <!-- Desktop link: visible only on large screens and up; clicking it will route -->
-          <a class="nav-link d-none d-lg-inline-block" href="./services.html">SERVICES</a>
+          <a class="nav-link d-none d-lg-inline-block active" href="../services.html">SERVICES</a>
 
           <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
           <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
@@ -102,7 +105,7 @@
           </a>
 
           <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
-        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+       <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
             <li class="mt-2"><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
             <li class="mt-2"><a class="dropdown-item" href="../service/construction-estimating.html">Construction Estimating</a></li>
             <li class="mt-2"><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
@@ -110,13 +113,13 @@
             <li class="mt-2"><a class="dropdown-item" href="../service/commercial-estimating.html">Commercial Estimating</a></li>
             <li class="mt-2"><a class="dropdown-item" href="../service/industrial-estimating.html">Industrial Estimating</a></li>
             <li class="mt-2"><a class="dropdown-item" href="../service/preliminary-estimate.html">Preliminary Estimate</a></li>
-            <li class="mt-2"><a class="dropdown-item" href="../service/estimating-construction.html">Estimating Consultant</a></li>
+            <li class="mt-2"><a class="dropdown-item active" href="../service/estimating-construction.html">Estimating Consultant</a></li>
             <li class="mt-2"><a class="dropdown-item" href="../service/cpm-scheduling.html">CPM Scheduling</a></li>
           </ul>
         </li>
 
         <!-- OUR TRADES: same pattern -->
-     <li class="nav-item dropdown">
+       <li class="nav-item dropdown">
           <a class="nav-link d-none d-lg-inline-block " href="../ourtrader.html">OUR TRADES</a>
 
           <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
@@ -141,11 +144,11 @@
 
         </li>
 
-        <li class="nav-item"><a class="nav-link" href="./sample.html">SAMPLES</a></li>
-        <li class="nav-item"><a class="nav-link active" href="./pricing.html">PRICING</a></li>
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link " href="../pricing.html">PRICING</a></li>
     
            <li class="nav-item dropdown">
-           <a class="nav-link d-none d-lg-inline-block " href="./about.html">ABOUT US </a>
+           <a class="nav-link d-none d-lg-inline-block " href="../about.html">ABOUT US </a>
 
           <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
              role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -153,14 +156,15 @@
           </a>
 
           <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
-            <li class="mt-2"><a class="dropdown-item" href="./aboutu/blog.html">Blog</a></li>
-            <li class="mt-2"><a class="dropdown-item" href="./aboutu/faqs.html">FAQs</a></li>
-            <li class="mt-2"><a class="dropdown-item" href="./aboutu/review.html">Reviews</a></li>
-            <li class="mt-2"><a class="dropdown-item" href="./aboutu/contution.html">Construction <br> Management</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/portfolio.html">Portfolio</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/review.html">Reviews</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link get-estimate-btn" href="./gettest.html">GET ESTIMATE</a></li>
-        <li class="nav-item"><a class="nav-link " href="./contact.html">CONTACT</a></li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
       </ul>
 
       <div class="d-flex">
@@ -175,100 +179,184 @@
       
       <!-- Left Content -->
       <div class="col-md-8">
-        <h3 class="price-title">OUR PRICING</h3>
-        <p>Striving to provide you highly competitive market rates so that you can <b>"BID MORE WIN MORE"</b></p>
-
-        <h5 class="price-heading mt-4">Accuracy</h5>
-        <p>We totally understand accuracy is important to you to achieve your project goals. We promise highly accurate estimates by employing up to date 
-          <b>zip code based material and labor costs</b> using RSMeans and our developed cost database.</p>
-
-        <h5 class="price-heading mt-4">Quick turnaround times</h5>
-        <p>We are rated as the most efficient estimating service in the market. We deliver estimates within 
-          <b>24 to 48 hours</b> but our turnaround time is usually dependent upon the scope of work. 
-          This does not apply to complex industrial project estimates.</p>
-
-        <h5 class="price-heading mt-4">Affordability</h5>
-        <p>Due to huge estimation staff in our office, we guarantee very affordable rates that are less than the market. 
-          Our charges are dependent upon the scope of work and vary from project to project.</p>
-        <p>We don’t charge extra for amendments and reviews.</p>
-        <p>Our quotes are 95% acceptable by our clients and we encourage them to close deals with negotiations.</p>
-
-        <h4 class="price-heading mt-4">SINGLE TRADE PRICING</h4>
-        <p><b>Specific trade takeoff</b> <span class="fs-3">$200 Approx.</span></p>
-        <p class="text-danger fw-bold">We charge less (within $100) for small projects that require a few hours to get estimated.</p>
-        
-        <div class="text-center"><button class="price-upload-btn  ">Upload Plans</button></div>
-        <p class="mt-3">After uploading the plans, fill out the form on the contact page. We will quote you in the next 5 minutes after reviewing your plans.</p>
-
-           <section class="price-section">
-      <h3 class="price-title">PRICING FOR RESIDENTIAL &amp; COMMERCIAL ESTIMATES</h3>
-      <p class="price-subtitle">Our Rates Depend Upon The Scope And Size Of The Project</p>
-      <p class="price-subtitle">Upload Plans In The Below Button. We Will Review And Quote In A Minute.</p>
-      <div class="text-center"><button class="price-upload-btn  ">Upload Plans</button></div>
-    </section>
-
-    <!-- Industrial -->
-    <section class="price-section">
-      <h3 class="price-title">PRICING FOR INDUSTRIAL ESTIMATES</h3>
-      <p>For the industrial scope of projects, you are required to upload plans in the below link, our senior engineers and estimators will review with scope of work along with the plans. Only then we will send you the quote for your industrial estimations. You will get the applicable invoice, turnaround time, and delivery date in the next 5 minutes.</p>
-      <p><b>Contact us at</b> <a href="tel:+13474801903">+1 (347) 480-1903</a></p>
-      <p>Or you can schedule a call or web meeting with our senior estimator to discuss your specific needs and goals.</p>
-      <div class="text-center justify-content-center gap-5 d-flex">
-          <button class="price-btn">Upload Plans</button>
-          <button class="price-btn">Schedule A Meeting</button>
-        </div>
-    </section>
-
-    <!-- Payment Terms -->
-    <section class="price-section">
-      <h3 class="price-title">PAYMENT TERMS</h3>
-      <p>We utilize <b>QuickBooks Online Payment</b> to secure the privacy of your financial information so that you can comfortably pay via your <b>Credit Card</b> or <b>Debit Card</b> or <b>PayPal</b>. After receiving your plans and analyzing your project specifications, we send a quote comprising the QuickBooks Invoice and delivery date. If you accept the quote, you can simply pay through your mobile phone, desktop or call us to proceed with the payment at <a href="tel:+13474801903">+1 (347) 480-1903</a>.</p>
-    </section>
-
-    <!-- Monthly Packages -->
-    <section class="price-section">
-      <h3 class="price-title">MONTHLY CONSTRUCTION TAKEOFF PACKAGES</h3>
-      <p>Are you struggling to streamline the quantity takeoff/construction estimation process in order to submit bids on time? Our monthly takeoff packages really help small contractors or subcontracting companies. Usually for specific trade contractors like Mechanical, Electrical, Plumbing, Civil Contractors, etc.</p>
+            <div class="entry-content-wrapper clearfix"><div class="av-special-heading av-e9x7ee-a96db1fad4138f7a7e85fe91462d545f av-special-heading-h1 blockquote modern-quote  avia-builder-el-0  el_before_av_hr  avia-builder-el-first  "><h1 class="av-special-heading-tag " itemprop="headline">Construction Estimating Consultant</h1><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+            <p>Are you a busy contractor striving to keep up with the complex bidding process? Or bidding on wrong jobs? Or missing opportunities because your bids are piling up? Our construction estimating consultant can help you in beating the competition and generating more leads!</p>
       
-      <h5 class="mt-3">Advantages of Monthly Packages</h5>
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text">
+          <div class="row mt-4">
+            <div class="col-md-6 mt-md-0 mt-3">
+
+              <p>With over <strong>1000 satisfied clients</strong> across the <strong>North American </strong>construction industry, Our team of estimators and consultants is well-versed with current market conditions, different construction techniques, and possess a keen eye to detail. They remain committed through all the phases of construction and design from budget estimate to construction document estimate incorporating advice on<strong> budgeting, filing proposals, choosing contractor, negotiations, value engineering,</strong> and <strong>project closeout</strong>.</p>
+            </div>
+            <div class="col-md-6 mt-md-0 mt-3">
+             <img src="https://worldestimating.com/wp-content/uploads/2020/05/Construction-Estimating-Consultant-845x563.jpg" class="img-fluid" alt="">
+            </div>
+           <p>World estimating is a professional cost estimating consulting company with a diverse portfolio of commercial, residential, and industrial projects serving <strong>developers, general contractors, subcontractors, architects, home builders, owners, </strong>and <strong>lenders.</strong> Our expert estimators digitally takeoff the quantities using the latest takeoff software and a highly developed construction cost database that supplies location-based pricing for labor and material. We follow the policies and guidelines of the certified American estimators organization like American Association of Cost Engineers<strong> (AACE)</strong>&nbsp;and the Australian Institute of Quantity Surveyors <strong>(AIQS)</strong>.</p>
+          </div>
+     
+        </div></section>
+       
+        <div class="avia_textblock  my-4 " itemprop="text"><h5><span style="color: #ff0000;">Call us: 347 480-1903</h5>
+                </div>    
+       
+          <div class="avia_textblock  my-4" itemprop="text"><h5><span style="color: #ff0000;">Or just upload plans in the below link, we will review and send a quote in next 5 minutes:</h5>
+                </div>
+        <section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	 <div class="text-center my-5"><button class="price-upload-btn  ">Upload Plans</button></div>
+        </center></div></section>
+
+        <h3>What services does our estimating consultant provide?</h3>
+        <p class="pt-4">Our 15 years of experience and a thorough understanding of the AEC industry has enabled us to provide consultancy to our clients to develop the understanding of construction cost, various takeoffs to foresee and manage their budget. Our services include:</p>
+ 
+      
+      <div class="row mt-5">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="mb-4">Feasibility studies</h5>
+        <p>If you are a developer, investor, or owner wondering if your upcoming project is worth investing time, resources, and budget. Our <strong>preliminary estimates, feasibility studies, </strong>and<strong> square footage prices </strong>contribute to decision making from economic, legal, scheduling, financial perspectives.</p>
+   
+      </div>
+      <div class="col-md-6 mt-md-0 mt-3">
+         <h5 class="mb-4">Bidding assistance</h5>
+       <p>You can approach us if you are a contractor who needs assistance with the bidding process. Our team of expert construction estimators not only perform accurate bill of material and create your bids but also provide consultancy regarding <strong>bid filing</strong> and <strong>tactics to win</strong> and <strong>negotiate on jobs</strong>. We also contribute to help our clients by <strong>managing their bidding network profiles.</strong></p>
+      </div>
+     
+    </div>
+
+      
+      <div class="row mt-4">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="mb-4">Preconstruction & change order management</h5>
+        <p>While planning for a construction project, we understand accurate material takeoff, labor and man-hours are important to you. We ensure the most reliable estimating services and consultancy to GCs, construction managers, and owners regarding <strong>procurement, value analysis, scheduling, hiring right labor force, </strong>and<strong> manhours</strong>. The correct labor productivity factors, accurate material takeoff, and pricing contribute to avoiding the hustle of reordering, labor shortage, and waste management.</p>
+   
+      </div>
+
+      
+      <div class="col-md-6 mt-md-0 mt-3">
+         <h5 class="mb-4">Litigation assistance</h5>
+       <p>If you are facing a legal dispute in the construction industry related to negligence, negligent misrepresentation, deceptive trade practices, and fraud. We can help. Our estimating consultant employs accurate cost data to resolve conflicts amidst contractors, vendors, designers and owners. You can use our <strong>independent unbiased estimate with our company’s stamp</strong> to assist you through intervention, negotiation, testimonies and trials.</p>
+     
+    </div>
+    </div>
+        <div class="row  mt-4">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="mb-4">CPM Scheduling Services</h5>
+        <p>Our CPM consultants collaborate with your project teams to ensure on-time completion of the project by planning activities, measuring progress, quantifying results, and updating to changes throughout the entire lifecycle of the project. We help you choose the most suitable path for the project execution to achieve your project milestones.</p>
+   
+      </div>
+      <div class="col-md-6 mt-md-0 mt-3">
+         <h5 class="mb-4">Project Cost Management</h5>
+       <p>We totally understand the challenges of budget constraints faced by construction companies. Our consultants thoroughly engage with the project teams from planning and design to construction and closeout to estimate, monitor and control costs to achieve the project goals.</p>
+      </div>
+     
+    </div>
+
+
+        <h3>Who approach our estimating consultant?</h3>
+
+        <div class="row mt-5">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="mb-4">Real estate Developers</h5>
+        <p>Developers need to set an initial budget to proceed with their prospective clients. Our estimators help them by preparing the most reliable preliminary estimate while our consultant guides them in <strong> planning new proposals, managing budget, getting loans, allocating funds, strategies to improve pricing and negotiating with contractors. </strong></p>
+   
+      </div>
+      <div class="col-md-6 mt-md-0 mt-3">
+         <h5 class="mb-4">Architects/ Designers</h5>
+       <p>When the project is in its design phase, Architects employ estimates to adjust their design elements within their client’s budget limit. Our consulting team uses schematic drawings to make a budget estimate that gets updated with each stage of design.</p>
+      </div>
+     
+    </div>
+
+      
+      <div class="row mt-4">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="mb-4">General Contractors</h5>
+        <p>For GCs, the biggest challenges are tight construction budgets and strict project timelines. So, they seek our consultation regarding <strong> project scheduling, quality control of bid, and negotiations </strong> of the prices quoted by the subcontractors. </p>
+   
+      </div>
+
+      
+      <div class="col-md-6 mt-md-0 mt-3">
+         <h5 class="mb-4">Subcontractors</h5>
+       <p>Subcontractors are so hooked up in site activities that they lack the ability to manage their bidding process. This is where our estimating consultants help them by managing their bidding network profiles, <strong> filing bids </strong> and devising strategies to <strong> win and negotiate prices </strong> for their projects. We also help with <strong> Subcontractor marketing </strong> and <strong> project lead generation.</strong></p>
+     
+    </div>
+    </div>
+        <div class="row  mt-4">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="mb-4">Home Owners</h5>
+        <p>Our consultation team serves homeowners in developing the understanding to <strong> execute the project and deal with the contractors.</strong> If they lack drawing plans, we also assist in providing in house architectural design and <strong> CAD drafting services.</strong></p>
+   
+      </div>
+      <div class="col-md-6 mt-md-0 mt-3">
+         <h5 class="mb-4">Vendors</h5>
+       <p>Vendors attain benefit from our consultation services to ease them in measuring quantities, determining costs, calculating labor to create quotes for their clients.</p>
+      </div>
+     
+    </div>
+
+    <h3 class="mt-5 mb-4">What trades do we deal in?</h3>
+      
+      <div class="row">
+        <p>We deal in all CSI divisions of the construction industry.</p>
+      <div class="col-md-6 mt-md-0 mt-3">
       <ul>
-        <li class="mt-2">Save overheads and cut down estimation costs (in-house estimator salary) by 60%.</li>
-        <li class="mt-2">With quick turnaround times of 24 to 48 hours, meet the bid deadlines and no more piling up of bids.</li>
-        <li class="mt-2">Make competitive bids by acquiring expert estimator services.</li>
-      </ul>
-      <p>Call us today at <a href="tel:+13474801903">347-480-1903</a> to discuss.</p>
-    </section>
-
-    <!-- Dedicated Estimator -->
-    <section class="price-section">
-      <h3 class="price-title">DEDICATED CONSTRUCTION ESTIMATOR</h3>
-      <p>For startup contractors and construction companies like trade specific contractors i.e. MEP, civil, finishes, drywall, lumber and insulation contractors, etc.</p>
-      <p>Our dedicated estimator helps you to streamline the construction estimation process, minimize overhead expenses, and cut down estimator costs. World Estimating offers a dedicated construction estimator who will work for you on your office premises, provided with 24/7 customer support.</p>
-    </section>
-
-     <section class="price-section">
-      <h3 class="price-title-2">Starting from $1500 per month</h3>
-         <h5 class="mt-3">Features:</h5>
-     <ul>
-        <li class="mt-2">10-15 typical jobs estimated.</li>
-        <li class="mt-2">Non-binding/ Non-contractual agreements.</li>
-        <li class="mt-2">Credits if left un-used for one month can be used over a year.</li>
-        <li class="mt-2">A <a href="https://worldestimating.com/dedicated-cost-estimator/">Dedicated estimator</a> committed to work just for you.</li>
-        <li class="mt-2">Provide thorough support even on weekends.</li>
-        <li class="mt-2">Customized services i.e we can use your CSI format, cost codes, material codes if you want.</li>
-        <li class="mt-2">Detailed takeoffs with properly defined line items with marked-up plans. (<a href="https://worldestimating.com/samples/">CHECK SAMPLE</a>)</li>
-        <li class="mt-2">Estimates prepared with such detail as compared to as-built conditions.</li>
-        <li class="mt-2">RSMeans Zip-code based pricing for labor and material.</li>
-        <li class="mt-2">24/7 Customer Support on email &amp; live chat.</li>
-        </ul>
-    </section>
+            <li>Concrete</li>
+            <li>Masonry</li>
+            <li>Mechanical</li>
+            <li>Electrical</li>
+            <li>Plumbing</li>
+            <li>Ductwork</li>
+            <li>HVAC</li>
+            <li>Sitework</li>
+            <li>Earthwork</li>
+            <li>Finishes</li>
+            </ul>
 
       </div>
+           <div class="col-md-6 mt-md-0 mt-3">
+      <ul>
+            <li>Drywall</li>
+            <li>Painting</li>
+            <li>Lumber</li>
+            <li>Insulation</li>
+            <li>Metal</li>
+            <li>Structural steel</li>
+            <li>Rebar</li>
+            <li>Door/Window</li>
+            <li>Thermal/moisture protection</li>
+            <li>Plastic/wood composites</li>
+            </ul>
+
+      </div>
+    </div>
+
+  
+    
+    <div class=" promo-box mt-5 d-flex justify-content-between align-items-center p-4">
+        <p class="mb-0 fw-bold ">
+            WORKING WITH US WE ARE A GLOBAL NETWORK OF CONSTRUCTION COST EXPERTS
+        </p>
+        <a href="#" class="btn fw-bold px-5 py-2" >
+      
+            
+GET ESTIMATES
+WITH 30% OFF
+    </a>
+  </div>
+  
+</div>
+
+</div>
+
+
+    
+ 
+       
+        
+
 
       <!-- Right Sidebar -->
       <div class="col-md-4 mt-md-0 mt-3 d-md-block d-none">
         <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
-
         <h3 class="py-3 " style="border-top: 2px solid rgb(174, 174, 174); border-bottom: 2px solid rgb(174, 174, 174);">Our Services</h3>
         <div class="price-sidebar">
           <a href="#">Cost Estimating</a>
@@ -327,6 +415,8 @@
       </div>
     </div>
   </div>
+        
+  
 
 
   <!-- Footer Section -->
@@ -363,7 +453,7 @@
       <!-- Reviews -->
       <div class="col-md-3 mt-md-0 mt-3 mb-4">
         <h6 class="fw-bold">REVIEWS</h6>
-        <img src="./image/Blue-Book.webp" 
+        <img src="../image/Blue-Book.webp" 
              alt="Blue Book Logo" class="img-fluid mt-2" width="100">
       </div>
 
@@ -395,6 +485,6 @@
 
   <!-- Bootstrap JS -->
 
-  <script src="./js.js/script.js"></script>
+  <script src="../js.js/script.js"></script>
 </body>
 </html>

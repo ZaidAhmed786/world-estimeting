@@ -7,8 +7,8 @@
   <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/pricing.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pricing.css">
   <!-- Font Awesome -->
  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
@@ -36,6 +36,9 @@
  h5{
     color: #0a2e57;
  }
+  li{
+    font-size: 18px;
+  }
 </style>
 </head>
 <body>
@@ -54,7 +57,7 @@
   <!-- Logo & Mid Section -->
   <div class="container-lg container-fluid py-md-1 py-3  d-md-flex justify-content-between align-items-center">
     <div class="d-flex align-items-center">
-      <img src="./image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
+      <img src="../image/world-logo-v4.webp" alt="logo" style="height:100px; margin-right:10px;">
       
     </div>
     <div class="text-center mt-md-0 mt-3">
@@ -90,10 +93,10 @@
           <a class="nav-link" href="/">HOME</a>
         </li>
 
-             <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
-          <li class="nav-item dropdown">
+        <!-- SERVICES: desktop link (navigates) + mobile toggle (opens dropdown) -->
+       <li class="nav-item dropdown">
           <!-- Desktop link: visible only on large screens and up; clicking it will route -->
-          <a class="nav-link d-none d-lg-inline-block" href="./services.html">SERVICES</a>
+          <a class="nav-link d-none d-lg-inline-block active" href="../services.html">SERVICES</a>
 
           <!-- Mobile toggle: visible only on small screens; this toggles dropdown instead of navigating -->
           <a class="nav-link dropdown-toggle d-lg-none" href="#" id="servicesDropdownMobile"
@@ -102,7 +105,7 @@
           </a>
 
           <!-- Dropdown menu (works on hover for desktop via CSS and via the mobile toggle on small screens) -->
-        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
+       <ul class="dropdown-menu" aria-labelledby="servicesDropdownMobile">
             <li class="mt-2"><a class="dropdown-item" href="../service/costestimated.html">Cost Estimating</a></li>
             <li class="mt-2"><a class="dropdown-item" href="../service/construction-estimating.html">Construction Estimating</a></li>
             <li class="mt-2"><a class="dropdown-item" href="../service/construction-takeoff.html">Construction Takeoff</a></li>
@@ -111,12 +114,12 @@
             <li class="mt-2"><a class="dropdown-item" href="../service/industrial-estimating.html">Industrial Estimating</a></li>
             <li class="mt-2"><a class="dropdown-item" href="../service/preliminary-estimate.html">Preliminary Estimate</a></li>
             <li class="mt-2"><a class="dropdown-item" href="../service/estimating-construction.html">Estimating Consultant</a></li>
-            <li class="mt-2"><a class="dropdown-item" href="../service/cpm-scheduling.html">CPM Scheduling</a></li>
+            <li class="mt-2"><a class="dropdown-item active" href="../service/cpm-scheduling.html">CPM Scheduling</a></li>
           </ul>
         </li>
 
         <!-- OUR TRADES: same pattern -->
-     <li class="nav-item dropdown">
+       <li class="nav-item dropdown">
           <a class="nav-link d-none d-lg-inline-block " href="../ourtrader.html">OUR TRADES</a>
 
           <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
@@ -141,11 +144,11 @@
 
         </li>
 
-        <li class="nav-item"><a class="nav-link" href="./sample.html">SAMPLES</a></li>
-        <li class="nav-item"><a class="nav-link active" href="./pricing.html">PRICING</a></li>
+        <li class="nav-item"><a class="nav-link" href="../sample.html">SAMPLES</a></li>
+        <li class="nav-item"><a class="nav-link " href="../pricing.html">PRICING</a></li>
     
            <li class="nav-item dropdown">
-           <a class="nav-link d-none d-lg-inline-block " href="./about.html">ABOUT US </a>
+           <a class="nav-link d-none d-lg-inline-block " href="../about.html">ABOUT US </a>
 
           <a class="nav-link dropdown-toggle d-lg-none" href="#" id="tradesDropdownMobile"
              role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -153,14 +156,15 @@
           </a>
 
           <ul class="dropdown-menu " aria-labelledby="tradesDropdownMobile">
-            <li class="mt-2"><a class="dropdown-item" href="./aboutu/blog.html">Blog</a></li>
-            <li class="mt-2"><a class="dropdown-item" href="./aboutu/faqs.html">FAQs</a></li>
-            <li class="mt-2"><a class="dropdown-item" href="./aboutu/review.html">Reviews</a></li>
-            <li class="mt-2"><a class="dropdown-item" href="./aboutu/contution.html">Construction <br> Management</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/blog.html">Blog</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/faqs.html">FAQs</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/portfolio.html">Portfolio</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/review.html">Reviews</a></li>
+            <li class="mt-2"><a class="dropdown-item" href="../aboutu/contution.html">Construction <br> Management</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link get-estimate-btn" href="./gettest.html">GET ESTIMATE</a></li>
-        <li class="nav-item"><a class="nav-link " href="./contact.html">CONTACT</a></li>
+        <li class="nav-item"><a class="nav-link get-estimate-btn" href="../gettest.html">GET ESTIMATE</a></li>
+        <li class="nav-item"><a class="nav-link " href="../contact.html">CONTACT</a></li>
       </ul>
 
       <div class="d-flex">
@@ -175,100 +179,187 @@
       
       <!-- Left Content -->
       <div class="col-md-8">
-        <h3 class="price-title">OUR PRICING</h3>
-        <p>Striving to provide you highly competitive market rates so that you can <b>"BID MORE WIN MORE"</b></p>
+            <div class="entry-content-wrapper clearfix"><div class="av-special-heading av-e9x7ee-a96db1fad4138f7a7e85fe91462d545f av-special-heading-h1 blockquote modern-quote  avia-builder-el-0  el_before_av_hr  avia-builder-el-first  "><h1 class="av-special-heading-tag " itemprop="headline">CPM Scheduling Services</h1><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+          
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_textblock  " itemprop="text">
+          <div class="row mt-4">
+            <div class="col-md-6 mt-md-0 mt-3">
 
-        <h5 class="price-heading mt-4">Accuracy</h5>
-        <p>We totally understand accuracy is important to you to achieve your project goals. We promise highly accurate estimates by employing up to date 
-          <b>zip code based material and labor costs</b> using RSMeans and our developed cost database.</p>
+              <p>World estimating offers a critical path method (CPM) scheduling services for the construction industry to ensure that your project is always on time and minimize your risk. Our comprehensive approach to construction scheduling simplifies the complex project and lets you choose the most profitable path for on time and on budget completion of your project.</p>
+            </div>
+            <div class="col-md-6 mt-md-0 mt-3">
+             <img src="https://worldestimating.com/wp-content/uploads/2020/06/CPM-SCHEDULING.jpg" class="img-fluid" alt="">
+            </div>
+           <p>Critical path scheduling is a technique utilized to effectively manage construction projects by analyzing project scope, requirements, and risks with regard to time and resources. It helps in planning and scheduling the essential activities, determining the critical and high-risk activities, the time each of them takes, and their relation with other activities at the project site.</p>
+           <p>The right CPM schedule not only helps to set a budget and anticipate critically issues before happening but also contribute to achieving various milestones throughout the project lifecycle, It effectively plans and organizes the tasks, measure progress, quantify results and continuously updates to changes with maximum efficiency.</p>
+          </div>
+     
+        </div></section>
+        <div class="avia_textblock  my-4 " itemprop="text"><h5><span style="color: #ff0000;">Get 30% off on your first CPM schedule</h5>
+                </div> 
+       
+        <div class="avia_textblock  " itemprop="text"><h5><span style="color: #ff0000;">Call us: 347 480-1903</h5>
+                </div>    
+       
+          <div class="avia_textblock  my-4" itemprop="text"><h5><span style="color: #ff0000;">Or just upload plans in the below link, we will review and send a quote in next 5 minutes:</h5>
+                </div>
+        <section class="avia_codeblock_section  avia_code_block_0" itemscope="itemscope" itemtype="https://schema.org/CreativeWork"><div class="avia_codeblock " itemprop="text"><center>	 <div class="text-center my-5"><button class="price-upload-btn  ">Upload Plans</button></div>
+        </center></div></section>
 
-        <h5 class="price-heading mt-4">Quick turnaround times</h5>
-        <p>We are rated as the most efficient estimating service in the market. We deliver estimates within 
-          <b>24 to 48 hours</b> but our turnaround time is usually dependent upon the scope of work. 
-          This does not apply to complex industrial project estimates.</p>
+        <h3>CPM SCHEDULING CONSULTANT</h3>
+        <p class="pt-4">Our CPM scheduling consultant remains thoroughly engaged with the project teams through all the phases of the construction project from the concept to design and from pre-construction to close-out. We help our clients streamline their project by taking into account all the requirements, stated budget limits while following strict industry standards and contractual terms that lead to improved revenue and on-time completion of the project.</p>
+        <p>World estimating, being a construction estimating and project management company, make sure that your project milestones are achievable by focussing your customized scheduling requirements and specifications to add value to your project. Our team of construction scheduling experts cooperates with your project managers, contractors, architects to continuously monitor and ensure that schedule complies with the actual work on-site, help them make critical decisions, and set the project back on track in case of delays.</p>
 
-        <h5 class="price-heading mt-4">Affordability</h5>
-        <p>Due to huge estimation staff in our office, we guarantee very affordable rates that are less than the market. 
-          Our charges are dependent upon the scope of work and vary from project to project.</p>
-        <p>We don’t charge extra for amendments and reviews.</p>
-        <p>Our quotes are 95% acceptable by our clients and we encourage them to close deals with negotiations.</p>
+        <section>
+             <h3 class="mt-5">WHY YOU SHOULD GO FOR CPM PROJECT SCHEDULING?CPM SCHEDULING CONSULTANT</h3>
+        <p class="pt-4">In the construction industry, the success of the project primarily depends on two factors that are on time and within budget. As the complexity of the project increases, it becomes more critical to effectively handle these two major factors. This can only be achieved by a well planned and thorough CPM schedule.</p>
+        <p>Sometimes owners hire us and our specialists work on their behalf collaborating with the contracting teams to produce the best schedule possible. Other times, our experts act as a third party to owners and contractors and strive to develop strategies to manage and monitor resources in the best interest of the project through the entire lifecycle.</p>
+        <p>Our project scheduling specialist collaborates with the project teams including the owner, project manager or general contractor, subcontractors, and architects to:</p>
+        <ul>
+            <li>Prepare a baseline CPM schedule to describe the project’s plan.</li>
+            <li>Preplan crew management and procurement.</li>
+            <li>Analyze the risks involved in the project and develop strategies to alleviate them.</li>
+            <li>Analyze delays and generate plans to set the project back on track.</li>
+            <li>Evaluate progress continuously to check if it syncs with the project milestone and apply updates.</li>
+            <li>Evaluate potential pitfalls and devise strategies to mitigate errors.</li>
+            <li>Resolve disputes among the working teams so that the project workflow does not get disturbed.</li>
+            </ul>
+        </section>
 
-        <h4 class="price-heading mt-4">SINGLE TRADE PRICING</h4>
-        <p><b>Specific trade takeoff</b> <span class="fs-3">$200 Approx.</span></p>
-        <p class="text-danger fw-bold">We charge less (within $100) for small projects that require a few hours to get estimated.</p>
+        <section>
+             <h3 class="mt-5">WHY CHOOSE US?</h3>
+        <ul>
+            <li>We have a proven track record of providing consultancy to our clients to ensure the delivery of each project on time and within budget with precise updating practices.</li>
+            <li>With many years of experience and knowledge gained by working with professional organizations in the North American construction industry, we can ensure high quality and reliable services to achieve your project goals.</li>
+            <li>Our construction scheduling experts process expertise in the latest tools and software.</li>
+            <li>We deliver project control schedules within the fastest turnaround time in the market.</li>
+            <li>Our rates are highly affordable.</li>
+            </ul>
+        </section>
+
         
-        <div class="text-center"><button class="price-upload-btn  ">Upload Plans</button></div>
-        <p class="mt-3">After uploading the plans, fill out the form on the contact page. We will quote you in the next 5 minutes after reviewing your plans.</p>
-
-           <section class="price-section">
-      <h3 class="price-title">PRICING FOR RESIDENTIAL &amp; COMMERCIAL ESTIMATES</h3>
-      <p class="price-subtitle">Our Rates Depend Upon The Scope And Size Of The Project</p>
-      <p class="price-subtitle">Upload Plans In The Below Button. We Will Review And Quote In A Minute.</p>
-      <div class="text-center"><button class="price-upload-btn  ">Upload Plans</button></div>
-    </section>
-
-    <!-- Industrial -->
-    <section class="price-section">
-      <h3 class="price-title">PRICING FOR INDUSTRIAL ESTIMATES</h3>
-      <p>For the industrial scope of projects, you are required to upload plans in the below link, our senior engineers and estimators will review with scope of work along with the plans. Only then we will send you the quote for your industrial estimations. You will get the applicable invoice, turnaround time, and delivery date in the next 5 minutes.</p>
-      <p><b>Contact us at</b> <a href="tel:+13474801903">+1 (347) 480-1903</a></p>
-      <p>Or you can schedule a call or web meeting with our senior estimator to discuss your specific needs and goals.</p>
-      <div class="text-center justify-content-center gap-5 d-flex">
-          <button class="price-btn">Upload Plans</button>
-          <button class="price-btn">Schedule A Meeting</button>
-        </div>
-    </section>
-
-    <!-- Payment Terms -->
-    <section class="price-section">
-      <h3 class="price-title">PAYMENT TERMS</h3>
-      <p>We utilize <b>QuickBooks Online Payment</b> to secure the privacy of your financial information so that you can comfortably pay via your <b>Credit Card</b> or <b>Debit Card</b> or <b>PayPal</b>. After receiving your plans and analyzing your project specifications, we send a quote comprising the QuickBooks Invoice and delivery date. If you accept the quote, you can simply pay through your mobile phone, desktop or call us to proceed with the payment at <a href="tel:+13474801903">+1 (347) 480-1903</a>.</p>
-    </section>
-
-    <!-- Monthly Packages -->
-    <section class="price-section">
-      <h3 class="price-title">MONTHLY CONSTRUCTION TAKEOFF PACKAGES</h3>
-      <p>Are you struggling to streamline the quantity takeoff/construction estimation process in order to submit bids on time? Our monthly takeoff packages really help small contractors or subcontracting companies. Usually for specific trade contractors like Mechanical, Electrical, Plumbing, Civil Contractors, etc.</p>
+        <section>
+             <h3 class="mt-5">CPM SCHEDULING SOFTWARE</h3>
+        <p class="pt-4">Our expert team is proficient in developing and monitoring schedules with the following construction consulting software:</p>
+        <ul>
+            <li>Microsoft Project</li>
+            <li>Primavera P6</li>
+            <li>SureTrack</li>
+            <li>Fast Track</li>
+            <li>Oracle</li>
+            </ul>
+        </section>
+ 
       
-      <h5 class="mt-3">Advantages of Monthly Packages</h5>
-      <ul>
-        <li class="mt-2">Save overheads and cut down estimation costs (in-house estimator salary) by 60%.</li>
-        <li class="mt-2">With quick turnaround times of 24 to 48 hours, meet the bid deadlines and no more piling up of bids.</li>
-        <li class="mt-2">Make competitive bids by acquiring expert estimator services.</li>
-      </ul>
-      <p>Call us today at <a href="tel:+13474801903">347-480-1903</a> to discuss.</p>
-    </section>
-
-    <!-- Dedicated Estimator -->
-    <section class="price-section">
-      <h3 class="price-title">DEDICATED CONSTRUCTION ESTIMATOR</h3>
-      <p>For startup contractors and construction companies like trade specific contractors i.e. MEP, civil, finishes, drywall, lumber and insulation contractors, etc.</p>
-      <p>Our dedicated estimator helps you to streamline the construction estimation process, minimize overhead expenses, and cut down estimator costs. World Estimating offers a dedicated construction estimator who will work for you on your office premises, provided with 24/7 customer support.</p>
-    </section>
-
-     <section class="price-section">
-      <h3 class="price-title-2">Starting from $1500 per month</h3>
-         <h5 class="mt-3">Features:</h5>
-     <ul>
-        <li class="mt-2">10-15 typical jobs estimated.</li>
-        <li class="mt-2">Non-binding/ Non-contractual agreements.</li>
-        <li class="mt-2">Credits if left un-used for one month can be used over a year.</li>
-        <li class="mt-2">A <a href="https://worldestimating.com/dedicated-cost-estimator/">Dedicated estimator</a> committed to work just for you.</li>
-        <li class="mt-2">Provide thorough support even on weekends.</li>
-        <li class="mt-2">Customized services i.e we can use your CSI format, cost codes, material codes if you want.</li>
-        <li class="mt-2">Detailed takeoffs with properly defined line items with marked-up plans. (<a href="https://worldestimating.com/samples/">CHECK SAMPLE</a>)</li>
-        <li class="mt-2">Estimates prepared with such detail as compared to as-built conditions.</li>
-        <li class="mt-2">RSMeans Zip-code based pricing for labor and material.</li>
-        <li class="mt-2">24/7 Customer Support on email &amp; live chat.</li>
+        <h3 class="mt-5">CPM SCHEDULING SERVICES</h3>
+      <div class="row mt-5">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="mb-4">CPM SCHEDULING SERVICES</h5>
+        <ul>
+        <li>Baseline CPM Scheduling</li>
+        <li>CPM Schedule Analysis</li>
+        <li>CPM Updating</li>
+        <li>Preliminary scheduling</li>
+        <li>Design phase scheduling</li>
+        <li>Construction phase scheduling</li>
+        <li>Overall project scheduling</li>
+        <li>Recovery scheduling</li>
+        <li>Linear scheduling</li>
+        <li>As-built scheduling</li>
+        <li>Project implementation cost scheduling</li>
+        <li>Construction management scheduling</li>
+        <li>Civil work scheduling</li>
+        <li>Material procurement scheduling</li>
+        <li>Window scheduling</li>
+        <li>Legal claims consulting</li>
         </ul>
-    </section>
-
+   
       </div>
+      <div class="col-md-6 mt-md-0 mt-3">
+         <h5 class="mb-4">Our deliverables contain the following activities:</h5>
+       <ul>
+            <li>Preliminary Project Schedule</li>
+            <li>Initial Project Schedule</li>
+            <li>Periodic Schedule Updates</li>
+            <li>Project Milestone Update Report</li>
+            <li>Critical Path Update Report</li>
+            <li>Narrative Reports</li>
+            <li>Activity Reports</li>
+            <li>Logic Reports</li>
+            <li>Total Float Report</li>
+            <li>Earnings Report</li>
+            <li>Time Impact Analysis</li>
+            <li>S-Curve Analysis</li>
+            <li>Delay Analysis</li>
+            <li>Risk Analysis</li>
+            <li>Network Diagram</li>
+            </ul>
+      </div>
+     
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="mb-4">CPM SCHEDULING SERVICES</h5>
+        <ul>
+            <li>Public</li>
+            <li><u>Residential</u></li>
+            <li><u>Commercial</u></li>
+            <li><u>Industrial</u></li>
+            <li>Civil</li>
+            <li>Historic Buildings</li>
+            <li>Healthcare</li>
+            <li>Infrastructure</li>
+            </ul>
+   
+      </div>
+      <div class="col-md-6 mt-md-0 mt-3">
+         <h3 class="mb-4">SCOPE OF PROJECTS</h3>
+        <p>We have a huge portfolio of providing construction scheduling services for new construction, </p>
+      </div>
+     
+    </div>
+
+    <h3 class="mt-5">FAQ:</h3>
+    <p class="mt-3"><strong>How long does it take to deliver a construction project schedule?</strong></p>
+    <p>We develop and deliver project schedules within a week.</p>
+    <p class="mt-3"><strong>What will be covered in your project schedule?</strong></p>
+    <p>Our project schedule includes everything from all reports, graphs, narratives, and SDEF file.</p>
+    <p class="mt-3"><strong>How much do we charge?</strong></p>
+    <p>We offer highly cost-effective rates compared to the market. Email at info@worldestimating.com or call us at 347 480-1903 for a quick quote.</p>
+    <p class="mt-3"><strong>What are our service areas?</strong></p>
+    <p>We provide estimating and consulting services in North American, Caribbean, and Australian regions. In the US, we serve in the following markets: New York, Florida,   Illinois, South Carolina, Michigan, Massachusetts, Missouri, Colorado, Indiana, Teeneese, Minnesota, Alabama, Kentucky, Connecticut, Oklahoma, Oregon, Louisiana. New Jersey, California, Arizona,   North Carolina, Maryland, Georgia, Pennsylvania, Virginia, Washington, Texas.
+
+</p>
+    
+
+    
+    <div class=" promo-box mt-5 d-flex justify-content-between align-items-center p-4">
+        <p class="mb-0 fw-bold ">
+            WORKING WITH US WE ARE A GLOBAL NETWORK OF CONSTRUCTION COST EXPERTS
+        </p>
+        <a href="#" class="btn fw-bold px-5 py-2" >
+      
+            
+GET ESTIMATES
+WITH 30% OFF
+    </a>
+  </div>
+  
+</div>
+
+</div>
+
+
+    
+ 
+       
+        
+
 
       <!-- Right Sidebar -->
       <div class="col-md-4 mt-md-0 mt-3 d-md-block d-none">
         <a href="#" class="btn btn-warning w-100 mb-3">VIEW OUR PORTFOLIO</a>
-
         <h3 class="py-3 " style="border-top: 2px solid rgb(174, 174, 174); border-bottom: 2px solid rgb(174, 174, 174);">Our Services</h3>
         <div class="price-sidebar">
           <a href="#">Cost Estimating</a>
@@ -327,6 +418,8 @@
       </div>
     </div>
   </div>
+        
+  
 
 
   <!-- Footer Section -->
@@ -363,7 +456,7 @@
       <!-- Reviews -->
       <div class="col-md-3 mt-md-0 mt-3 mb-4">
         <h6 class="fw-bold">REVIEWS</h6>
-        <img src="./image/Blue-Book.webp" 
+        <img src="../image/Blue-Book.webp" 
              alt="Blue Book Logo" class="img-fluid mt-2" width="100">
       </div>
 
@@ -395,6 +488,6 @@
 
   <!-- Bootstrap JS -->
 
-  <script src="./js.js/script.js"></script>
+  <script src="../js.js/script.js"></script>
 </body>
 </html>
