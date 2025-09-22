@@ -19,10 +19,21 @@
   border-radius: 4px;
   font-size: 14px;
 }
-
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1050; /* content ke upar rahe */
+  background: #fff; /* zaroori hai taake scroll par content overlap na ho */
+   /* optional shadow */
+}
 .navbar {
+  position: sticky;   /* sticky rakhta hai */
+  top: 0;             /* page ke top par fix */
+  z-index: 1030;      /* navbar hamesha upar rahe */
+  background-color: #000; /* apna bg color set karein */
   background-color: #002855 !important;
 }
+
 
 .navbar-nav .nav-link {
   color: white !important;
