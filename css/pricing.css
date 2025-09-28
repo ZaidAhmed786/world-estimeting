@@ -37,6 +37,10 @@
 .price-sidebar a:hover {
   background: #052042;
 }
+.price-sidebar a.active {
+  background: yellow;
+  color: black; /* optional, text دکھانے کیلئے */
+}
 
 /* Sticky Contact Box */
 .price-contact-box {
